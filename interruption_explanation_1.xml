@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="interruption_explanation_1"
+  title="Interruption"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo.css" type="text/css"/>
+  <stylesheet href="interruption_explanation_1-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body">
+      &#160;
+      <div>
+        <img id="image-6_lifecit_logo" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-1_lifecit_logo" src="blue_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo">
+          STRONG
+        </span>
+        <br/>
+      </div>
+       
+      <div id="button-5" class="submit-jumpto-button" label="time_for_assessment">
+        Next
+      </div>
+       
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          Interruption
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-1" class="includeBorderAndPadding">
+        <div class="textbox-1-style1">
+          <span class="textbox-1-style2">
+            <br/>
+            <br/>
+            It seems that you were in the middle of something
+            <br/>
+            <br/>
+            and haven't completed your session on STRONG.
+            <br/>
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="textbox-8" class="includeBorderAndPadding">
+        <div class="textbox-8-style1">
+          <span class="textbox-8-style2">
+            Click here to return to where you left off:
+          </span>
+          <br/>
+        </div>
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

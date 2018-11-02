@@ -1,0 +1,17 @@
+#button-3 { border: 0px none ; margin: 0px; padding: 0px; position: absolute; height: 40px; width: 130px; background-color: rgb(238, 238, 238); top: 480px; left: 72px; z-index: 0; }
+.textbox-7-style1 { font-size: 12pt; }
+.textbox-6-style1 { font-size: 12pt; }
+.textbox-3-style1 { font-size: 24pt; }
+.textbox-9-style2 { font-size: 12pt; }
+.textbox-9-style1 { font-size: 12pt; }
+#textbox-9 { position: absolute; width: 197px; height: 40px; top: 486px; left: 648px; z-index: 0; }
+#textbox-8 { position: absolute; width: 360px; height: 152px; top: 284px; left: 60px; background-color: rgb(183, 222, 232); -moz-border-radius-topleft: 21px; -webkit-border-radius-topleft: 21px; border-radius-topleft: 21px; -moz-border-radius-topright: 21px; -webkit-border-radius-topright: 21px; border-radius-topright: 21px; -moz-border-radius-bottomright: 21px; -webkit-border-radius-bottomright: 21px; border-radius-bottomright: 21px; -moz-border-radius-bottomleft: 21px; -webkit-border-radius-bottomleft: 21px; border-radius-bottomleft: 21px; z-index: 0; behavior: url(/PIE.htc); }
+#textbox-7 { z-index: 0; position: absolute; width: 337px; height: 163px; top: 299px; left: 69px; font-size: 19pt; font-family: Arial,Helvetica,sans-serif; text-align: center; }
+#textbox-6 { z-index: 0; position: absolute; width: 310px; height: 132px; top: 129px; left: 85px; font-size: 19pt; font-family: Arial,Helvetica,sans-serif; text-align: center; }
+#button-2 { margin: 0px; position: absolute; height: 50px; width: 100px; top: 479px; left: 848px; z-index: 0; color: rgb(0, 0, 0); text-align: center; }
+#image-1 { position: absolute; width: 405px; height: 276px; top: 167px; left: 489px; z-index: 0; }
+#textbox-4 { position: absolute; width: 360px; height: 152px; top: 117px; left: 66px; background-color: rgb(183, 222, 232); -moz-border-radius-topleft: 21px; -webkit-border-radius-topleft: 21px; border-radius-topleft: 21px; -moz-border-radius-topright: 21px; -webkit-border-radius-topright: 21px; border-radius-topright: 21px; -moz-border-radius-bottomright: 21px; -webkit-border-radius-bottomright: 21px; border-radius-bottomright: 21px; -moz-border-radius-bottomleft: 21px; -webkit-border-radius-bottomleft: 21px; border-radius-bottomleft: 21px; z-index: 0; behavior: url(/PIE.htc); }
+#textbox-3 { position: absolute; width: 817px; height: 68px; top: 59px; left: 15px; z-index: 0; font-size: 18pt; }
+#body-container { width: 970px; color: rgb(34, 61, 124); font-family: Verdana,Geneva,sans-serif; font-size: 16pt; margin-left: auto; margin-right: auto; }
+a:visited { color: rgb(128, 0, 128); }
+body {  }

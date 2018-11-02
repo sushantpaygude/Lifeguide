@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="instructions_progress"
+  title="Your progress"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo_lemon.css" type="text/css"/>
+  <stylesheet href="instructions_progress-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_lemon" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-9_lifecit_logo_lemon" src="yellow_rectangle.jpg" alt="Yellow rectangle"/>
+      </div>
+      <div>
+        <img id="image-13_lifecit_logo_lemon" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_lemon" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_lemon">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-1" class="includeBorderAndPadding">
+        <span class="textbox-1-style1">
+          How will I know if my arm is getting better?
+          <br/>
+        </span>
+      </div>
+      <div id="textbox-2" class="includeBorderAndPadding">
+        <br/>
+      </div>
+      <div id="textbox-3" class="includeBorderAndPadding">
+        <ul>
+          <li>
+            <span class="textbox-3-style1">
+              Each week STRONG will ask you 
+              <span class="textbox-3-style2">
+                10 questions
+              </span>
+               about your arm, this is to keep track of your progress and guide you towards activities that are right for
+              <span class="textbox-3-style3">
+                 YOU
+              </span>
+            </span>
+          </li>
+        </ul>
+         
+        <ul>
+          <li>
+            <span class="textbox-3-style4">
+              You will also find you are able to 
+              <span class="textbox-3-style5">
+                do more activities
+              </span>
+               with your stronger arm
+            </span>
+          </li>
+        </ul>
+         
+        <ul>
+          <li>
+            <span class="textbox-3-style6">
+              Your 
+              <span class="textbox-3-style7">
+                family and friends
+              </span>
+               may notice a difference in how much you can do 
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <img id="image-1" src="progress.jpg" alt="Progress"/>
+      </div>
+      <div id="button-5" class="submit-jumpto-button" label="instructions_mitt">
+        Next
+      </div>
+      <div id="textbox-4" class="includeBorderAndPadding">
+        <div class="textbox-4-style1">
+          <span class="textbox-4-style2">
+            Click here to continue:
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          "progress comes in steps"
+        </span>
+      </div>
+      <div id="button-6" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

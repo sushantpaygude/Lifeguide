@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="instructions_the_lifecit_consultants"
+  title="instructions_the_lifecit_consultants"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo_green.css" type="text/css"/>
+  <stylesheet href="instructions_the_lifecit_consultants-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body">
+      <div>
+        <img id="image-6_lifecit_logo_green" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-7_lifecit_logo_green" src="green_rectangle.jpg" alt="Green rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_green" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_green" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_green">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="button-1" class="submit-jumpto-button" label="instructions_what_is_lifecit">
+        Next
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

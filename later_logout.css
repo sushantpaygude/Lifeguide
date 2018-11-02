@@ -1,0 +1,15 @@
+#textbox-17 { position: absolute; width: 524px; height: 130px; top: 355px; left: 228px; z-index: 0; background-color: rgb(213, 224, 243); -moz-border-radius: 10px 10px 10px 10px; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; padding: 15px; font-size: 12pt; behavior: url(/PIE.htc); }
+body {  }
+a:visited { color: rgb(128, 0, 128); }
+#body-container { width: 970px; color: rgb(34, 61, 124); font-family: Verdana,Geneva,sans-serif; font-size: 16pt; margin-left: auto; margin-right: auto; }
+.textbox-2-style1 { text-align: center; color: rgb(255, 255, 255); }
+#textbox-1 { position: absolute; width: 644px; height: 75px; top: 142px; left: 162px; z-index: 0; border: 2px solid rgb(182, 181, 179); -moz-border-radius: 15px 15px 15px 15px; -webkit-border-radius: 15px 15px 15px 15px; border-radius: 15px 15px 15px 15px; padding: 10px; font-size: 16pt; behavior: url(/PIE.htc); }
+.textbox-1-style1 { text-align: center; }
+#textbox-8 { position: absolute; width: 174px; height: 26px; top: 237px; left: 392px; z-index: 0; }
+.textbox-8-style1 { text-align: center; }
+.textbox-8-style2 { font-size: 12pt; }
+#button-1 { position: absolute; height: 59px; width: 130px; margin: 0px; top: 270px; left: 412px; z-index: 0; color: rgb(0, 0, 0); text-align: center; }
+#textbox-5 { z-index: 0; position: absolute; width: 254px; height: 50px; top: 60px; left: 15px; }
+.textbox-5-style1 { font-size: 24pt; }
+.textbox-17-style1 { font-size: 12pt; }
+.textbox-13-style1 { font-size: 12pt; }

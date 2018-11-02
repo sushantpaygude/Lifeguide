@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="instructions_the_lifecit_consultants" title="instructions_the_lifecit_consultants" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_green.css"/><stylesheet href="instructions_the_lifecit_consultants.css" type="text/css"/>
+  <itemBody class="nobuttons"><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_green.lgtp" parse="xml"/>
+    <div id="container-body">&#160;<div id="button-1" class="submit-jumpto-button" label="instructions_what_is_lifecit">Next</div></div>
+  </itemBody>
+</assessmentItem>

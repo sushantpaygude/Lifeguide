@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="last_assessment" title="Last assessment" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo.css"/><stylesheet href="last_assessment.css" type="text/css"/>
+  <itemBody class="nobuttons"><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo.lgtp" parse="xml"/>
+    <div id="container-body">&#160;<div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">End of the STRONG program</span><br/></div><div id="textbox-1" class="includeBorderAndPadding"><div class="textbox-1-style1"><span class="textbox-1-style2"><br/><br/>You have now completed the last assessment.<br/><br/>You can now view your progress before logging out.<br/><br/>You will be contacted shortly by the STRONG research team for follow-up<br/><br/></span><br/></div></div><div id="button-5" class="submit-jumpto-button" label="view_progress">Next</div></div>
+  </itemBody>
+</assessmentItem>

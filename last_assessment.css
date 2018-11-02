@@ -1,0 +1,9 @@
+#button-5 { margin: 0px; position: absolute; height: 59px; width: 130px; top: 405px; left: 410px; z-index: 0; color: rgb(0, 0, 0); text-align: center; }
+.textbox-1-style2 { font-size: 12pt; }
+.textbox-1-style1 { text-align: center; }
+#textbox-1 { border: 2px solid rgb(182, 181, 179); padding: 10px; position: absolute; width: 766px; height: 161px; top: 172px; left: 105px; z-index: 0; -moz-border-radius-topleft: 15px; -webkit-border-radius-topleft: 15px; border-radius-topleft: 15px; -moz-border-radius-topright: 15px; -webkit-border-radius-topright: 15px; border-radius-topright: 15px; -moz-border-radius-bottomright: 15px; -webkit-border-radius-bottomright: 15px; border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; -webkit-border-radius-bottomleft: 15px; border-radius-bottomleft: 15px; font-size: 12pt; behavior: url(/PIE.htc); }
+.textbox-5-style1 { font-size: 24pt; }
+#textbox-5 { z-index: 0; position: absolute; width: 532px; height: 50px; top: 60px; left: 15px; }
+#body-container { width: 970px; color: rgb(34, 61, 124); font-family: Verdana,Geneva,sans-serif; font-size: 16pt; margin-left: auto; margin-right: auto; }
+a:visited { color: rgb(128, 0, 128); }
+body {  }

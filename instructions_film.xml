@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="instructions_film"
+  title="Film"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo_aqua.css" type="text/css"/>
+  <stylesheet href="instructions_film-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_aqua" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-2_lifecit_logo_aqua" src="aqua_rectangle.jpg" alt="Aqua rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_aqua" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_aqua" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_aqua">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      <div>
+        <img id="image-2" src="black_box.jpg" alt="change me"/>
+      </div>
+      <div id="textbox-2" class="includeBorderAndPadding">
+        <span class="textbox-2-style1">
+          <span class="textbox-2-style2">
+            Refer to your STRONG Instructions Page for information about how to use this program
+          </span>
+          <br/>
+        </span>
+      </div>
+      <div id="textbox-4" class="includeBorderAndPadding">
+        <div class="textbox-4-style1">
+          <span class="textbox-4-style2">
+            Click here to continue:
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="button-2" class="submit-jumpto-button" label="instructions_what_is_lifecit_like">
+        Next
+      </div>
+      <div>
+        <img id="image-3" src="media/sample_image.jpeg" alt="change me"/>
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

@@ -1,0 +1,12 @@
+body {  }
+a:visited { color: rgb(128, 0, 128); }
+#body-container { width: 970px; color: rgb(34, 61, 124); font-family: Verdana,Geneva,sans-serif; font-size: 16pt; margin-left: auto; margin-right: auto; }
+#textbox-2 { position: absolute; width: 328px; height: 50px; top: 60px; left: 27px; z-index: 0; }
+.textbox-2-style1 { font-size: 24pt; }
+#textbox-3 { position: absolute; width: 584px; height: 351px; top: 132px; left: 346px; z-index: 0; font-size: 12pt; }
+.textbox-3-style1 { font-size: 10pt; }
+#image-1 { position: absolute; width: 277px; height: 211px; top: 132px; left: 27px; z-index: 0; }
+#button-5 { margin: 0px; position: absolute; height: 50px; width: 100px; top: 479px; left: 848px; z-index: 0; color: rgb(0, 0, 0); text-align: center; }
+#textbox-5 { position: absolute; width: 194px; height: 40px; top: 486px; left: 651px; z-index: 0; }
+.textbox-5-style1 { font-weight: bold; }
+.textbox-5-style2 { font-size: 12pt; font-weight: normal; }

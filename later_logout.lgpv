@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="later_logout" title="End of session" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo.css"/><stylesheet href="later_logout.css" type="text/css"/>
+  <itemBody class="nobuttons"><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo.lgtp" parse="xml"/>
+    <div id="container-body">&#160;<div id="textbox-1" class="includeBorderAndPadding"><div class="textbox-1-style1">You have now completed this session.<br/>See you tomorrow!<br/></div></div><div id="textbox-8" class="includeBorderAndPadding"><div class="textbox-8-style1"><span class="textbox-8-style2">Click here to logout:</span><br/></div></div><div id="button-1" class="logout">Logout</div><div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">End of session</span><br/></div><div id="textbox-17" class="includeBorderAndPadding"><span class="textbox-17-style1">Don't forget that you can give permission to your therapist, relatives or friends to see how you are progressing.<br/><br/>All you need to do is give them your user name and they will be able to go on the website and view your progress.<br/></span></div></div>
+  </itemBody>
+</assessmentItem>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="instructions_mitt"
+  title="instructions_mitt"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo.css" type="text/css"/>
+  <stylesheet href="instructions_mitt-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      &#160;
+      <div>
+        <img id="image-6_lifecit_logo" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-1_lifecit_logo" src="blue_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-3" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-1" class="includeBorderAndPadding">
+        <span class="textbox-1-style1">
+          How to use the mitt
+          <br/>
+        </span>
+      </div>
+      <div>
+        <img id="image-1" src="c-mit.jpg" alt="change me"/>
+      </div>
+      <div id="textbox-6" class="includeBorderAndPadding">
+        <span class="textbox-6-style1">
+          <span class="textbox-6-style2">
+            <span class="textbox-6-style3">
+              Do not wear the mitt if it puts your safety at risk
+            </span>
+            , for example if you are at risk of falling or if you are handling hot things in the kitchen. It is up to you to ensure you are safe wearing the mitt.
+          </span>
+          <br/>
+        </span>
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          <span class="textbox-5-style2">
+            <span class="textbox-5-style3">
+              It is not necessary to wear the mitt
+            </span>
+             when sleeping, bathing, having a shower, dressing, going to the toilet or in any situation where it would just be impossible to get something done.
+          </span>
+          <br/>
+        </span>
+      </div>
+      <div id="textbox-4" class="includeBorderAndPadding">
+        <div class="textbox-4-style1">
+          <span class="textbox-4-style2">
+            Click here to continue:
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="button-5" class="submit-jumpto-button" label="instructions_mouse">
+        Next
+      </div>
+      <div id="textbox-7" class="includeBorderAndPadding">
+        <span class="textbox-7-style1">
+          <span class="textbox-7-style2">
+            <span class="textbox-7-style3">
+              For some exercises you will be asked to wear a mitt on your stronger hand.
+            </span>
+             Do not use this mitt unless requested. It is not necessary to wear the mitt when you are using the computer.
+          </span>
+          <br/>
+        </span>
+      </div>
+      <div id="button-6" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

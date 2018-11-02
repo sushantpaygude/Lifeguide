@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="interruption_explanation_5" title="Interruption" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo.css"/><stylesheet href="interruption_explanation_5.css" type="text/css"/>
+  <itemBody class="nobuttons"><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo.lgtp" parse="xml"/>
+    <div id="container-body">
+      <div id="button-5" class="submit-jumpto-button" label="enter_progress_2">Next</div>
+    <div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">Interruption</span><br/></div><div id="textbox-1" class="includeBorderAndPadding"><div class="textbox-1-style1"><span class="textbox-1-style2"><br/><br/>It seems that you were in the middle of something<br/><br/>and haven't completed your session on STRONG.<br/></span><br/></div></div><div id="textbox-8" class="includeBorderAndPadding"><div class="textbox-8-style1"><span class="textbox-8-style2">Click here to return to where you left off:</span><br/></div></div></div>
+  </itemBody>
+</assessmentItem>

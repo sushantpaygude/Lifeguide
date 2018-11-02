@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="instructions_how_long"
+  title="How long"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo_aqua.css" type="text/css"/>
+  <stylesheet href="instructions_how_long-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_aqua" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-2_lifecit_logo_aqua" src="aqua_rectangle.jpg" alt="Aqua rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_aqua" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_aqua" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_aqua">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-3" class="includeBorderAndPadding">
+        <span class="textbox-3-style1">
+          How long do I need to use STRONG for?
+        </span>
+      </div>
+      <div id="textbox-4" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div>
+        <img id="image-1" src="14729891-calendar.jpg" alt="Calendar"/>
+      </div>
+      <div id="button-2" class="submit-jumpto-button" label="instructions_easy">
+        Next
+      </div>
+      <div id="textbox-6" class="includeBorderAndPadding">
+        <span class="textbox-6-style1">
+          STRONG has been designed to help you exercise for 30 days, 5 days a week.
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-8" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-7" class="includeBorderAndPadding">
+        <span class="textbox-7-style1">
+          Doing STRONG for 5 days in a row and then having 2 days off may give you the most benefit - you can choose which days are rest days.
+        </span>
+      </div>
+      <div id="textbox-9" class="includeBorderAndPadding">
+        <div>
+          <span class="textbox-9-style1">
+            <span>
+              Click here to continue:
+            </span>
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="button-3" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

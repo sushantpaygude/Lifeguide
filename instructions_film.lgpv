@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="instructions_film" title="Film" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_aqua.css"/><stylesheet href="instructions_film.css" type="text/css"/>
+  <itemBody class="nobuttons"><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_aqua.lgtp" parse="xml"/>
+    <div id="container-body"><div><img id="image-2" alt="change me" src="black_box.jpg"/></div><div id="textbox-2" class="includeBorderAndPadding"><span class="textbox-2-style1"><span class="textbox-2-style2">Refer to your STRONG Instructions Page for information about how to use this program</span><br/></span></div><div id="textbox-4" class="includeBorderAndPadding"><div class="textbox-4-style1"><span class="textbox-4-style2">Click here to continue:</span><br/></div></div><div id="button-2" class="submit-jumpto-button" label="instructions_what_is_lifecit_like">Next</div><div><img id="image-3" alt="change me" src="media/sample_image.jpeg"/></div></div>
+  </itemBody>
+</assessmentItem>
