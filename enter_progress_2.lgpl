@@ -1,0 +1,1 @@
+show empty_time if(or(isempty (enter_mitt_hours), isempty (enter_mitt_minutes), isempty (enter_activities_hours), isempty (enter_activities_minutes) ))

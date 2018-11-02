@@ -1,0 +1,40 @@
+body {  }
+#textbox-17 { position: absolute; width: 26px; height: 35px; top: 411px; left: 55px; z-index: 0; }
+a:visited { color: rgb(128, 0, 128); }
+#body-container { width: 970px; color: rgb(34, 61, 124); font-family: Verdana,Geneva,sans-serif; font-size: 16pt; margin-left: auto; margin-right: auto; }
+#textbox-9 { position: absolute; width: 936px; height: 38px; top: 127px; left: 16px; z-index: 0; }
+.textbox-9-style1 { text-align: left; }
+#textbox-11 { position: absolute; width: 26px; height: 35px; top: 187px; left: 55px; z-index: 0; }
+#textbox-12 { position: absolute; width: 26px; height: 35px; top: 242px; left: 55px; z-index: 0; }
+#textbox-14 { position: absolute; width: 26px; height: 35px; top: 300px; left: 55px; z-index: 0; }
+#textbox-15 { position: absolute; width: 26px; height: 35px; top: 356px; left: 55px; z-index: 0; }
+.textbox-16-style1 { font-size: 12pt; }
+#textbox-18 { position: absolute; width: 26px; height: 35px; top: 187px; left: 505px; z-index: 0; }
+#textbox-19 { position: absolute; width: 26px; height: 35px; top: 242px; left: 505px; z-index: 0; }
+#textbox-20 { position: absolute; width: 26px; height: 35px; top: 300px; left: 505px; z-index: 0; }
+#textbox-21 { position: absolute; width: 26px; height: 35px; top: 356px; left: 505px; z-index: 0; }
+#textbox-22 { position: absolute; width: 26px; height: 35px; top: 412px; left: 498px; z-index: 0; }
+.textbox-8-style1 { text-align: center; }
+.textbox-8-style2 { font-size: 12pt; }
+#button-4 { margin: 0px; position: absolute; height: 50px; width: 100px; top: 479px; left: 848px; z-index: 0; color: rgb(0, 0, 0); text-align: center; }
+#textEntryInteraction-other_activity_1 { position: absolute; width: 366px; top: 186px; left: 86px; height: 31px; z-index: 0; }
+#textEntryInteraction-other_activity_2 { position: absolute; width: 366px; top: 242px; left: 86px; height: 31px; z-index: 0; }
+#textEntryInteraction-other_activity_3 { position: absolute; width: 366px; top: 298px; left: 86px; height: 31px; z-index: 0; }
+#textEntryInteraction-other_activity_4 { position: absolute; width: 366px; top: 354px; left: 86px; height: 31px; z-index: 0; }
+#textEntryInteraction-other_activity_5 { position: absolute; width: 367px; top: 410px; left: 86px; height: 31px; z-index: 0; }
+#textEntryInteraction-other_activity_6 { position: absolute; width: 366px; top: 186px; left: 536px; height: 31px; z-index: 0; }
+#textEntryInteraction-other_activity_7 { position: absolute; width: 366px; top: 242px; left: 536px; height: 31px; z-index: 0; }
+#textEntryInteraction-other_activity_8 { position: absolute; width: 366px; top: 298px; left: 536px; height: 31px; z-index: 0; }
+#textEntryInteraction-other_activity_9 { position: absolute; width: 366px; top: 354px; left: 536px; height: 31px; z-index: 0; }
+#textEntryInteraction-other_activity_10 { position: absolute; width: 366px; top: 410px; left: 536px; height: 31px; z-index: 0; }
+.textbox-9-style2 { font-size: 12pt; }
+.textbox-1-style1 { text-align: center; }
+.textbox-1-style2 { font-size: 16pt; color: rgb(255, 255, 255); }
+#button-2 { margin: 0px; position: absolute; height: 50px; width: 100px; top: 479px; left: 18px; z-index: 0; color: rgb(0, 0, 0); text-align: center; }
+#textbox-5 { z-index: 0; position: absolute; width: 725px; height: 50px; top: 60px; left: 15px; }
+.textbox-5-style1 { font-size: 24pt; }
+#textbox-4 { border: 0px solid rgb(255, 127, 0); padding: 10px; position: absolute; width: 559px; height: 72px; top: 455px; left: 203px; z-index: 0; -moz-border-radius-topleft: 15px; -webkit-border-radius-topleft: 15px; border-radius-topleft: 15px; -moz-border-radius-topright: 15px; -webkit-border-radius-topright: 15px; border-radius-topright: 15px; -moz-border-radius-bottomright: 15px; -webkit-border-radius-bottomright: 15px; border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; -webkit-border-radius-bottomleft: 15px; border-radius-bottomleft: 15px; color: rgb(205, 0, 0); font-size: 12pt; behavior: url(/PIE.htc); }
+.textbox-4-style1 { text-align: center; }
+.textbox-4-style2 { font-size: 12pt; }
+.textbox-4-style3 { font-size: 12pt; }
+#textbox-205 { position: absolute; width: 561px; height: 53px; top: 460px; left: 202px; color: rgb(34, 61, 124); background-color: rgb(253, 211, 211); -moz-border-radius-topleft: 15px; -webkit-border-radius-topleft: 15px; border-radius-topleft: 15px; -moz-border-radius-topright: 15px; -webkit-border-radius-topright: 15px; border-radius-topright: 15px; -moz-border-radius-bottomright: 15px; -webkit-border-radius-bottomright: 15px; border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; -webkit-border-radius-bottomleft: 15px; border-radius-bottomleft: 15px; z-index: 0; behavior: url(/PIE.htc); }

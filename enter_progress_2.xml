@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="enter_progress_2"
+  title="Enter your progress"
+  adaptive="false"
+  timeDependent="false">
+  <responseDeclaration identifier="r_ep_for_yourself_low_1" cardinality="multiple" baseType="identifier"/>
+  <responseDeclaration identifier="r_ep_for_fun_low_1" cardinality="multiple" baseType="identifier"/>
+  <responseDeclaration identifier="r_enter_comments" cardinality="single" baseType="string"/>
+  <responseDeclaration identifier="r_enter_mitt_minutes" cardinality="single" baseType="float"/>
+  <responseDeclaration identifier="r_enter_activities_minutes" cardinality="single" baseType="float"/>
+  <outcomeDeclaration identifier="ep_for_yourself_low_1" cardinality="multiple" baseType="string"/>
+  <outcomeDeclaration identifier="ep_for_fun_low_1" cardinality="multiple" baseType="string"/>
+  <outcomeDeclaration identifier="enter_comments" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="enter_mitt_minutes" cardinality="single" baseType="float"/>
+  <outcomeDeclaration identifier="enter_activities_minutes" cardinality="single" baseType="float"/>
+  <outcomeDeclaration identifier="f_empty_time" cardinality="single" baseType="identifier"/>
+  <outcomeDeclaration identifier="R2Q2_IS_RESPONSE_CORRECT" cardinality="single" baseType="boolean">
+    <defaultValue>
+      <value>false</value>
+    </defaultValue>
+  </outcomeDeclaration>
+  <stylesheet href="lifecit_logo.css" type="text/css"/>
+  <stylesheet href="enter_progress_2-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      &#160;
+      <div>
+        <img id="image-6_lifecit_logo" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-1_lifecit_logo" src="blue_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <choiceInteraction
+        class="choiceleft sideways"
+        responseIdentifier="r_ep_for_yourself_low_1"
+        shuffle="false"
+        maxChoices="20">
+        <prompt/>
+        <simpleChoice identifier="for_yourself_1_wash_hair"/>
+        <simpleChoice identifier="for_yourself_1_brush_hair"/>
+        <simpleChoice identifier="for_yourself_1_apply_cream_moisturiser"/>
+        <simpleChoice identifier="for_yourself_1_eat_meal_snack_with_fingers"/>
+      </choiceInteraction>
+      <choiceInteraction class="choiceleft sideways" responseIdentifier="r_ep_for_fun_low_1" shuffle="false" maxChoices="20">
+        <prompt/>
+        <simpleChoice identifier="for_fun_1_play_scrabble"/>
+        <simpleChoice identifier="for_fun_1_play_dominoes"/>
+        <simpleChoice identifier="for_fun_1_play_chess"/>
+        <simpleChoice identifier="for_fun_1_play_checkers"/>
+        <simpleChoice identifier="for_fun_1_play_backgammon"/>
+        <simpleChoice identifier="for_fun_1_flower_arranging"/>
+      </choiceInteraction>
+      <div>
+        <img id="image-6" src="background4.png" alt="change me"/>
+      </div>
+      <div id="textbox-1" class="includeBorderAndPadding">
+        <div class="textbox-1-style1">
+          <span class="textbox-1-style2">
+            Enter my progress
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="textbox-8" class="includeBorderAndPadding">
+        <span class="textbox-8-style1">
+          Please type any additional comments about your day here (optional):
+        </span>
+        <br/>
+      </div>
+      <div>
+        <textEntryInteraction class="multirow" responseIdentifier="r_enter_comments"/>
+      </div>
+      <feedbackBlock
+        showHide="show"
+        outcomeIdentifier="f_empty_time"
+        identifier="empty_time"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-14" class="includeBorderAndPadding">
+          <div class="textbox-14-style1">
+            <span class="textbox-14-style2">
+              <span class="textbox-14-style3">
+                *** Please enter hours AND minutes***
+              </span>
+            </span>
+            <br/>
+          </div>
+        </div>
+      </feedbackBlock>
+      <div id="button-8" class="submit-jumpto-button" label="enter_progress">
+        Next
+      </div>
+      <div id="textbox-22" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <sliderInteraction
+        class="radio tabular"
+        responseIdentifier="r_enter_mitt_minutes"
+        lowerBound="30.0"
+        upperBound="120.0"
+        step="30"
+        stepLabel="true">
+        <prompt/>
+      </sliderInteraction>
+      <div id="textbox-18" class="includeBorderAndPadding">
+        <span class="textbox-18-style1">
+          Time for one arm activities
+          <br/>
+        </span>
+      </div>
+      <div id="textbox-19" class="includeBorderAndPadding">
+        <span class="textbox-19-style1">
+          Enter your progress
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-20" class="includeBorderAndPadding">
+        <span class="textbox-20-style1">
+          minutes.
+        </span>
+      </div>
+      <div id="textbox-23" class="includeBorderAndPadding">
+        <span class="textbox-23-style1">
+          <span class="textbox-23-style2">
+            Time for two arm activities :
+          </span>
+          <br/>
+        </span>
+      </div>
+      <div id="textbox-24" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <sliderInteraction
+        class="radio tabular"
+        responseIdentifier="r_enter_activities_minutes"
+        lowerBound="30.0"
+        upperBound="120.0"
+        step="30"
+        stepLabel="true">
+        <prompt/>
+      </sliderInteraction>
+      <div id="textbox-28" class="includeBorderAndPadding">
+        <span class="textbox-20-style1">
+          minutes.
+        </span>
+      </div>
+      <div id="textbox-29" class="includeBorderAndPadding">
+        <span class="textbox-29-style1">
+          <span class="textbox-29-style2">
+            Click on the small grey circles to enter your progress
+          </span>
+          <br/>
+        </span>
+      </div>
+      <div id="button-9" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing>
+    <setOutcomeValue identifier="ep_for_yourself_low_1">
+      <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.ConvertToString">
+        <variable identifier="r_ep_for_yourself_low_1"/>
+      </customOperator>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="ep_for_fun_low_1">
+      <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.ConvertToString">
+        <variable identifier="r_ep_for_fun_low_1"/>
+      </customOperator>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="enter_comments">
+      <variable identifier="r_enter_comments"/>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="enter_mitt_minutes">
+      <variable identifier="r_enter_mitt_minutes"/>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="enter_activities_minutes">
+      <variable identifier="r_enter_activities_minutes"/>
+    </setOutcomeValue>
+    <responseCondition>
+      <responseIf>
+        <or>
+          <isNull>
+            <variable identifier="enter_mitt_hours"/>
+          </isNull>
+          <isNull>
+            <variable identifier="enter_mitt_minutes"/>
+          </isNull>
+          <isNull>
+            <variable identifier="enter_activities_hours"/>
+          </isNull>
+          <isNull>
+            <variable identifier="enter_activities_minutes"/>
+          </isNull>
+        </or>
+        <setOutcomeValue identifier="f_empty_time">
+          <baseValue baseType="identifier">empty_time</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+    </responseCondition>
+    <setOutcomeValue identifier="R2Q2_IS_RESPONSE_CORRECT">
+      <and>
+        <isNull>
+          <variable identifier="f_empty_time"/>
+        </isNull>
+      </and>
+    </setOutcomeValue>
+  </responseProcessing>
+</assessmentItem>

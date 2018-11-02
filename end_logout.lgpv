@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="end_logout" title="End" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo.css"/><stylesheet href="end_logout.css" type="text/css"/>
+  <itemBody class="nobuttons"><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo.lgtp" parse="xml"/>
+    <div id="container-body">
+      <div id="button-5" class="logout">Logout</div>
+    <div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">End of the STRONG program</span><br/></div><div id="textbox-1" class="includeBorderAndPadding"><div class="textbox-1-style1"><span class="textbox-1-style2"><br/><br/>It has now been 6 weeks (or more) since you've registered to STRONG.<br/><br/>You have now completed the STRONG program! <br/>Congratulations!<br/><br/>You will shortly be contacted by a STRONG research team member for follow-up<br/><br/></span><br/></div></div><div id="textbox-8" class="includeBorderAndPadding"><div class="textbox-8-style1"><span class="textbox-8-style2">Click here to logout:</span><br/></div></div></div>
+  </itemBody>
+</assessmentItem>

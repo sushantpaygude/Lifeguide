@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="enter_other_activities"
+  title="Enter other activities"
+  adaptive="false"
+  timeDependent="false">
+  <responseDeclaration identifier="r_other_activity_1" cardinality="single" baseType="string"/>
+  <responseDeclaration identifier="r_other_activity_2" cardinality="single" baseType="string"/>
+  <responseDeclaration identifier="r_other_activity_3" cardinality="single" baseType="string"/>
+  <responseDeclaration identifier="r_other_activity_4" cardinality="single" baseType="string"/>
+  <responseDeclaration identifier="r_other_activity_5" cardinality="single" baseType="string"/>
+  <responseDeclaration identifier="r_other_activity_6" cardinality="single" baseType="string"/>
+  <responseDeclaration identifier="r_other_activity_7" cardinality="single" baseType="string"/>
+  <responseDeclaration identifier="r_other_activity_8" cardinality="single" baseType="string"/>
+  <responseDeclaration identifier="r_other_activity_9" cardinality="single" baseType="string"/>
+  <responseDeclaration identifier="r_other_activity_10" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="other_activity_1" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="other_activity_2" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="other_activity_3" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="other_activity_4" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="other_activity_5" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="other_activity_6" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="other_activity_7" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="other_activity_8" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="other_activity_9" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="other_activity_10" cardinality="single" baseType="string"/>
+  <stylesheet href="lifecit_logo.css" type="text/css"/>
+  <stylesheet href="enter_other_activities-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body">
+      &#160;
+      <div>
+        <img id="image-6_lifecit_logo" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-1_lifecit_logo" src="blue_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-205" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-9" class="includeBorderAndPadding">
+        <div class="textbox-9-style1">
+          <span class="textbox-9-style2">
+            You can also enter activities of your choice. Click on the boxes and type your activities:
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="textbox-11" class="includeBorderAndPadding">
+        1.
+      </div>
+      <div id="textbox-12" class="includeBorderAndPadding">
+        2.
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_other_activity_1"/>
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_other_activity_2"/>
+      </div>
+      <div id="textbox-14" class="includeBorderAndPadding">
+        3.
+      </div>
+      <div id="textbox-15" class="includeBorderAndPadding">
+        4.
+      </div>
+      <div id="textbox-17" class="includeBorderAndPadding">
+        5.
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_other_activity_3"/>
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_other_activity_4"/>
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_other_activity_5"/>
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_other_activity_6"/>
+      </div>
+      <div id="textbox-18" class="includeBorderAndPadding">
+        6.
+      </div>
+      <div id="textbox-19" class="includeBorderAndPadding">
+        7.
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_other_activity_7"/>
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_other_activity_8"/>
+      </div>
+      <div id="textbox-20" class="includeBorderAndPadding">
+        8.
+      </div>
+      <div id="textbox-21" class="includeBorderAndPadding">
+        9.
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_other_activity_9"/>
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_other_activity_10"/>
+      </div>
+      <div id="textbox-22" class="includeBorderAndPadding">
+        10.
+      </div>
+      <div id="button-4" class="submit-jumpto-button" label="day_planner">
+        Next
+      </div>
+      <div id="button-2" class="back">
+        Back
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          Select activities of your choice (optional)
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-4" class="includeBorderAndPadding">
+        <div class="textbox-4-style1">
+          <span class="textbox-4-style2">
+            Don't forget that activities should be achievable
+            <br/>
+            Try selecting both one and two arm activities
+          </span>
+          <br/>
+        </div>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing>
+    <setOutcomeValue identifier="other_activity_1">
+      <variable identifier="r_other_activity_1"/>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="other_activity_2">
+      <variable identifier="r_other_activity_2"/>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="other_activity_3">
+      <variable identifier="r_other_activity_3"/>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="other_activity_4">
+      <variable identifier="r_other_activity_4"/>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="other_activity_5">
+      <variable identifier="r_other_activity_5"/>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="other_activity_6">
+      <variable identifier="r_other_activity_6"/>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="other_activity_7">
+      <variable identifier="r_other_activity_7"/>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="other_activity_8">
+      <variable identifier="r_other_activity_8"/>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="other_activity_9">
+      <variable identifier="r_other_activity_9"/>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="other_activity_10">
+      <variable identifier="r_other_activity_10"/>
+    </setOutcomeValue>
+  </responseProcessing>
+</assessmentItem>

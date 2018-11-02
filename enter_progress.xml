@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="enter_progress"
+  title="Enter your progress"
+  adaptive="false"
+  timeDependent="false">
+  <responseDeclaration identifier="r_number_of_activities_completed" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="number_of_activities_completed" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="f_empty_or_wrong_number" cardinality="single" baseType="identifier"/>
+  <outcomeDeclaration identifier="R2Q2_IS_RESPONSE_CORRECT" cardinality="single" baseType="boolean">
+    <defaultValue>
+      <value>false</value>
+    </defaultValue>
+  </outcomeDeclaration>
+  <templateDeclaration identifier="selected_activities" cardinality="single" baseType="string"/>
+  <stylesheet href="lifecit_logo_without_rectangle.css" type="text/css"/>
+  <stylesheet href="enter_progress-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_without_rectangle" src="blue_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_without_rectangle" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_without_rectangle" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_without_rectangle">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="button-1" class="submit-jumpto-button" label="view_progress">
+        Next
+      </div>
+      <div id="textbox-15" class="includeBorderAndPadding">
+        <div class="textbox-15-style1">
+          <span class="textbox-15-style2">
+            These are the activities that you had selected:
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="textbox-19" class="includeBorderAndPadding">
+        <span class="textbox-19-style1">
+          Enter your progress
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-78" class="null includeBorderAndPadding">
+        <span class="textbox-78-style1">
+          <printedVariable identifier="selected_activities"/>
+        </span>
+      </div>
+      <div id="textbox-80" class="includeBorderAndPadding">
+        <div class="textbox-80-style1">
+          <span class="textbox-80-style2">
+            How many of these have you completed (or tried)?
+          </span>
+        </div>
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_number_of_activities_completed"/>
+      </div>
+      <div id="textbox-81" class="includeBorderAndPadding">
+        <span class="textbox-81-style1">
+          Type a number in this box:
+        </span>
+      </div>
+      <feedbackBlock
+        showHide="show"
+        outcomeIdentifier="f_empty_or_wrong_number"
+        identifier="empty_or_wrong_number"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-10" class="includeBorderAndPadding">
+          <span class="textbox-10-style1">
+            ***Please enter a number*** 
+          </span>
+        </div>
+      </feedbackBlock>
+      <div id="button-2" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing>
+    <setOutcomeValue identifier="number_of_activities_completed">
+      <variable identifier="r_number_of_activities_completed"/>
+    </setOutcomeValue>
+    <responseCondition>
+      <responseIf>
+        <or>
+          <isNull>
+            <variable identifier="number_of_activities_completed"/>
+          </isNull>
+          <and>
+            <not>
+              <patternMatch pattern="[0-9]">
+                <variable identifier="number_of_activities_completed"/>
+              </patternMatch>
+            </not>
+            <not>
+              <patternMatch pattern="[0-9][0-9]">
+                <variable identifier="number_of_activities_completed"/>
+              </patternMatch>
+            </not>
+          </and>
+        </or>
+        <setOutcomeValue identifier="f_empty_or_wrong_number">
+          <baseValue baseType="identifier">empty_or_wrong_number</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+    </responseCondition>
+    <setOutcomeValue identifier="R2Q2_IS_RESPONSE_CORRECT">
+      <and>
+        <isNull>
+          <variable identifier="f_empty_or_wrong_number"/>
+        </isNull>
+      </and>
+    </setOutcomeValue>
+  </responseProcessing>
+</assessmentItem>

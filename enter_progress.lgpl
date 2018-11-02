@@ -1,0 +1,1 @@
+show empty_or_wrong_number if or(isempty (number_of_activities_completed ), and(not( patternmatch("[0-9]",number_of_activities_completed)), not( patternmatch("[0-9][0-9]",number_of_activities_completed))))

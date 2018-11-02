@@ -1,0 +1,50 @@
+#button-9 { border: 0px none ; margin: 0px; padding: 0px; position: absolute; height: 40px; width: 130px; background-color: rgb(238, 238, 238); top: 489px; left: 57px; }
+.textbox-23-style2 { font-weight: bold; }
+.textbox-29-style2 { font-weight: bold; }
+.textbox-29-style1 { font-size: 12pt; }
+#textbox-29 { padding: 10px; position: absolute; width: 157px; height: 109px; top: 142px; left: 783px; z-index: 0; background-color: rgb(216, 222, 239); font-size: 13pt; -moz-border-radius-topleft: 15px; -webkit-border-radius-topleft: 15px; border-radius-topleft: 15px; -moz-border-radius-topright: 15px; -webkit-border-radius-topright: 15px; border-radius-topright: 15px; -moz-border-radius-bottomright: 15px; -webkit-border-radius-bottomright: 15px; border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; -webkit-border-radius-bottomleft: 15px; border-radius-bottomleft: 15px; behavior: url(/PIE.htc); }
+.textbox-19-style1 { font-size: 24pt; }
+#image-6 { position: absolute; width: 970px; height: 508px; top: 42px; z-index: 0; left: 0px; }
+.textbox-14-style3 { font-size: 12pt; font-weight: bold; }
+#sliderInteraction-r_enter_activities_minutes { position: absolute; width: 497px; top: 268px; left: 167px; height: 39px; font-size: 12pt; z-index: 0; }
+.textbox-28-style1 { font-size: 12pt; }
+#textbox-28 { position: absolute; width: 101px; height: 35px; top: 270px; left: 642px; z-index: 0; }
+.textbox-27-style1 { font-size: 12pt; }
+.textbox-25-style1 { font-size: 12pt; }
+.textbox-23-style1 { font-size: 12pt; }
+#textbox-23 { position: absolute; width: 159px; height: 55px; top: 267px; left: 18px; z-index: 0; font-size: 12pt; }
+#choiceInteraction-r_ep_for_fun_low_1 { border: 0px solid rgb(255, 127, 0); padding: 10px; position: absolute; width: 116px; height: 36px; top: 514px; left: 698px; z-index: 0; font-size: 12pt; font-family: Verdana,Geneva,sans-serif; text-align: left; }
+#choiceInteraction-r_ep_for_yourself_low_1 { border: 0px solid rgb(255, 127, 0); padding: 10px; position: absolute; width: 68px; height: 55px; top: 510px; left: 11px; z-index: 0; font-size: 12pt; font-family: Verdana,Geneva,sans-serif; }
+.textbox-15-style2 { font-size: 12pt; }
+.textbox-15-style1 { text-align: center; }
+#button-8 { margin: 0px; position: absolute; height: 50px; width: 100px; top: 479px; left: 848px; z-index: 0; color: rgb(0, 0, 0); text-align: center; }
+.textbox-14-style2 { color: rgb(255, 0, 0); }
+.textbox-14-style1 { text-align: center; }
+#textbox-14 { position: absolute; width: 372px; height: 34px; top: 110px; left: 266px; z-index: 0; }
+#textEntryInteraction-r_enter_comments { position: absolute; width: 760px; top: 366px; height: 102px; left: 85px; z-index: 0; }
+.textbox-8-style1 { font-size: 12pt; }
+#textbox-8 { position: absolute; width: 634px; height: 29px; top: 340px; left: 167px; z-index: 0; }
+.textbox-13-style2 { font-size: 12pt; font-weight: bold; }
+.textbox-13-style1 { color: rgb(255, 0, 0); }
+.textbox-6-style3 { color: rgb(255, 255, 255); }
+.textbox-6-style2 { color: rgb(255, 255, 255); }
+.textbox-6-style1 { font-size: 12pt; }
+.textbox-5-style3 { color: rgb(255, 255, 255); }
+.textbox-5-style2 { color: rgb(255, 255, 255); }
+.textbox-5-style1 { font-size: 12pt; }
+.textbox-1-style2 { font-size: 16pt; color: rgb(255, 255, 255); }
+.textbox-1-style1 { text-align: center; }
+#textbox-1 { position: absolute; width: 216px; height: 27px; top: 64px; left: 18px; z-index: 0; }
+#body-container { width: 970px; color: rgb(34, 61, 124); font-family: Verdana,Geneva,sans-serif; font-size: 16pt; margin-left: auto; margin-right: auto; }
+a:visited { color: rgb(128, 0, 128); }
+body {  }
+#sliderInteraction-r_enter_mitt_minutes { z-index: 0; position: absolute; width: 498px; top: 150px; left: 183px; height: 39px; font-size: 12pt; }
+#textbox-18 { position: absolute; width: 165px; height: 54px; top: 145px; left: 9px; z-index: 0; }
+#textbox-19 { position: absolute; width: 333px; height: 49px; top: 60px; left: 15px; z-index: 0; }
+.textbox-18-style1 { font-size: 12pt; font-weight: bold; }
+.textbox-16-style1 { font-size: 12pt; font-weight: bold; }
+.textbox-17-style1 { font-size: 12pt; font-weight: bold; }
+#textbox-20 { position: absolute; width: 101px; height: 35px; top: 151px; left: 646px; z-index: 0; }
+.textbox-20-style1 { font-size: 12pt; font-weight: bold; }
+#textbox-22 { position: absolute; width: 547px; height: 44px; top: 145px; left: 185px; background-color: rgb(216, 222, 239); z-index: 0; }
+#textbox-24 { position: absolute; width: 547px; height: 47px; top: 264px; left: 181px; background-color: rgb(216, 222, 239); z-index: 0; }

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="email_list"
+  title="Email list"
+  adaptive="false"
+  timeDependent="false">
+  <responseDeclaration identifier="r_enter_email_address" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="enter_email_address" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="f_incorr_email" cardinality="single" baseType="identifier"/>
+  <outcomeDeclaration identifier="R2Q2_IS_RESPONSE_CORRECT" cardinality="single" baseType="boolean">
+    <defaultValue>
+      <value>false</value>
+    </defaultValue>
+  </outcomeDeclaration>
+  <stylesheet href="lifecit_logo.css" type="text/css"/>
+  <stylesheet href="email_list-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      &#160;
+      <div>
+        <img id="image-6_lifecit_logo" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-1_lifecit_logo" src="blue_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-6" class="includeBorderAndPadding">
+        <span class="textbox-6-style1">
+          Type your email address here:
+        </span>
+        <br/>
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_enter_email_address"/>
+      </div>
+      <div id="button-1" class="submit-button">
+        Send email
+      </div>
+      <feedbackBlock
+        showHide="show"
+        outcomeIdentifier="f_incorr_email"
+        identifier="incorr_email"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-7" class="includeBorderAndPadding">
+          <span class="textbox-7-style1">
+            ***Please enter a valid email address*** 
+          </span>
+        </div>
+      </feedbackBlock>
+      <div id="textbox-9" class="includeBorderAndPadding">
+        <span class="textbox-9-style1">
+          Then click this button:
+        </span>
+        <br/>
+      </div>
+      <div id="button-2" class="back">
+        Back
+      </div>
+      <div id="textbox-10" class="includeBorderAndPadding">
+        <div class="textbox-10-style1">
+          <span class="textbox-10-style2">
+            Emails can take up to 5 minutes to arrive.
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          Email your list of activities
+        </span>
+        <br/>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing>
+    <setOutcomeValue identifier="enter_email_address">
+      <variable identifier="r_enter_email_address"/>
+    </setOutcomeValue>
+    <responseCondition>
+      <responseIf>
+        <not>
+          <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.CheckEmailValidity">
+            <variable identifier="enter_email_address"/>
+          </customOperator>
+        </not>
+        <setOutcomeValue identifier="f_incorr_email">
+          <baseValue baseType="identifier">incorr_email</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+    </responseCondition>
+    <setOutcomeValue identifier="R2Q2_IS_RESPONSE_CORRECT">
+      <and>
+        <isNull>
+          <variable identifier="f_incorr_email"/>
+        </isNull>
+      </and>
+    </setOutcomeValue>
+  </responseProcessing>
+</assessmentItem>

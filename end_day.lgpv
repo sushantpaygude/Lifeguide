@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="end_day" title="End of the day" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo.css"/><stylesheet href="end_day.css" type="text/css"/>
+  <itemBody class="nobuttons"><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo.lgtp" parse="xml"/>
+    <div id="container-body">
+      <div id="button-5" class="submit-jumpto-button" label="view_progress">Next</div>
+    <div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">End of the STRONG for today</span><br/></div><div id="textbox-1" class="includeBorderAndPadding"><div class="textbox-1-style1"><span class="textbox-1-style2"><br/><br/>You have now completed your STRONG sessions for today.<br/><br/></span><br/></div></div><div id="textbox-8" class="includeBorderAndPadding"><div class="textbox-8-style1"><span class="textbox-8-style2">Click here to view your progress:</span><br/></div></div><div id="textbox-9" class="includeBorderAndPadding"><div class="textbox-8-style1"><span class="textbox-8-style2">Or click here to logout:</span><br/></div></div><div id="button-6" class="logout">Logout</div></div>
+  </itemBody>
+</assessmentItem>
