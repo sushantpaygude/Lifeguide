@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="assessment_score_page_level_1_2copy" title="assessment_score_page_level_1_2copy" adaptive="false" timeDependent="false">
+  <stylesheet href="assessment_score_page_level_1_2copy.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body"><div><img id="image-1" alt="change me" src="Hills_level1_2.JPG"/></div></div>
+  </itemBody>
+</assessmentItem>

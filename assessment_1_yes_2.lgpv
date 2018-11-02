@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="assessment_1_yes_2" title="assessment_1_yes_2" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_green.css"/><stylesheet href="assessment_1_yes_2.css" type="text/css"/>
+  <itemBody><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_green.lgtp" parse="xml"/>
+    <div id="container-body">&#160;<div id="button-1" class="submit-button"><img src="" title="change me" alt="change me"/></div><div id="button-2" class="submit-button"><img src="" title="change me" alt="change me"/></div><choiceInteraction responseIdentifier="interaction-1" shuffle="false" maxChoices="2">
+  <prompt>Question</prompt>
+  <simpleChoice identifier="A">Response</simpleChoice>
+</choiceInteraction></div>
+  </itemBody>
+</assessmentItem>

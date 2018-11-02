@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="dummypage" title="dummypage" adaptive="false" timeDependent="false">
+  <stylesheet href="dummypage.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body"><templateBlock xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" templateIdentifier="score_mit_dummy" showHide="show" identifier="score_mit_dummy"/><div id="container-1" class="container-vertical"><templateBlock templateIdentifier="negative" showHide="show" identifier="negative"><div id="textbox-5" class="includeBorderAndPadding">edit me negative</div></templateBlock><templateBlock templateIdentifier="positive" showHide="show" identifier="positive"><div id="textbox-6" class="includeBorderAndPadding">edit me postive</div></templateBlock></div><templateBlock templateIdentifier="image1" showHide="show" identifier="image1"><div><img id="image-1" alt="change me" src="media/sample_image.jpeg"/></div></templateBlock><templateBlock templateIdentifier="image2" showHide="show" identifier="image2"><div><img id="image-2" alt="change me" src="media/sample_image.jpeg"/></div></templateBlock></div>
+  </itemBody>
+</assessmentItem>

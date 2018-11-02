@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="register_3"
+  title="Your registration details"
+  adaptive="false"
+  timeDependent="false">
+  <templateDeclaration identifier="password" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="username" cardinality="single" baseType="string"/>
+  <stylesheet href="lifecit_logo.css" type="text/css"/>
+  <stylesheet href="register_3-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body">
+      &#160;
+      <div>
+        <img id="image-6_lifecit_logo" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-1_lifecit_logo" src="blue_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          Your registration details
+        </span>
+        <br/>
+      </div>
+      <div id="button-2" class="submit-jumpto-button" label="instructions_what_is_lifecit">
+        Next
+      </div>
+      <div id="textbox-14" class="null includeBorderAndPadding">
+        <div class="textbox-14-style1">
+           Your password: 
+          <printedVariable identifier="password"/>
+          <br/>
+        </div>
+      </div>
+      <div id="textbox-15" class="null includeBorderAndPadding">
+        <div class="textbox-14-style1">
+           Your user name: 
+          <printedVariable identifier="username"/>
+          <br/>
+        </div>
+      </div>
+      <div id="textbox-16" class="includeBorderAndPadding">
+        <div class="textbox-16-style1">
+          <span class="textbox-16-style2">
+            <span class="textbox-16-style3">
+              <span class="textbox-16-style4">
+                You may want to write these down as they will not be shown to you again.
+              </span>
+            </span>
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="textbox-17" class="includeBorderAndPadding">
+        <span class="textbox-17-style1">
+          You can also give permission to your therapist, relatives or friends to see how you are progressing.
+          <br/>
+          <br/>
+          This means they can help you and encourage you to use STRONG!
+          <br/>
+          <br/>
+          All you need to do is 
+          <span class="textbox-17-style2">
+            give them your user name 
+          </span>
+          and they will be able to go on the website and view your progress.
+          <br/>
+        </span>
+      </div>
+      <div id="textbox-4" class="includeBorderAndPadding">
+        <div class="textbox-4-style1">
+          <span class="textbox-4-style2">
+            Click here to continue:
+          </span>
+          <br/>
+        </div>
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

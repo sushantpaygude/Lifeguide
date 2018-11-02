@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="assessment_score_page_level_1"
+  title="Your score"
+  adaptive="false"
+  timeDependent="false">
+  <templateDeclaration identifier="level" cardinality="single" baseType="string"/>
+  <stylesheet href="assessment_score_page_level_1-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-1" src="hills_level1_light.jpg" alt="Score"/>
+      </div>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_2"
+        identifier="score_mitt_1_2"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-49" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_1"
+        identifier="score_mitt_1_1"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-18" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_4"
+        identifier="score_mitt_1_4"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-21" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_3"
+        identifier="score_mitt_1_3"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-20" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_5"
+        identifier="score_mitt_1_5"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-22" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_6"
+        identifier="score_mitt_1_6"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-23" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_7"
+        identifier="score_mitt_1_7"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-24" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_8"
+        identifier="score_mitt_1_8"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-25" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_9"
+        identifier="score_mitt_1_9"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-26" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_11"
+        identifier="score_mitt_1_11"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-28" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_10"
+        identifier="score_mitt_1_10"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-27" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_12"
+        identifier="score_mitt_1_12"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-29" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_13"
+        identifier="score_mitt_1_13"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-30" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_14"
+        identifier="score_mitt_1_14"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-31" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_15"
+        identifier="score_mitt_1_15"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-32" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_17"
+        identifier="score_mitt_1_17"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-34" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_16"
+        identifier="score_mitt_1_16"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-33" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_1"
+        identifier="star_1_1"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-5" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_2"
+        identifier="star_1_2"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-6" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_3"
+        identifier="star_1_3"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-7" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_4"
+        identifier="star_1_4"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-8" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_5"
+        identifier="star_1_5"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-9" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_6"
+        identifier="star_1_6"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-10" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_7"
+        identifier="star_1_7"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-11" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_8"
+        identifier="star_1_8"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-12" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_9"
+        identifier="star_1_9"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-13" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_10"
+        identifier="star_1_10"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-14" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_11"
+        identifier="star_1_11"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-15" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_12"
+        identifier="star_1_12"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-16" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_13"
+        identifier="star_1_13"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-17" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_14"
+        identifier="star_1_14"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-18" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_15"
+        identifier="star_1_15"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-19" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_16"
+        identifier="star_1_16"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-20" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="star_1_17"
+        identifier="star_1_17"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-21" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <div>
+        <img id="image-53" src="blue_mitt_going_right_rot6deg.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-2" class="includeBorderAndPadding">
+        <span class="textbox-2-style1">
+          = your score
+        </span>
+      </div>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="legend_star_text"
+        identifier="legend_star_text"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-3" class="includeBorderAndPadding">
+          <div class="textbox-3-style1">
+            <span class="textbox-3-style2">
+              = last week's score
+            </span>
+          </div>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="legend_star_symbol"
+        identifier="legend_star_symbol"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-4" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <div id="textbox-1" class="includeBorderAndPadding">
+        <span class="textbox-1-style1">
+          You are working
+          <br/>
+          towards level 
+          <printedVariable identifier="level"/>
+          !
+          <br/>
+        </span>
+      </div>
+      <div id="button-1" class="submit-button">
+        Next
+      </div>
+      <div id="textbox-22" class="includeBorderAndPadding">
+        Click here to continue:
+      </div>
+      <templateBlock showHide="show" templateIdentifier="good_luck_level1" identifier="good_luck_level1">
+        <div id="textbox-53" class="includeBorderAndPadding">
+          Good luck!
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="good_work_level1" identifier="good_work_level1">
+        <div id="textbox-52" class="includeBorderAndPadding">
+          Keep up the good work!
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="final_score_level1"
+        identifier="final_score_level1"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-55" class="includeBorderAndPadding">
+          This is your final score
+        </div>
+      </templateBlock>
+    </div>
+  </itemBody>
+</assessmentItem>

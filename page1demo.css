@@ -1,0 +1,6 @@
+#textbox-2 { position: static; width: 470px; height: 100px; top: 59px; left: 138px; z-index: 0; }
+#textbox-1 { position: static; width: 470px; height: 100px; top: 50px; left: 210px; z-index: 0; }
+#container-1 { position: absolute; width: 468px; top: 63px; left: 111px; z-index: 0; }
+a:visited { color: rgb(128, 0, 128); }
+#body-container { width: 800px; margin-left: auto; margin-right: auto; color: rgb(0, 0, 0); font-size: 10pt; font-family: arial,helvetica,sans-serif; }
+body {  }

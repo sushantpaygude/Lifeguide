@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="assessment_7" title="Question 7" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_duckegg.css"/><stylesheet href="assessment_7.css" type="text/css"/>
+  <itemBody class="nobuttons"><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_duckegg.lgtp" parse="xml"/>
+    <div id="container-body">&#160;<div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">Question 7 of 10</span><br/></div><div id="textbox-2" class="includeBorderAndPadding"><div class="textbox-2-style1"><span class="textbox-2-style2">Can you pick up finger foods to eat with your weaker hand? </span><br/></div></div><div id="textbox-3" class="includeBorderAndPadding"><div class="textbox-3-style1"><span class="textbox-3-style2">Please click on yes or no</span><br/></div></div><div id="button-2" class="submit-jumpto-button" label="assessment_7_yes">Yes</div><div id="button-1" class="submit-jumpto-button" label="assessment_7_no">No</div></div>
+  </itemBody>
+</assessmentItem>

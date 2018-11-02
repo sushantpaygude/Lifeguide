@@ -1,0 +1,39 @@
+#textbox-9 { z-index: 0; position: absolute; width: 100px; height: 100px; top: 198px; left: 449px; }
+#textbox-8 { z-index: 0; position: absolute; width: 100px; height: 100px; top: 206px; left: 261px; }
+#textbox-7 { position: absolute; width: 219px; height: 70px; top: 21px; left: 303px; z-index: 0; }
+#button-1 { border: 0px none ; margin: 0px; padding: 0px; position: absolute; height: 40px; width: 130px; background-color: rgb(238, 238, 238); top: 492px; left: 788px; z-index: 0; }
+#image-56 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 470px; left: 113px; }
+#image-55 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 469px; left: 73px; }
+#image-54 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 498px; left: 41px; }
+.textbox-1-style1 { font-size: 12pt; }
+#textbox-1 { z-index: 0; position: absolute; width: 234px; height: 57px; top: 110px; left: 698px; font-size: 13pt; }
+#textbox-5 { z-index: 0; position: absolute; width: 198px; height: 57px; top: 112px; left: 385px; font-size: 13pt; }
+.textbox-4-style1 { font-size: 24pt; }
+#textbox-4 { position: absolute; width: 26px; height: 31px; top: 148px; left: 25px; z-index: 0; color: rgb(255, 96, 0); }
+.textbox-3-style2 { font-size: 12pt; }
+.textbox-3-style1 { text-align: center; }
+#textbox-3 { position: absolute; width: 180px; height: 21px; top: 153px; left: 40px; z-index: 0; font-size: 6pt; }
+.textbox-2-style1 { font-size: 12pt; }
+#textbox-2 { position: absolute; width: 174px; height: 45px; top: 101px; left: 99px; z-index: 0; }
+#image-53 { position: absolute; width: 70px; height: 58px; top: 87px; left: 31px; z-index: 0; }
+#image-37 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 392px; left: 755px; }
+#image-36 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 370px; left: 792px; }
+#image-35 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 400px; left: 681px; }
+#image-34 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 378px; left: 718px; }
+#image-33 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 403px; left: 599px; }
+#image-32 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 381px; left: 636px; }
+#image-31 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 412px; left: 501px; }
+#image-30 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 390px; left: 538px; }
+#image-29 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 422px; left: 422px; }
+#image-28 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 400px; left: 459px; }
+#image-27 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 434px; left: 343px; }
+#image-26 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 412px; left: 380px; }
+#image-25 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 448px; left: 255px; }
+#image-24 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 426px; left: 292px; }
+#image-23 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 457px; left: 180px; }
+#image-22 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 435px; left: 217px; }
+#image-20 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 452px; left: 139px; }
+body {  }
+#body-container { width: 970px; margin-left: auto; margin-right: auto; color: rgb(34, 61, 124); font-size: 16pt; font-family: Verdana,Geneva,sans-serif; }
+a:visited { color: rgb(128, 0, 128); }
+#image-1 { position: absolute; width: 970px; height: 550px; top: 0pt; left: -18px; z-index: 0; }

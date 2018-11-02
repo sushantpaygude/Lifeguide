@@ -1,0 +1,35 @@
+#textbox-6 { position: absolute; width: 100px; height: 100px; top: 240px; left: 277px; z-index: 0; }
+#textbox-5 { z-index: 0; position: absolute; width: 198px; height: 57px; top: 118px; left: 387px; font-size: 13pt; }
+#button-1 { border: 0px none ; margin: 0px; padding: 0px; position: absolute; height: 40px; width: 130px; background-color: rgb(238, 238, 238); top: 490px; left: 805px; z-index: 0; }
+.textbox-3-style2 { font-size: 12pt; }
+.textbox-3-style1 { text-align: center; }
+#textbox-3 { position: absolute; width: 180px; height: 21px; top: 169px; left: 64px; z-index: 0; font-size: 6pt; }
+.textbox-4-style1 { font-size: 24pt; }
+#textbox-4 { position: absolute; width: 26px; height: 31px; top: 167px; left: 54px; z-index: 0; color: rgb(255, 96, 0); }
+.textbox-2-style1 { font-size: 12pt; }
+#textbox-2 { position: absolute; width: 174px; height: 45px; top: 117px; left: 123px; z-index: 0; }
+.textbox-1-style1 { font-size: 12pt; }
+#textbox-1 { z-index: 0; position: absolute; width: 234px; height: 57px; top: 121px; left: 711px; font-size: 13pt; }
+#image-66 { position: absolute; width: 70px; height: 58px; top: 103px; left: 55px; z-index: 0; }
+#image-49 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 498px; left: 94px; }
+#image-48 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 467px; left: 78px; }
+#image-47 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 500px; left: 42px; }
+#image-1 { position: absolute; width: 970px; height: 550px; top: 0px; left: 0px; z-index: 0; }
+a:visited { color: rgb(128, 0, 128); }
+#image-50 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 478px; left: 120px; }
+#image-51 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 454px; left: 155px; }
+#image-52 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 458px; left: 189px; }
+#image-53 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 432px; left: 229px; }
+#image-54 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 444px; left: 277px; }
+#image-55 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 427px; left: 313px; }
+#image-56 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 430px; left: 350px; }
+#image-57 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 410px; left: 400px; }
+#image-58 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 423px; left: 436px; }
+#image-59 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 405px; left: 481px; }
+#image-61 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 418px; left: 523px; }
+#image-62 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 389px; left: 559px; }
+#image-63 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 409px; left: 609px; }
+#image-64 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 387px; left: 662px; }
+#image-65 { z-index: 0; position: absolute; width: 70px; height: 58px; top: 403px; left: 700px; }
+#body-container { width: 970px; margin-left: auto; margin-right: auto; color: rgb(34, 61, 124); font-size: 16pt; font-family: Verdana,Geneva,sans-serif; }
+body {  }

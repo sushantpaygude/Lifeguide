@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="day_planner_copy"
+  title="Today's activities"
+  adaptive="false"
+  timeDependent="false">
+  <templateDeclaration identifier="date" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="activity_1" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="activity_2" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="activity_3" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="activity_4" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="activity_5" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="activity_6" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="activity_7" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="activity_8" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="activity_9" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="activity_10" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="mitt_hours" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="activities_hours" cardinality="single" baseType="string"/>
+  <stylesheet href="lifecit_logo_without_rectangle.css" type="text/css"/>
+  <stylesheet href="day_planner_copy-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_without_rectangle" src="blue_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_without_rectangle" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_without_rectangle" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_without_rectangle">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="container-1" class="container-vertical">
+        <div id="textbox-2" class="includeBorderAndPadding">
+          <span class="textbox-2-style1">
+            Your list of activities for today (
+            <printedVariable identifier="date"/>
+            ):
+          </span>
+          <ul/>
+        </div>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="typed_other_activity_1"
+          identifier="typed_other_activity_1"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-76" class="null includeBorderAndPadding">
+            <span class="textbox-76-style1">
+               - 
+              <printedVariable identifier="activity_1"/>
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="typed_other_activity_2"
+          identifier="typed_other_activity_2"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-77" class="null includeBorderAndPadding">
+            <span class="textbox-76-style1">
+               - 
+              <printedVariable identifier="activity_2"/>
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="typed_other_activity_3"
+          identifier="typed_other_activity_3"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-78" class="null includeBorderAndPadding">
+            <span class="textbox-76-style1">
+               - 
+              <printedVariable identifier="activity_3"/>
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="typed_other_activity_4"
+          identifier="typed_other_activity_4"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-79" class="null includeBorderAndPadding">
+            <span class="textbox-76-style1">
+               - 
+              <printedVariable identifier="activity_4"/>
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="typed_other_activity_5"
+          identifier="typed_other_activity_5"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-80" class="null includeBorderAndPadding">
+            <span class="textbox-76-style1">
+               - 
+              <printedVariable identifier="activity_5"/>
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="typed_other_activity_6"
+          identifier="typed_other_activity_6"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-81" class="null includeBorderAndPadding">
+            <span class="textbox-76-style1">
+               - 
+              <printedVariable identifier="activity_6"/>
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="typed_other_activity_7"
+          identifier="typed_other_activity_7"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-82" class="null includeBorderAndPadding">
+            <span class="textbox-76-style1">
+               - 
+              <printedVariable identifier="activity_7"/>
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="typed_other_activity_8"
+          identifier="typed_other_activity_8"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-83" class="null includeBorderAndPadding">
+            <span class="textbox-76-style1">
+               - 
+              <printedVariable identifier="activity_8"/>
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="typed_other_activity_9"
+          identifier="typed_other_activity_9"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-84" class="null includeBorderAndPadding">
+            <span class="textbox-76-style1">
+               - 
+              <printedVariable identifier="activity_9"/>
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="typed_other_activity_10"
+          identifier="typed_other_activity_10"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-85" class="null includeBorderAndPadding">
+            <span class="textbox-76-style1">
+               - 
+              <printedVariable identifier="activity_10"/>
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock showHide="show" templateIdentifier="selected_wash_face" identifier="selected_wash_face">
+          <div id="textbox-10" class="includeBorderAndPadding">
+            <span class="textbox-10-style1">
+              - Wash face
+            </span>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_brush_hair"
+          identifier="selected_brush_hair"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-11" class="includeBorderAndPadding">
+            <span class="textbox-11-style1">
+              - Brush hair
+            </span>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_apply_cream_moisturiser"
+          identifier="selected_apply_cream_moisturiser"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-12" class="includeBorderAndPadding">
+            <span class="textbox-12-style1">
+              - Apply cream/moisturiser
+            </span>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_eat_meal_snack"
+          identifier="selected_eat_meal_snack"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-13" class="includeBorderAndPadding">
+            <span class="textbox-13-style1">
+              - Eat a meal/snack with fingers
+            </span>
+          </div>
+        </templateBlock>
+        <templateBlock showHide="show" templateIdentifier="selected_brush_teeth" identifier="selected_brush_teeth">
+          <div id="textbox-14" class="includeBorderAndPadding">
+            <span class="textbox-14-style1">
+              - Brush teeth
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_style_hair"
+          identifier="selected_style_hair"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-15" class="includeBorderAndPadding">
+            <span class="textbox-15-style1">
+              - Style hair
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_pour_cold_drink"
+          identifier="selected_pour_cold_drink"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-16" class="includeBorderAndPadding">
+            <span class="textbox-16-style1">
+              - Pour a cold drink
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_drink_from_glass_cup"
+          identifier="selected_drink_from_glass_cup"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-17" class="includeBorderAndPadding">
+            <span class="textbox-17-style1">
+              - Drink from glass/cup
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_eat_with_cutlery"
+          identifier="selected_eat_with_cutlery"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-18" class="includeBorderAndPadding">
+            <span class="textbox-18-style1">
+              - Eat a meal/snack with cutlery
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_make_a_phone_call"
+          identifier="selected_make_a_phone_call"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-19" class="includeBorderAndPadding">
+            <span class="textbox-19-style1">
+              - Make a phone call
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_electric_shave"
+          identifier="selected_electric_shave"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-95" class="includeBorderAndPadding">
+            <span class="textbox-19-style1">
+              - Electric shave
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_shave"
+          identifier="selected_shave"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-20" class="includeBorderAndPadding">
+            <span class="textbox-20-style1">
+              - Wet shave
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_put_makeup_on"
+          identifier="selected_put_makeup_on"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-21" class="includeBorderAndPadding">
+            <span class="textbox-21-style1">
+              - Put makeup on
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_prepare_simple_meal"
+          identifier="selected_prepare_simple_meal"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-22" class="includeBorderAndPadding">
+            <span class="textbox-22-style1">
+              - Prepare a simple meal/snack
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_open_letter"
+          identifier="selected_open_letter"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-23" class="includeBorderAndPadding">
+            <span class="textbox-23-style1">
+              - Open a letter
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_write_a_few_sentences"
+          identifier="selected_write_a_few_sentences"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-24" class="includeBorderAndPadding">
+            <span class="textbox-24-style1">
+              - Write a few sentences
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_make_the_bed"
+          identifier="selected_make_the_bed"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-25" class="includeBorderAndPadding">
+            <span class="textbox-25-style1">
+              - Make the bed
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_wipe_down_surfaces"
+          identifier="selected_wipe_down_surfaces"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-26" class="includeBorderAndPadding">
+            <span class="textbox-26-style1">
+              - Wipe down kitchen surfaces
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_dust_furniture"
+          identifier="selected_dust_furniture"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-27" class="includeBorderAndPadding">
+            <span class="textbox-27-style1">
+              - Dust furniture
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_feed_pet"
+          identifier="selected_feed_pet"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-28" class="includeBorderAndPadding">
+            <span class="textbox-28-style1">
+              - Feed pet
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_open_close_curtains"
+          identifier="selected_open_close_curtains"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-29" class="includeBorderAndPadding">
+            <span class="textbox-29-style1">
+              - Open/close curtains
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_water_plants"
+          identifier="selected_water_plants"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-30" class="includeBorderAndPadding">
+            <span class="textbox-30-style1">
+              - Water plants
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_do_washing_small_load"
+          identifier="selected_do_washing_small_load"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-31" class="includeBorderAndPadding">
+            <span class="textbox-31-style1">
+              - Do washing (small load, in a machine)
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_fold_put_away_clothes"
+          identifier="selected_fold_put_away_clothes"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-32" class="includeBorderAndPadding">
+            <span class="textbox-32-style1">
+              - Fold/put away clothes
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_set_the_table"
+          identifier="selected_set_the_table"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-33" class="includeBorderAndPadding">
+            <span class="textbox-33-style1">
+              - Set the table
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_clean_kitchen"
+          identifier="selected_clean_kitchen"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-34" class="includeBorderAndPadding">
+            <span class="textbox-34-style1">
+              - Light kitchen tasks
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_clean_windows_inside"
+          identifier="selected_clean_windows_inside"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-35" class="includeBorderAndPadding">
+            <span class="textbox-35-style1">
+              - Clean windows (inside)
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_light_gardening"
+          identifier="selected_light_gardening"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-36" class="includeBorderAndPadding">
+            <span class="textbox-36-style1">
+              - Light gardening
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_wash_car_with_someone"
+          identifier="selected_wash_car_with_someone"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-37" class="includeBorderAndPadding">
+            <span class="textbox-37-style1">
+              - Wash car with someone's help
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_shopping_with_someone"
+          identifier="selected_shopping_with_someone"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-38" class="includeBorderAndPadding">
+            <span class="textbox-38-style1">
+              - Go food shopping with someone's help
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_carry_shopping_bag"
+          identifier="selected_carry_shopping_bag"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-39" class="includeBorderAndPadding">
+            <span class="textbox-39-style1">
+              - Carry a shopping bag from a shop
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_go_to_bank_post_shop"
+          identifier="selected_go_to_bank_post_shop"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-40" class="includeBorderAndPadding">
+            <span class="textbox-40-style1">
+              - Go to bank/post office/shop
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_organise_book_shelves"
+          identifier="selected_organise_book_shelves"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-41" class="includeBorderAndPadding">
+            <span class="textbox-41-style1">
+              - Organise book shelves
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_take_rubbish_out"
+          identifier="selected_take_rubbish_out"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-42" class="includeBorderAndPadding">
+            <span class="textbox-42-style1">
+              - Take rubbish out
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_hoover"
+          identifier="selected_hoover"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-43" class="includeBorderAndPadding">
+            <span class="textbox-43-style1">
+              - Hoover
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_do_washing_regular_load"
+          identifier="selected_do_washing_regular_load"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-44" class="includeBorderAndPadding">
+            <span class="textbox-44-style1">
+              - Do washing (regular load, in a machine)
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_organise_closets"
+          identifier="selected_organise_closets"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-45" class="includeBorderAndPadding">
+            <span class="textbox-45-style1">
+              - Organise closets
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_clean_floor"
+          identifier="selected_clean_floor"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-46" class="includeBorderAndPadding">
+            <span class="textbox-46-style1">
+              - Clean floor
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_clean_bathroom"
+          identifier="selected_clean_bathroom"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-47" class="includeBorderAndPadding">
+            <span class="textbox-47-style1">
+              - Clean bathroom
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_unload_dishwasher"
+          identifier="selected_unload_dishwasher"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-48" class="includeBorderAndPadding">
+            <span class="textbox-48-style1">
+              - Unload dishwasher
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_gardening"
+          identifier="selected_gardening"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-49" class="includeBorderAndPadding">
+            <span class="textbox-49-style1">
+              - Gardening
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_wash_car"
+          identifier="selected_wash_car"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-50" class="includeBorderAndPadding">
+            <span class="textbox-50-style1">
+              - Wash car
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_go_food_shopping"
+          identifier="selected_go_food_shopping"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-51" class="includeBorderAndPadding">
+            <span class="textbox-51-style1">
+              - Go food shopping
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_play_scrabble"
+          identifier="selected_play_scrabble"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-52" class="includeBorderAndPadding">
+            <span class="textbox-52-style1">
+              - Play scrabble
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_play_dominoes"
+          identifier="selected_play_dominoes"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-53" class="includeBorderAndPadding">
+            <span class="textbox-53-style1">
+              - Play dominoes
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_play_chess"
+          identifier="selected_play_chess"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-54" class="includeBorderAndPadding">
+            <span class="textbox-54-style1">
+              - Play chess
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_play_checkers"
+          identifier="selected_play_checkers"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-55" class="includeBorderAndPadding">
+            <span class="textbox-55-style1">
+              - Play checkers
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_play_backgammon"
+          identifier="selected_play_backgammon"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-56" class="includeBorderAndPadding">
+            <span class="textbox-56-style1">
+              - Play backgammon
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_flower_arranging"
+          identifier="selected_flower_arranging"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-57" class="includeBorderAndPadding">
+            <span class="textbox-57-style1">
+              - Flower arranging
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_jigsaw_large_pieces"
+          identifier="selected_jigsaw_large_pieces"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-58" class="includeBorderAndPadding">
+            <span class="textbox-58-style1">
+              - Do a jigsaw puzzle (large pieces) 
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_play_4_in_a_row"
+          identifier="selected_play_4_in_a_row"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-59" class="includeBorderAndPadding">
+            <span class="textbox-59-style1">
+              - Play Connect 4
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_play_cards"
+          identifier="selected_play_cards"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-60" class="includeBorderAndPadding">
+            <span class="textbox-60-style1">
+              - Play cards
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_play_fetch_with_dog"
+          identifier="selected_play_fetch_with_dog"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-61" class="includeBorderAndPadding">
+            <span class="textbox-61-style1">
+              - Play fetch with dog
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_play_computer_games"
+          identifier="selected_play_computer_games"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-62" class="includeBorderAndPadding">
+            <span class="textbox-62-style1">
+              - Play computer games
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_drawing"
+          identifier="selected_drawing"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-63" class="includeBorderAndPadding">
+            <span class="textbox-63-style1">
+              - Drawing
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_painting"
+          identifier="selected_painting"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-64" class="includeBorderAndPadding">
+            <span class="textbox-64-style1">
+              - Painting
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_card_making"
+          identifier="selected_card_making"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-65" class="includeBorderAndPadding">
+            <span class="textbox-65-style1">
+              - Card-making
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_scrapbooking"
+          identifier="selected_scrapbooking"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-66" class="includeBorderAndPadding">
+            <span class="textbox-66-style1">
+              - Scrapbooking
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_write_an_email"
+          identifier="selected_write_an_email"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-67" class="includeBorderAndPadding">
+            <span class="textbox-67-style1">
+              - Type an email
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_load_unload_cd_dvd"
+          identifier="selected_load_unload_cd_dvd"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-68" class="includeBorderAndPadding">
+            <span class="textbox-68-style1">
+              - Load/unload a cd/dvd into player
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_go_out_to_local_cafe"
+          identifier="selected_go_out_to_local_cafe"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-70" class="includeBorderAndPadding">
+            <span class="textbox-70-style1">
+              - Go out to local caf&#233;
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_do_jigsaw_small_pieces"
+          identifier="selected_do_jigsaw_small_pieces"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-71" class="includeBorderAndPadding">
+            <span class="textbox-71-style1">
+              - Do a jigsaw puzzle (small pieces)
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_sudoku"
+          identifier="selected_sudoku"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-72" class="includeBorderAndPadding">
+            <span class="textbox-72-style1">
+              - Sudoku
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_crosswords"
+          identifier="selected_crosswords"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-73" class="includeBorderAndPadding">
+            <span class="textbox-73-style1">
+              - Crosswords
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_throw_and_catch_a_ball"
+          identifier="selected_throw_and_catch_a_ball"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-74" class="includeBorderAndPadding">
+            <span class="textbox-74-style1">
+              - Throw and catch a ball
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_take_dog_out_for_a_walk"
+          identifier="selected_take_dog_out_for_a_walk"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-75" class="includeBorderAndPadding">
+            <span class="textbox-75-style1">
+              - Take dog out for a walk
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="selected_go_out_to_play_bingo"
+          identifier="selected_go_out_to_play_bingo"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-69" class="includeBorderAndPadding">
+            <span class="textbox-69-style1">
+              - Go out to play bingo
+            </span>
+            <br/>
+          </div>
+        </templateBlock>
+      </div>
+      <div>
+        <img id="image-3" src="grey_box.jpg" alt="change me"/>
+      </div>
+      <div>
+        <img id="image-1" src="grey_box.jpg" alt="change me"/>
+      </div>
+      <div id="textbox-3" class="includeBorderAndPadding">
+        <div class="textbox-3-style1">
+          <span class="textbox-3-style2">
+            This is a copy of your list of activities for today. You can keep this window open even if you log out of&#160; 
+          </span>
+          STRONG
+          <br/>
+        </div>
+      </div>
+      <div id="textbox-94" class="includeBorderAndPadding">
+        <div class="textbox-94-style1">
+          <span class="textbox-94-style2">
+            <span class="textbox-94-style3">
+              Goals for today:
+            </span>
+          </span>
+          <br/>
+          <span class="textbox-94-style4">
+            - Do one arm activities for 
+            <printedVariable identifier="mitt_hours"/>
+            minutes
+            <br/>
+            - Do 
+            <printedVariable identifier="activities_hours"/>
+            minutes of two arm activities
+            <br/>
+          </span>
+        </div>
+      </div>
+      <div id="button-1" class="submit-jumpto-button" label="day_planner">
+        Return to program
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

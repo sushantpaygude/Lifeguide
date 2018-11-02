@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="page2demo"
+  title="page2demo"
+  adaptive="false"
+  timeDependent="false">
+  <responseDeclaration identifier="r_interaction1" cardinality="single" baseType="identifier"/>
+  <outcomeDeclaration identifier="interaction1" cardinality="single" baseType="string"/>
+  <templateProcessing/>
+  <stylesheet href="page2demo-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div id="button-1" class="submit-button">
+        A button
+      </div>
+      <div id="container-1" class="container-horizontal">
+        <choiceInteraction responseIdentifier="r_interaction1" shuffle="false" maxChoices="1">
+          <prompt>
+            Question
+          </prompt>
+          <simpleChoice identifier="response1">
+            Response
+          </simpleChoice>
+          <simpleChoice identifier="response2">
+            change me 1
+          </simpleChoice>
+        </choiceInteraction>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing>
+    <setOutcomeValue identifier="interaction1">
+      <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.ConvertToString">
+        <variable identifier="r_interaction1"/>
+      </customOperator>
+    </setOutcomeValue>
+  </responseProcessing>
+</assessmentItem>

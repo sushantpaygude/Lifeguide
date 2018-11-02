@@ -1,0 +1,30 @@
+<outcomeProcessing>
+  <setOutcomeValue identifier="q1">
+    <baseValue baseType="float">0</baseValue>
+  </setOutcomeValue>
+  <setOutcomeValue identifier="q2">
+    <baseValue baseType="float">0</baseValue>
+  </setOutcomeValue>
+  <outcomeCondition>
+    <outcomeIf>
+      <match>
+        <variable identifier="page2demo.interaction1"/>
+        <baseValue baseType="string">response1</baseValue>
+      </match>
+      <setOutcomeValue identifier="q1">
+        <baseValue baseType="float">1</baseValue>
+      </setOutcomeValue>
+    </outcomeIf>
+  </outcomeCondition>
+  <outcomeCondition>
+    <outcomeIf>
+      <match>
+        <variable identifier="page2demo.interaction1"/>
+        <baseValue baseType="string">response2</baseValue>
+      </match>
+      <setOutcomeValue identifier="q2">
+        <baseValue baseType="float">1</baseValue>
+      </setOutcomeValue>
+    </outcomeIf>
+  </outcomeCondition>
+</outcomeProcessing>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="advice_when_lifecit_difficult"
+  title="Advice"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo.css" type="text/css"/>
+  <stylesheet href="advice_when_lifecit_difficult-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      &#160;
+      <div>
+        <img id="image-6_lifecit_logo" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-1_lifecit_logo" src="blue_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div>
+        <img id="image-1" src="grey_box.jpg" alt="change me"/>
+      </div>
+      <div id="textbox-19" class="includeBorderAndPadding">
+        <span class="textbox-19-style1">
+          It seems that you haven't reached all of your goals today
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-20" class="includeBorderAndPadding">
+        <ul>
+          <li>
+            <span class="textbox-20-style1">
+              <span class="textbox-20-style2">
+                Talk to someone 
+              </span>
+              - letting someone know you are finding it hard may help with finding ways to making it better.
+            </span>
+          </li>
+        </ul>
+         
+        <ul>
+          <li>
+            <span class="textbox-20-style3">
+              Try 
+              <span class="textbox-20-style4">
+                easier activities and exercises
+              </span>
+              , or do 
+              <span class="textbox-20-style5">
+                less
+              </span>
+              . It may be that you are aiming too high.
+            </span>
+          </li>
+        </ul>
+         
+        <ul>
+          <li>
+            <span class="textbox-20-style6">
+              Take 
+              <span class="textbox-20-style7">
+                breaks
+              </span>
+               and do something you enjoy.
+              <br/>
+            </span>
+          </li>
+        </ul>
+         
+        <ul>
+          <li>
+            <span class="textbox-20-style8">
+              Make sure you 
+              <span class="textbox-20-style9">
+                reward yourself 
+              </span>
+              - it can be hard work!
+            </span>
+          </li>
+        </ul>
+         
+        <ul>
+          <li>
+            <span class="textbox-20-style10">
+              <span class="textbox-20-style11">
+                Give out your username
+              </span>
+               to your therapist, friends and relatives. They will then be able to send you messages of encouragement.
+              <br/>
+            </span>
+          </li>
+        </ul>
+        <span class="textbox-20-style12">
+          <br/>
+        </span>
+      </div>
+      <div>
+        <img id="image-2" src="-bad-news.jpg" alt="Support"/>
+      </div>
+      <div id="button-1" class="submit-button">
+        Next
+      </div>
+      <div id="textbox-21" class="includeBorderAndPadding">
+        <div class="textbox-21-style1">
+          <span class="textbox-21-style2">
+            What can I do if I am finding it hard?
+          </span>
+          <span class="textbox-21-style3">
+             - Some Tips
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="button-2" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

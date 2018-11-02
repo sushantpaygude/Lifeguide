@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="register_2" title="Registration confirmation" adaptive="false" timeDependent="false">
+  <stylesheet href="lifecit_logo.css" type="text/css"/>
+  <stylesheet href="register_2.css" type="text/css"/>
+  <itemBody class="nobuttons"><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo.lgtp" parse="xml"/>
+    <div id="container-body">
+      <div id="button-2" class="submit-jumpto-button" label="register_3">Next</div>
+    <div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">Registration confirmation</span><br/></div><div id="textbox-6" class="includeBorderAndPadding"><div class="textbox-6-style1"><span class="textbox-6-style2"><br/>Your user name and password are now registered in the system. </span><span class="textbox-6-style3">You will need to use these every time you log in on the STRONG website.</span><br/></div></div><div id="textbox-4" class="includeBorderAndPadding"><div class="textbox-4-style1"><span class="textbox-4-style2">Click here to continue:</span><br/></div></div></div>
+  </itemBody>
+</assessmentItem>

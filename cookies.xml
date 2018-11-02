@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="cookies"
+  title="Cookies"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo.css" type="text/css"/>
+  <stylesheet href="cookies-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body">
+      &#160;
+      <div>
+        <img id="image-6_lifecit_logo" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-1_lifecit_logo" src="blue_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-1" class="includeBorderAndPadding">
+        <span class="textbox-1-style1">
+          <br/>
+          This website, along with most other major websites, uses cookies.
+          <br/>
+          <br/>
+          When you enter details into our website, a cookie is sent to your computer. A cookie is a small file that is saved on your computer which allows us to remember some information about you. We use cookies to keep you logged in and to identify your current session. Our cookies do not contain any information that you enter into the website or information that would identify who you are.
+          <br/>
+          <br/>
+          To use our website you will need to accept our cookies on your internet browser. If you decide to block our cookies, the website will not work correctly and you will not be able to take part in this study.
+        </span>
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          Cookies
+        </span>
+        <br/>
+      </div>
+      <div id="button-5" class="submit-jumpto-button" label="welcome">
+        Next
+      </div>
+      <div id="textbox-6" class="includeBorderAndPadding">
+        Click here to continue:
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

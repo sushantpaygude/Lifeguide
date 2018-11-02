@@ -1,0 +1,11 @@
+.textbox-6-style2 { font-size: 12pt; }
+.textbox-6-style1 { font-size: 24pt; }
+#textbox-6 { position: absolute; width: 213px; height: 25px; top: 490px; left: 632px; z-index: 0; font-size: 12pt; }
+#button-5 { position: absolute; height: 50px; width: 100px; margin: 0px; top: 478px; left: 848px; z-index: 0; color: rgb(0, 0, 0); text-align: center; }
+.textbox-1-style1 { font-size: 12pt; }
+.textbox-5-style1 { font-size: 24pt; }
+#textbox-5 { z-index: 0; position: absolute; width: 382px; height: 50px; top: 60px; left: 15px; }
+#textbox-1 { position: absolute; width: 832px; height: 282px; top: 135px; left: 66px; z-index: 0; font-size: 12pt; background-color: rgb(213, 224, 243); -moz-border-radius: 15px 15px 15px 15px; -webkit-border-radius: 15px 15px 15px 15px; border-radius: 15px 15px 15px 15px; border-width: 0px; border-style: solid; padding: 10px; behavior: url(/PIE.htc); }
+#body-container { width: 970px; color: rgb(34, 61, 124); font-family: Verdana,Geneva,sans-serif; font-size: 16pt; }
+a:visited { color: rgb(128, 0, 128); }
+body {  }

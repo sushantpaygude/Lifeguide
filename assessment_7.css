@@ -1,0 +1,36 @@
+#button-1 { margin: 0px; position: absolute; height: 59px; width: 130px; top: 355px; left: 508px; z-index: 0; color: rgb(0, 0, 0); text-align: center; }
+#button-2 { margin: 0px; position: absolute; height: 59px; width: 130px; top: 355px; left: 341px; z-index: 0; color: rgb(0, 0, 0); text-align: center; }
+.textbox-2-style2 { font-size: 16pt; }
+#textbox-2 { border: 1px solid rgb(182, 181, 179); padding: 10px; position: absolute; width: 631px; height: 99px; top: 159px; left: 176px; z-index: 0; -moz-border-radius-topleft: 15px; -webkit-border-radius-topleft: 15px; border-radius-topleft: 15px; -moz-border-radius-topright: 15px; -webkit-border-radius-topright: 15px; border-radius-topright: 15px; -moz-border-radius-bottomright: 15px; -webkit-border-radius-bottomright: 15px; border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; -webkit-border-radius-bottomleft: 15px; border-radius-bottomleft: 15px; color: rgb(34, 61, 124); background-color: rgb(231, 243, 253); behavior: url(/PIE.htc); }
+#textbox-5 { z-index: 0; position: absolute; width: 273px; height: 50px; top: 60px; left: 15px; }
+#textbox-3 { position: absolute; width: 951px; height: 25px; top: 300px; left: 10px; z-index: 0; }
+.textbox-8-style3 { color: rgb(255, 0, 0); }
+.textbox-8-style2 { font-size: 12pt; }
+.textbox-8-style1 { text-align: center; font-weight: bold; }
+.textbox-7-style3 { color: rgb(255, 0, 0); }
+.textbox-7-style2 { font-size: 16pt; }
+.textbox-7-style1 { text-align: center; }
+.textbox-6-style7 { font-size: 12pt; }
+.textbox-5-style8 { font-size: 12pt; }
+.textbox-6-style6 { font-size: 12pt; }
+.textbox-6-style5 { font-size: 12pt; }
+.textbox-6-style4 { margin-left: 40px; }
+.textbox-6-style3 { text-align: left; }
+.textbox-6-style2 { font-size: 10pt; font-weight: bold; }
+.textbox-6-style1 { text-align: center; }
+.textbox-5-style7 { font-size: 12pt; }
+.textbox-5-style6 { font-size: 12pt; }
+.textbox-5-style5 { font-size: 12pt; }
+.textbox-5-style4 { margin-left: 40px; }
+.textbox-5-style3 { text-align: left; }
+.textbox-5-style2 { font-size: 10pt; font-weight: bold; }
+.textbox-5-style1 { font-size: 16pt; }
+.textbox-4-style1 { text-align: center; }
+.textbox-3-style2 { font-size: 12pt; }
+.textbox-3-style1 { text-align: center; }
+.textbox-2-style1 { text-align: center; }
+.textbox-1-style2 { font-size: 16pt; color: rgb(255, 255, 255); }
+.textbox-1-style1 { text-align: center; }
+#body-container { width: 970px; color: rgb(34, 61, 124); font-family: Verdana,Geneva,sans-serif; font-size: 16pt; margin-left: auto; margin-right: auto; }
+a:visited { color: rgb(128, 0, 128); }
+body {  }

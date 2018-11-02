@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="assessment_score_page_level_3"
+  title="Your score"
+  adaptive="false"
+  timeDependent="false">
+  <templateDeclaration identifier="level" cardinality="single" baseType="string"/>
+  <stylesheet href="assessment_score_page_level_3-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      &#160;
+      <div>
+        <img id="image-1" src="hills_level3_light.jpg" alt="Score"/>
+      </div>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_1" identifier="score_mitt_1_1"/>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_1_2"
+        identifier="score_mitt_1_2"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_3" identifier="score_mitt_1_3"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_4" identifier="score_mitt_1_4"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_5" identifier="score_mitt_1_5"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_6" identifier="score_mitt_1_6"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_7" identifier="score_mitt_1_7"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_8" identifier="score_mitt_1_8"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_9" identifier="score_mitt_1_9"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_10" identifier="score_mitt_1_10"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_11" identifier="score_mitt_1_11"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_12" identifier="score_mitt_1_12"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_13" identifier="score_mitt_1_13"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_14" identifier="score_mitt_1_14"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_15" identifier="score_mitt_1_15"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_16" identifier="score_mitt_1_16"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_1_17" identifier="score_mitt_1_17"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_1" identifier="score_mitt_2_1"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_2" identifier="score_mitt_2_2"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_3" identifier="score_mitt_2_3"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_4" identifier="score_mitt_2_4"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_5" identifier="score_mitt_2_5"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_6" identifier="score_mitt_2_6"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_7" identifier="score_mitt_2_7"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_8" identifier="score_mitt_2_8"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_9" identifier="score_mitt_2_9"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_10" identifier="score_mitt_2_10"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_11" identifier="score_mitt_2_11"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_12" identifier="score_mitt_2_12"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_13" identifier="score_mitt_2_13"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_14" identifier="score_mitt_2_14"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_15" identifier="score_mitt_2_15"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_2_16" identifier="score_mitt_2_16"/>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_3_1" identifier="score_mitt_3_1"/>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_3_2"
+        identifier="score_mitt_3_2"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-52" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_3_3" identifier="score_mitt_3_3">
+        <div>
+          <img id="image-36" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_3_4" identifier="score_mitt_3_4">
+        <div>
+          <img id="image-37" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_3_5" identifier="score_mitt_3_5">
+        <div>
+          <img id="image-38" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_3_6" identifier="score_mitt_3_6">
+        <div>
+          <img id="image-39" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_3_7" identifier="score_mitt_3_7">
+        <div>
+          <img id="image-40" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_3_8" identifier="score_mitt_3_8">
+        <div>
+          <img id="image-41" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_3_9" identifier="score_mitt_3_9">
+        <div>
+          <img id="image-42" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_3_10" identifier="score_mitt_3_10">
+        <div>
+          <img id="image-43" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_3_11" identifier="score_mitt_3_11">
+        <div>
+          <img id="image-44" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_3_12" identifier="score_mitt_3_12">
+        <div>
+          <img id="image-45" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_3_13" identifier="score_mitt_3_13">
+        <div>
+          <img id="image-46" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="score_mitt_3_14" identifier="score_mitt_3_14">
+        <div>
+          <img id="image-47" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <div id="button-1" class="submit-button">
+        Next
+      </div>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_3_1"
+        identifier="score_mitt_3_1"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-50" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_3_1"
+        identifier="score_mitt_3_1"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"/>
+      <templateBlock showHide="show" templateIdentifier="x" identifier="x"/>
+      <templateBlock showHide="show" templateIdentifier="x" identifier="x" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"/>
+      <div id="textbox-1" class="includeBorderAndPadding">
+        <span class="textbox-1-style1">
+          You are working
+          <br/>
+          towards level 
+          <printedVariable identifier="level"/>
+          !
+          <br/>
+        </span>
+      </div>
+      <div>
+        <img id="image-53" src="blue_mitt_going_right_rot6deg.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-2" class="includeBorderAndPadding">
+        <span class="textbox-2-style1">
+          = your score
+        </span>
+      </div>
+      <templateBlock showHide="show" templateIdentifier="star_1_1" identifier="star_1_1">
+        <div id="textbox-5" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_2" identifier="star_1_2">
+        <div id="textbox-6" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_3" identifier="star_1_3">
+        <div id="textbox-7" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_4" identifier="star_1_4">
+        <div id="textbox-8" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_5" identifier="star_1_5">
+        <div id="textbox-9" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_6" identifier="star_1_6">
+        <div id="textbox-10" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_7" identifier="star_1_7">
+        <div id="textbox-11" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_8" identifier="star_1_8">
+        <div id="textbox-12" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_9" identifier="star_1_9">
+        <div id="textbox-13" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_10" identifier="star_1_10">
+        <div id="textbox-14" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_11" identifier="star_1_11">
+        <div id="textbox-15" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_12" identifier="star_1_12">
+        <div id="textbox-16" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_13" identifier="star_1_13">
+        <div id="textbox-17" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_14" identifier="star_1_14">
+        <div id="textbox-18" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_15" identifier="star_1_15">
+        <div id="textbox-19" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_16" identifier="star_1_16">
+        <div id="textbox-20" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_1_17" identifier="star_1_17">
+        <div id="textbox-21" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_1" identifier="star_2_1">
+        <div id="textbox-51" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_2" identifier="star_2_2">
+        <div id="textbox-50" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_3" identifier="star_2_3">
+        <div id="textbox-49" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_4" identifier="star_2_4">
+        <div id="textbox-48" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_5" identifier="star_2_5">
+        <div id="textbox-47" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_6" identifier="star_2_6">
+        <div id="textbox-46" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_7" identifier="star_2_7">
+        <div id="textbox-45" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_8" identifier="star_2_8">
+        <div id="textbox-44" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_9" identifier="star_2_9">
+        <div id="textbox-43" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_10" identifier="star_2_10">
+        <div id="textbox-42" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_11" identifier="star_2_11">
+        <div id="textbox-41" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_12" identifier="star_2_12">
+        <div id="textbox-40" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_13" identifier="star_2_13">
+        <div id="textbox-39" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_14" identifier="star_2_14">
+        <div id="textbox-38" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_15" identifier="star_2_15">
+        <div id="textbox-37" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_2_16" identifier="star_2_16">
+        <div id="textbox-36" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_3_1" identifier="star_3_1">
+        <div id="textbox-34" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_3_2" identifier="star_3_2">
+        <div id="textbox-35" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_3_3" identifier="star_3_3">
+        <div id="textbox-33" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_3_4" identifier="star_3_4">
+        <div id="textbox-32" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_3_5" identifier="star_3_5">
+        <div id="textbox-31" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_3_6" identifier="star_3_6">
+        <div id="textbox-30" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_3_7" identifier="star_3_7">
+        <div id="textbox-29" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_3_8" identifier="star_3_8">
+        <div id="textbox-28" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_3_9" identifier="star_3_9">
+        <div id="textbox-27" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_3_10" identifier="star_3_10">
+        <div id="textbox-26" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_3_11" identifier="star_3_11">
+        <div id="textbox-24" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_3_12" identifier="star_3_12">
+        <div id="textbox-25" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_3_13" identifier="star_3_13">
+        <div id="textbox-23" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="star_3_14" identifier="star_3_14">
+        <div id="textbox-22" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="legend_star_symbol" identifier="legend_star_symbol">
+        <div id="textbox-4" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="legend_star_text" identifier="legend_star_text">
+        <div id="textbox-3" class="includeBorderAndPadding">
+          <div class="textbox-3-style1">
+            <span class="textbox-3-style2">
+              = last week's score
+            </span>
+          </div>
+        </div>
+      </templateBlock>
+      <div id="textbox-52" class="includeBorderAndPadding">
+        Click here to continue:
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

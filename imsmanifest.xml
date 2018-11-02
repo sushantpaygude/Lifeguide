@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" identifier="9ed4d29c-c600-4835-b1c4-12e00837aff4" >
+	<resources>
+		<resource identifier="RES-16e03a92-2a38-401d-a83f-ce02697dc43e" type="imsqti_assessment_xmlv2p1" href="intervention.xml" />
+		<resource identifier="RES-920e38b8-67ed-418a-bc01-cb7d90a6ee54" type="imsqti_item_xmlv2p1" href="assessment_score_page_level_3.xml" />
+		<resource identifier="RES-f25ebe4f-f4b8-4a11-bafb-b28a23b13da5" type="imsqti_item_xmlv2p1" href="assessment_4_no.xml" />
+		<resource identifier="RES-3a333cf4-3d65-450d-b86a-fc6442a10d64" type="imsqti_item_xmlv2p1" href="assessment_9.xml" />
+		<resource identifier="RES-87beabff-21d6-4139-9af8-37b87d6d0e75" type="imsqti_item_xmlv2p1" href="assessment_8_yes.xml" />
+		<resource identifier="RES-19af377a-4a9c-4014-b591-2b875e63a85b" type="imsqti_item_xmlv2p1" href="assessment_7.xml" />
+		<resource identifier="RES-e16fc019-78b1-457a-a2ca-89ea31069969" type="imsqti_item_xmlv2p1" href="register_2.xml" />
+		<resource identifier="RES-6d215f38-4d5e-4ef3-a77d-89926c2f42d0" type="imsqti_item_xmlv2p1" href="assessment_score_page_level_1.xml" />
+		<resource identifier="RES-a7b47561-9aec-47b3-bcc6-1260c47c288e" type="imsqti_item_xmlv2p1" href="assessment_10_no.xml" />
+		<resource identifier="RES-e9b7638a-aa45-4d41-8874-2aa64d676eed" type="imsqti_item_xmlv2p1" href="assessment_7_yes.xml" />
+		<resource identifier="RES-22994495-8f3d-4c41-b38b-6b020d0bb0cd" type="imsqti_item_xmlv2p1" href="assessment_1_no.xml" />
+		<resource identifier="RES-ad6407b3-23d8-489a-80ae-057965634891" type="imsqti_item_xmlv2p1" href="page1demo.xml" />
+		<resource identifier="RES-cb83acac-957d-4cdf-a2c9-5d6fd46cf059" type="imsqti_item_xmlv2p1" href="assessment_2.xml" />
+		<resource identifier="RES-e55669c6-fcf4-45c9-b2a2-1f80c60ea1f6" type="imsqti_item_xmlv2p1" href="assessment_1.xml" />
+		<resource identifier="RES-3cc6c14d-d8e4-4b01-a8aa-b62a7fa00450" type="imsqti_item_xmlv2p1" href="register.xml" />
+		<resource identifier="RES-0547a136-60de-4819-8839-54ec88705fa2" type="imsqti_item_xmlv2p1" href="assessment_3_no.xml" />
+		<resource identifier="RES-b2d27b19-b432-4cc2-8f31-d6ac359a15ba" type="imsqti_item_xmlv2p1" href="register_3.xml" />
+		<resource identifier="RES-4fe59cf4-018a-4867-b026-117dc06dcbf7" type="imsqti_item_xmlv2p1" href="advice_when_lifecit_difficult.xml" />
+		<resource identifier="RES-86c24035-ba54-4e29-8c25-7abde78bba2c" type="imsqti_item_xmlv2p1" href="day_planner.xml" />
+		<resource identifier="RES-08cdfb71-9035-45e5-b42e-1c7f5755d1df" type="imsqti_item_xmlv2p1" href="assessment_6.xml" />
+		<resource identifier="RES-39901830-b979-49e0-abd6-08ae1028e36a" type="imsqti_item_xmlv2p1" href="assessment_3.xml" />
+		<resource identifier="RES-ae111f6d-3acf-4451-aaed-8640860bcb83" type="imsqti_item_xmlv2p1" href="assessment_9_no.xml" />
+		<resource identifier="RES-5d31d113-2fb5-4bbb-9a20-9cef751dbe46" type="imsqti_item_xmlv2p1" href="assessment_score_page_level_1_2.xml" />
+		<resource identifier="RES-7e36d754-75ff-49ab-a006-af1ceed97486" type="imsqti_item_xmlv2p1" href="assessment_7_no.xml" />
+		<resource identifier="RES-28ebd5c8-b52a-4916-95f3-2cc619fb8015" type="imsqti_item_xmlv2p1" href="assessment_4_yes.xml" />
+		<resource identifier="RES-0899b5fe-498a-45b6-83a4-e8edad36d52e" type="imsqti_item_xmlv2p1" href="assessment_1_yes.xml" />
+		<resource identifier="RES-80e34c12-12c6-4352-a301-a9acd28d46ba" type="imsqti_item_xmlv2p1" href="cookies.xml" />
+		<resource identifier="RES-0f118b22-2709-43d9-b349-e232d5d84cf1" type="imsqti_item_xmlv2p1" href="assessment_3_yes.xml" />
+		<resource identifier="RES-d79cc6d0-b07c-4a30-a288-7b2186cb86c6" type="imsqti_item_xmlv2p1" href="assessment_4.xml" />
+		<resource identifier="RES-d68e1acd-5627-4b90-87f0-2b3ce7366c89" type="imsqti_item_xmlv2p1" href="assessment_2_no.xml" />
+		<resource identifier="RES-e04a3362-85fe-4211-986a-7c5c683beccb" type="imsqti_item_xmlv2p1" href="assessment_10_yes.xml" />
+		<resource identifier="RES-db5dc312-c1c8-46c4-bd55-eeb72f5844f4" type="imsqti_item_xmlv2p1" href="assessment_score_page_level_2_3.xml" />
+		<resource identifier="RES-9cae5edd-ac2f-40a0-a77b-031110cfdf10" type="imsqti_item_xmlv2p1" href="dummypage.xml" />
+		<resource identifier="RES-bf6ac06f-aaac-4dcd-8fbf-c992e018899f" type="imsqti_item_xmlv2p1" href="assessment_score_page_level_2.xml" />
+		<resource identifier="RES-929419fa-2f0a-40c6-be8a-8012f82dd874" type="imsqti_item_xmlv2p1" href="assessment_8.xml" />
+		<resource identifier="RES-8b1c8cba-4815-47ee-940e-fff29915e931" type="imsqti_item_xmlv2p1" href="assessment_9_yes.xml" />
+		<resource identifier="RES-b0fb676d-ceaa-439f-964f-90b978a1d0ff" type="imsqti_item_xmlv2p1" href="assessment_score_page_level_2_3_4.xml" />
+		<resource identifier="RES-501135da-8835-4ae1-ac4c-6d58f61e0294" type="imsqti_item_xmlv2p1" href="assessment_5.xml" />
+		<resource identifier="RES-409c234a-d930-4a2c-9308-73dad166a530" type="imsqti_item_xmlv2p1" href="assessment_10.xml" />
+		<resource identifier="RES-3dbbe975-2489-4a2d-86ca-f25261841521" type="imsqti_item_xmlv2p1" href="page2demo.xml" />
+		<resource identifier="RES-c7976d97-a46a-477b-9f8c-096f2376c7b8" type="imsqti_item_xmlv2p1" href="activities_selection.xml" />
+		<resource identifier="RES-91e6868b-cb4b-40d9-9f64-b48496463cad" type="imsqti_item_xmlv2p1" href="assessment_8_no.xml" />
+		<resource identifier="RES-33d26f8e-224d-49b6-b3e0-82a7af46ce5c" type="imsqti_item_xmlv2p1" href="assessment_6_yes.xml" />
+		<resource identifier="RES-21c59cbb-cc2f-4923-9f2a-b07a58d47e79" type="imsqti_item_xmlv2p1" href="assessment_6_no.xml" />
+		<resource identifier="RES-da25f23b-8f7a-4671-ae45-e4863e299453" type="imsqti_item_xmlv2p1" href="assessment_2_yes.xml" />
+		<resource identifier="RES-b919446a-b0fd-4c64-9531-e2136df4c6a3" type="imsqti_item_xmlv2p1" href="assessment_1_yes_2.xml" />
+		<resource identifier="RES-00b4c921-f205-4717-8653-3cec551e3078" type="imsqti_item_xmlv2p1" href="day_planner_copy.xml" />
+		<resource identifier="RES-aeee4d87-5b64-4672-8804-8a232c5948bc" type="imsqti_item_xmlv2p1" href="assessment_5_no.xml" />
+		<resource identifier="RES-241414c9-4b6c-44f4-989e-ae710d4a786b" type="imsqti_item_xmlv2p1" href="assessment_5_yes.xml" />
+	</resources>
+</manifest>

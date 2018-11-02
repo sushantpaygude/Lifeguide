@@ -1,0 +1,11 @@
+show page2demo
+set q1 to 0
+set q2 to 0
+
+if (page2demo.interaction1 = "response1") set q1 to 1
+if (page2demo.interaction1 = "response2") set q2 to 1
+
+show dummypage
+
+show dummypage.image1 if (q1 = 1)
+show dummypage.image2 if (q2 = 1)

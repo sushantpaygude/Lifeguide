@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="page1demo"
+  title="page1demo"
+  adaptive="false"
+  timeDependent="false">
+  <templateDeclaration identifier="edit1" cardinality="single" baseType="identifier"/>
+  <templateDeclaration identifier="edit2" cardinality="single" baseType="identifier"/>
+  <templateProcessing/>
+  <stylesheet href="page1demo-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body">
+      <div id="container-1" class="container-vertical">
+        <templateBlock showHide="show" templateIdentifier="edit1" identifier="edit1">
+          <div id="textbox-2" class="includeBorderAndPadding">
+            edit me 1
+          </div>
+        </templateBlock>
+        <templateBlock showHide="show" templateIdentifier="edit2" identifier="edit2">
+          <div id="textbox-1" class="includeBorderAndPadding">
+            edit me 2
+          </div>
+        </templateBlock>
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

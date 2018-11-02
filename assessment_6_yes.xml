@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="assessment_6_yes"
+  title="Question 6"
+  adaptive="false"
+  timeDependent="false">
+  <responseDeclaration identifier="r_question6_able" cardinality="single" baseType="identifier"/>
+  <outcomeDeclaration identifier="question6_able" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="f_please_answer" cardinality="single" baseType="identifier"/>
+  <outcomeDeclaration identifier="R2Q2_IS_RESPONSE_CORRECT" cardinality="single" baseType="boolean">
+    <defaultValue>
+      <value>false</value>
+    </defaultValue>
+  </outcomeDeclaration>
+  <stylesheet href="lifecit_logo_duckegg.css" type="text/css"/>
+  <stylesheet href="assessment_6_yes-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_duckegg" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-2_lifecit_logo_duckegg" src="duck_egg_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_duckegg" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_duckegg" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_duckegg">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <choiceInteraction class="choiceleft biggerbtn" responseIdentifier="r_question6_able" shuffle="false" maxChoices="1">
+        <prompt>
+          Click on the 
+          <span class="choiceInteraction-question5_able-style1">
+             
+            <span>
+              xxx
+            </span>
+          </span>
+          symbol next to the best answer
+          <br/>
+          <br/>
+        </prompt>
+        <simpleChoice identifier="question6_2">
+          Very slowly, with difficulty
+        </simpleChoice>
+        <simpleChoice identifier="question6_3">
+          Slowly, with some effort
+        </simpleChoice>
+        <simpleChoice identifier="question6_4">
+          Almost normally with near normal speed
+        </simpleChoice>
+      </choiceInteraction>
+      <div id="textbox-7" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          Question 6 of 10
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-2" class="includeBorderAndPadding">
+        <div class="textbox-2-style1">
+          <span class="textbox-2-style2">
+            That's great!
+          </span>
+          <br/>
+        </div>
+      </div>
+      <feedbackBlock
+        showHide="show"
+        outcomeIdentifier="f_please_answer"
+        identifier="please_answer"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-6" class="includeBorderAndPadding">
+          <div class="textbox-6-style1">
+            <span class="textbox-6-style2">
+              <span class="textbox-6-style3">
+                ***Please select an answer*** 
+              </span>
+            </span>
+          </div>
+        </div>
+      </feedbackBlock>
+      <div id="button-2" class="back">
+        Back
+      </div>
+      <div id="button-1" class="submit-jumpto-button" label="assessment_7">
+        Next
+      </div>
+      <div id="textbox-8" class="includeBorderAndPadding">
+        <div class="textbox-8-style1">
+          <span class="textbox-8-style2">
+            How well can you take the lid off with your weaker hand?
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div>
+        <img id="image-1" src="tick_symbol.jpg" alt="Tick"/>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing>
+    <setOutcomeValue identifier="question6_able">
+      <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.ConvertToString">
+        <variable identifier="r_question6_able"/>
+      </customOperator>
+    </setOutcomeValue>
+    <responseCondition>
+      <responseIf>
+        <isNull>
+          <variable identifier="question6_able"/>
+        </isNull>
+        <setOutcomeValue identifier="f_please_answer">
+          <baseValue baseType="identifier">please_answer</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+    </responseCondition>
+    <setOutcomeValue identifier="R2Q2_IS_RESPONSE_CORRECT">
+      <and>
+        <isNull>
+          <variable identifier="f_please_answer"/>
+        </isNull>
+      </and>
+    </setOutcomeValue>
+  </responseProcessing>
+</assessmentItem>

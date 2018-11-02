@@ -1,0 +1,8 @@
+#image-2 { position: absolute; width: 157px; height: 210px; top: 292px; left: 429px; }
+#image-1 { position: absolute; width: 157px; height: 210px; top: 278px; left: 171px; z-index: 0; }
+#textbox-6 { position: static; width: 514px; height: 100px; top: 76px; left: 159px; z-index: 0; }
+#textbox-5 { position: static; width: 514px; height: 100px; top: 5px; left: 115px; z-index: 0; }
+#container-1 { z-index: 0; position: absolute; width: 512px; top: 50px; left: 172px; }
+a:visited { color: rgb(128, 0, 128); }
+#body-container { width: 970px; margin-left: auto; margin-right: auto; color: rgb(34, 61, 124); font-size: 16pt; font-family: Verdana,Geneva,sans-serif; }
+body {  }

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="dummypage"
+  title="dummypage"
+  adaptive="false"
+  timeDependent="false">
+  <templateDeclaration identifier="score_mit_dummy" cardinality="single" baseType="identifier"/>
+  <templateDeclaration identifier="negative" cardinality="single" baseType="identifier"/>
+  <templateDeclaration identifier="positive" cardinality="single" baseType="identifier"/>
+  <templateDeclaration identifier="image1" cardinality="single" baseType="identifier"/>
+  <templateDeclaration identifier="image2" cardinality="single" baseType="identifier"/>
+  <templateProcessing/>
+  <stylesheet href="dummypage-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body">
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mit_dummy"
+        identifier="score_mit_dummy"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"/>
+      <div id="container-1" class="container-vertical">
+        <templateBlock showHide="show" templateIdentifier="negative" identifier="negative">
+          <div id="textbox-5" class="includeBorderAndPadding">
+            edit me negative
+          </div>
+        </templateBlock>
+        <templateBlock showHide="show" templateIdentifier="positive" identifier="positive">
+          <div id="textbox-6" class="includeBorderAndPadding">
+            edit me postive
+          </div>
+        </templateBlock>
+      </div>
+      <templateBlock showHide="show" templateIdentifier="image1" identifier="image1">
+        <div>
+          <img id="image-1" src="media/sample_image.jpeg" alt="change me"/>
+        </div>
+      </templateBlock>
+      <templateBlock showHide="show" templateIdentifier="image2" identifier="image2">
+        <div>
+          <img id="image-2" src="media/sample_image.jpeg" alt="change me"/>
+        </div>
+      </templateBlock>
+    </div>
+  </itemBody>
+</assessmentItem>

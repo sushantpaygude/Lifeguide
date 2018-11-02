@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="assessment_score_page_level_2_3_4"
+  title="assessment_score_page_level_2_3_4"
+  adaptive="false"
+  timeDependent="false">
+  <templateDeclaration identifier="level" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="myscore" cardinality="single" baseType="string"/>
+  <stylesheet href="assessment_score_page_level_2_3_4-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-1" src="Hills_level2_3_4.JPG" alt="score 2-3-4"/>
+      </div>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_3"
+        identifier="score_mitt_s2_3"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-47" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_1"
+        identifier="score_mitt_2_3_4_1"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-48" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_2"
+        identifier="score_mitt_2_3_4_2"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-49" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_3"
+        identifier="score_mitt_2_3_4_3"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-50" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_4"
+        identifier="score_mitt_2_3_4_4"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-51" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_5"
+        identifier="score_mitt_2_3_4_5"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-52" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_6"
+        identifier="score_mitt_2_3_4_6"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-53" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_7"
+        identifier="score_mitt_2_3_4_7"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-54" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_8"
+        identifier="score_mitt_2_3_4_8"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-55" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_9"
+        identifier="score_mitt_2_3_4_9"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-56" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_10"
+        identifier="score_mitt_2_3_4_10"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-57" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_11"
+        identifier="score_mitt_2_3_4_11"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-58" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_12"
+        identifier="score_mitt_2_3_4_12"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-59" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_13"
+        identifier="score_mitt_2_3_4_13"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-60" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_14"
+        identifier="score_mitt_2_3_4_14"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-61" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_15"
+        identifier="score_mitt_2_3_4_15"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-62" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_16"
+        identifier="score_mitt_2_3_4_16"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-63" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_1"
+        identifier="score_mitt_2_3_4_1"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"/>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_17"
+        identifier="score_mitt_2_3_4_17"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-64" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_2_3_4_17"
+        identifier="score_mitt_2_3_4_17"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-65" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_2"
+        identifier="score_mitt_s2_2"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-66" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_4"
+        identifier="score_mitt_s2_4"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-67" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_5"
+        identifier="score_mitt_s2_5"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-68" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_6"
+        identifier="score_mitt_s2_6"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-69" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_7"
+        identifier="score_mitt_s2_7"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-70" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_8"
+        identifier="score_mitt_s2_8"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-71" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_9"
+        identifier="score_mitt_s2_9"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-72" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_10"
+        identifier="score_mitt_s2_10"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-73" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_11"
+        identifier="score_mitt_s2_11"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-74" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_12"
+        identifier="score_mitt_s2_12"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-75" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_13"
+        identifier="score_mitt_s2_13"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-76" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_14"
+        identifier="score_mitt_s2_14"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-77" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_15"
+        identifier="score_mitt_s2_15"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-78" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_16"
+        identifier="score_mitt_s2_16"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-79" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_17"
+        identifier="score_mitt_s2_17"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-80" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_1"
+        identifier="score_mitt_s2_1"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-81" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s2_18"
+        identifier="score_mitt_s2_18"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-82" src="animated_mitt_going_left.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_1"
+        identifier="score_mitt_s3_1"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-83" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_2"
+        identifier="score_mitt_s3_2"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-84" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_3"
+        identifier="score_mitt_s3_3"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-85" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_4"
+        identifier="score_mitt_s3_4"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-86" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_5"
+        identifier="score_mitt_s3_5"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-87" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_6"
+        identifier="score_mitt_s3_6"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-88" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_7"
+        identifier="score_mitt_s3_7"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-89" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_8"
+        identifier="score_mitt_s3_8"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-90" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_9"
+        identifier="score_mitt_s3_9"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-91" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_10"
+        identifier="score_mitt_s3_10"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-92" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_11"
+        identifier="score_mitt_s3_11"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-93" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_12"
+        identifier="score_mitt_s3_12"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-94" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_13"
+        identifier="score_mitt_s3_13"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-95" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_14"
+        identifier="score_mitt_s3_14"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-96" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="score_mitt_s3_15"
+        identifier="score_mitt_s3_15"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div>
+          <img id="image-97" src="animated_mitt_going_right.gif" alt="Mitt"/>
+        </div>
+      </templateBlock>
+      <div id="textbox-1" class="includeBorderAndPadding">
+        <span class="textbox-1-style1">
+          You are working
+          <br/>
+          towards level 
+          <printedVariable identifier="level"/>
+          .
+          <br/>
+        </span>
+      </div>
+      <div>
+        <img id="image-98" src="blue_mitt_going_right_rot6deg.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-2" class="includeBorderAndPadding">
+        <span class="textbox-2-style1">
+          = your score
+        </span>
+      </div>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="legend_star_symbol"
+        identifier="legend_star_symbol"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-4" class="includeBorderAndPadding">
+          <span class="textbox-4-style1">
+            *
+          </span>
+        </div>
+      </templateBlock>
+      <templateBlock
+        showHide="show"
+        templateIdentifier="legend_star_text"
+        identifier="legend_star_text"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-3" class="includeBorderAndPadding">
+          <div class="textbox-3-style1">
+            <span class="textbox-3-style2">
+              = last week's score
+            </span>
+          </div>
+        </div>
+      </templateBlock>
+      <div id="button-1" class="submit-button">
+        Next
+      </div>
+      <div id="textbox-5" class="null includeBorderAndPadding">
+        Your score : 
+        <printedVariable identifier="myscore"/>
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

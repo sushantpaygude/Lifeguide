@@ -1,0 +1,22 @@
+a { color: rgb(0, 0, 255); }
+ol { margin-top: 13px; margin-left: 0px; padding-left: 40px; }
+ul { margin-top: 13px; margin-left: 0px; padding-left: 40px; }
+img { border: 0px none ; }
+table.choice_interaction, .slider_interaction, .text_entry_interaction { position: absolute; }
+.text_entry_interaction input { width: 100%; }
+.includeBorderAndPadding { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.choice_interaction_side { margin: 0px; width: 100%; }
+.col-even, .col-odd { text-align: center; }
+.right-text-label { text-align: right; }
+.calendar-button { padding: 0px; width: 30px; height: 26px; background-color: rgb(238, 238, 238); }
+.calendar-textEntryInteraction input { width: inherit; }
+.submit-button:hover, .submit-jumpto-button:hover, .print:hover, .back:hover, .close:hover, .logout:hover { cursor: pointer; }
+.submit-button img, .submit-jumpto-button img, .print img, .back img, .close img { vertical-align: middle; text-decoration: none; }
+.choice-list-header-left { padding-left: 40px; }
+.choice-list-header-right { padding-left: 10px; }
+.slider_bar { border: 1px solid rgb(170, 170, 170); background-color: rgb(221, 221, 221); }
+div.container-vertical table.choice_interaction tr.choice_interaction td.control { width: 50px; }
+.slider_handle { background: transparent url(../sliderInteractionSliderHandle.png) no-repeat scroll 0pt 0pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; }
+#body-container { overflow: hidden; position: relative; width: 800px; margin-left: auto; margin-right: auto; color: rgb(0, 0, 0); font-size: 10pt; font-family: arial,helvetica,sans-serif; }
+#container-body { margin: 0px; padding: 0px; position: relative; height: 450px; min-height: 450px; }
+body {  }

@@ -1,0 +1,20 @@
+<assessmentItemRef identifier="dummypage" href="dummypage.xml">
+  <templateDefault templateIdentifier="image1">
+    <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.TemplateDefaultIf">
+      <match>
+        <variable identifier="q1"/>
+        <baseValue baseType="float">1</baseValue>
+      </match>
+      <baseValue baseType="string">image1</baseValue>
+    </customOperator>
+  </templateDefault>
+  <templateDefault templateIdentifier="image2">
+    <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.TemplateDefaultIf">
+      <match>
+        <variable identifier="q2"/>
+        <baseValue baseType="float">1</baseValue>
+      </match>
+      <baseValue baseType="string">image2</baseValue>
+    </customOperator>
+  </templateDefault>
+</assessmentItemRef>

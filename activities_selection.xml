@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="activities_selection"
+  title="Plan your day"
+  adaptive="false"
+  timeDependent="false">
+  <templateDeclaration identifier="mitt_hours" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="activities_hours" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="level" cardinality="single" baseType="string"/>
+  <stylesheet href="lifecit_logo_purple.css" type="text/css"/>
+  <stylesheet href="activities_selection-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_purple" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-2_lifecit_logo_purple" src="purple_rectangle.jpg" alt="Purple rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_purple" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_purple" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_purple">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-16" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-1" class="includeBorderAndPadding">
+        <div class="textbox-1-style1">
+          <span class="textbox-1-style2">
+            It's time to start planning your day!
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="textbox-6" class="includeBorderAndPadding">
+        <div class="textbox-6-style1">
+          Choosing activities from 3 categories ("for yourself", "for the home", and "for fun") and picking whichever activities you like will help you to plan your day in a way that suits you.
+          <br/>
+        </div>
+      </div>
+      <div id="button-4" class="submit-button">
+        Start planning
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          You can now plan your day
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-17" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-18" class="includeBorderAndPadding">
+        The goal that you have set for this week is to complete one arm activities for 
+        <printedVariable identifier="mitt_hours"/>
+         hours a day and to complete two arm activities for 
+        <printedVariable identifier="activities_hours"/>
+         hours a day.
+      </div>
+      <div id="textbox-19" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-2" class="includeBorderAndPadding">
+        <span class="textbox-2-style1">
+          You are currently at level 
+          <printedVariable identifier="level"/>
+          , but you can select activities from another level.
+        </span>
+      </div>
+      <div id="button-5" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

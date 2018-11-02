@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="register"
+  title="Register"
+  adaptive="false"
+  timeDependent="false">
+  <responseDeclaration identifier="r_create_user_name" cardinality="single" baseType="string"/>
+  <responseDeclaration identifier="r_create_password" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="create_user_name" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="create_password" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="f_empty_user_name" cardinality="single" baseType="identifier"/>
+  <outcomeDeclaration identifier="f_user_name_already_registered" cardinality="single" baseType="identifier"/>
+  <outcomeDeclaration identifier="f_empty_password" cardinality="single" baseType="identifier"/>
+  <outcomeDeclaration identifier="R2Q2_IS_RESPONSE_CORRECT" cardinality="single" baseType="boolean">
+    <defaultValue>
+      <value>false</value>
+    </defaultValue>
+  </outcomeDeclaration>
+  <stylesheet href="lifecit_logo.css" type="text/css"/>
+  <stylesheet href="register-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      &#160;
+      <div>
+        <img id="image-6_lifecit_logo" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-1_lifecit_logo" src="blue_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-205" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-2" class="includeBorderAndPadding">
+        <span class="textbox-2-style1">
+          Please type your user name in this box:
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-3" class="includeBorderAndPadding">
+        <span class="textbox-3-style1">
+          Please type a password of your choice in this box:
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-4" class="includeBorderAndPadding">
+        <div class="textbox-4-style1">
+          <span class="textbox-4-style2">
+            You will need to enter your user name and password every time you use STRONG.
+          </span>
+          <br/>
+          <span class="textbox-4-style3">
+            You may want to write them down in case you forget.
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="textbox-6" class="includeBorderAndPadding">
+        <span class="textbox-6-style1">
+          To gain access to STRONG, you need to enter the user name that was given to you and create a password.
+        </span>
+        <br/>
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_create_user_name"/>
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_create_password"/>
+      </div>
+      <div id="button-2" class="submit-button">
+        Register
+      </div>
+      <feedbackBlock
+        showHide="show"
+        outcomeIdentifier="f_empty_user_name"
+        identifier="empty_user_name"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-137" class="includeBorderAndPadding">
+          <span class="textbox-137-style1">
+             
+            <span class="textbox-137-style2">
+               
+              <span class="textbox-137-style3">
+                *** You must enter a user name ***
+              </span>
+            </span>
+             
+            <br/>
+             
+          </span>
+        </div>
+      </feedbackBlock>
+      <feedbackBlock
+        showHide="show"
+        outcomeIdentifier="f_user_name_already_registered"
+        identifier="user_name_already_registered"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-148" class="includeBorderAndPadding">
+          <span class="textbox-148-style1">
+             
+            <span class="textbox-148-style2">
+               
+              <span class="textbox-148-style3">
+                ***This user name has already been registered *** 
+              </span>
+            </span>
+             
+          </span>
+        </div>
+      </feedbackBlock>
+      <feedbackBlock
+        showHide="show"
+        outcomeIdentifier="f_empty_password"
+        identifier="empty_password"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-204" class="includeBorderAndPadding">
+          <span class="textbox-204-style1">
+             
+            <span class="textbox-204-style2">
+               
+              <span class="textbox-204-style3">
+                *** You must enter a password *** 
+              </span>
+            </span>
+             
+            <br/>
+             
+          </span>
+        </div>
+      </feedbackBlock>
+      <div id="button-3" class="back">
+        Back
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          Register
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-207" class="includeBorderAndPadding">
+        <span class="textbox-207-style1">
+          <span class="textbox-207-style2">
+            <span>
+              Click here to register:
+            </span>
+          </span>
+          <br/>
+        </span>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing>
+    <setOutcomeValue identifier="create_user_name">
+      <variable identifier="r_create_user_name"/>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="create_password">
+      <variable identifier="r_create_password"/>
+    </setOutcomeValue>
+    <responseCondition>
+      <responseIf>
+        <isNull>
+          <variable identifier="create_user_name"/>
+        </isNull>
+        <setOutcomeValue identifier="f_empty_user_name">
+          <baseValue baseType="identifier">empty_user_name</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+    </responseCondition>
+    <responseCondition>
+      <responseIf>
+        <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.CheckUserExists">
+          <variable identifier="create_user_name"/>
+        </customOperator>
+        <setOutcomeValue identifier="f_user_name_already_registered">
+          <baseValue baseType="identifier">user_name_already_registered</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+    </responseCondition>
+    <responseCondition>
+      <responseIf>
+        <isNull>
+          <variable identifier="create_password"/>
+        </isNull>
+        <setOutcomeValue identifier="f_empty_password">
+          <baseValue baseType="identifier">empty_password</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+    </responseCondition>
+    <setOutcomeValue identifier="R2Q2_IS_RESPONSE_CORRECT">
+      <and>
+        <isNull>
+          <variable identifier="f_empty_user_name"/>
+        </isNull>
+        <isNull>
+          <variable identifier="f_user_name_already_registered"/>
+        </isNull>
+        <isNull>
+          <variable identifier="f_empty_password"/>
+        </isNull>
+      </and>
+    </setOutcomeValue>
+  </responseProcessing>
+</assessmentItem>

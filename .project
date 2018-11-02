@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>LifeCITNew</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>uk.ac.soton.ecs.lifeguide.compiler.builders.LifeGuideBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>uk.ac.soton.ecs.lifeguide.compiler.natures.LifeGuideNature</nature>
+	</natures>
+</projectDescription>

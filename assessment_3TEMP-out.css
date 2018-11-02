@@ -1,0 +1,30 @@
+#button-1 { position: absolute; height: 59px; width: 130px; margin: 0px; top: 557px; left: 335px; z-index: 0; color: rgb(0, 0, 0); text-align: center; }
+.textbox-6-style6 { font-size: 12pt; }
+.textbox-6-style5 { font-size: 12pt; }
+.textbox-6-style4 { font-size: 12pt; }
+.textbox-6-style3 { text-align: left; }
+.textbox-6-style2 { font-size: 12pt; font-weight: bold; }
+.textbox-6-style1 { text-align: center; }
+#textbox-6 { position: absolute; width: 371px; height: 186px; top: 325px; left: 414px; z-index: 0; border: 2px solid rgb(255, 127, 0); }
+.textbox-5-style7 { font-size: 12pt; }
+.textbox-5-style6 { font-size: 12pt; }
+.textbox-5-style5 { font-size: 12pt; }
+.textbox-5-style4 { font-size: 12pt; }
+.textbox-5-style3 { text-align: left; }
+.textbox-5-style2 { font-size: 12pt; font-weight: bold; }
+.textbox-5-style1 { text-align: center; }
+#textbox-5 { position: absolute; width: 371px; height: 186px; top: 327px; left: 17px; z-index: 0; border: 2px solid rgb(255, 127, 0); }
+.textbox-4-style1 { text-align: center; }
+#textbox-4 { position: absolute; width: 768px; height: 40px; top: 266px; left: 16px; z-index: 0; }
+.textbox-3-style2 { font-size: 12pt; }
+.textbox-3-style1 { text-align: center; }
+#textbox-3 { position: absolute; width: 769px; height: 35px; top: 213px; left: 17px; z-index: 0; }
+.textbox-2-style2 { font-size: 12pt; }
+#textbox-2 { position: absolute; width: 769px; height: 46px; top: 145px; left: 15px; z-index: 0; border: 2px solid rgb(255, 127, 0); }
+body {  }
+a:visited { color: rgb(128, 0, 128); }
+#body-container { width: 800px; color: rgb(0, 0, 0); font-family: Verdana,Geneva,sans-serif; font-size: 16pt; margin-left: auto; margin-right: auto; }
+#textbox-1 { position: absolute; width: 764px; height: 29px; top: 76px; left: 19px; z-index: 0; }
+.textbox-1-style1 { text-align: center; }
+.textbox-1-style2 { font-size: 16pt; color: rgb(255, 255, 255); }
+.textbox-2-style1 { text-align: center; }

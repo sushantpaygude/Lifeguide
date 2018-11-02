@@ -1,0 +1,4 @@
+show empty_user_name if (isempty(create_user_name))
+show user_name_already_registered if ((checkuserexists(create_user_name)))
+#show invalid_user_name if (not( patternmatch("[a-z][a-z][0-9][0-9]", create_user_name)))
+show empty_password if (isempty(create_password))
