@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="goal_setting_e-mail_list"
+  title="Email goals"
+  adaptive="false"
+  timeDependent="false">
+  <responseDeclaration identifier="r_goal_setting_enter_email_address" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="goal_setting_enter_email_address" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="f_incorr_email" cardinality="single" baseType="identifier"/>
+  <outcomeDeclaration identifier="R2Q2_IS_RESPONSE_CORRECT" cardinality="single" baseType="boolean">
+    <defaultValue>
+      <value>false</value>
+    </defaultValue>
+  </outcomeDeclaration>
+  <stylesheet href="lifecit_logo_light_green.css" type="text/css"/>
+  <stylesheet href="goal_setting_e-mail_list-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_light_green" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-2_lifecit_logo_light_green" src="light_green_rectangle.jpg" alt="Green rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_light_green" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_light_green" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_light_green">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          Email your list of goals
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-6" class="includeBorderAndPadding">
+        <span class="textbox-6-style1">
+          Type your email address here:
+        </span>
+        <br/>
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_goal_setting_enter_email_address"/>
+      </div>
+      <div id="textbox-9" class="includeBorderAndPadding">
+        <span class="textbox-9-style1">
+          Then click this button:
+        </span>
+        <br/>
+      </div>
+      <div id="button-1" class="submit-button">
+        Send email
+      </div>
+      <div id="textbox-10" class="includeBorderAndPadding">
+        <div class="textbox-10-style1">
+          <span class="textbox-10-style2">
+            Emails can take up to 5 minutes to arrive.
+          </span>
+          <br/>
+        </div>
+      </div>
+      <feedbackBlock
+        showHide="show"
+        outcomeIdentifier="f_incorr_email"
+        identifier="incorr_email"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-7" class="includeBorderAndPadding">
+          <span class="textbox-7-style1">
+            ***Please enter a valid email address*** 
+          </span>
+        </div>
+      </feedbackBlock>
+      <div id="button-2" class="back">
+        Back
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing>
+    <setOutcomeValue identifier="goal_setting_enter_email_address">
+      <variable identifier="r_goal_setting_enter_email_address"/>
+    </setOutcomeValue>
+    <responseCondition>
+      <responseIf>
+        <not>
+          <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.CheckEmailValidity">
+            <variable identifier="goal_setting_enter_email_address"/>
+          </customOperator>
+        </not>
+        <setOutcomeValue identifier="f_incorr_email">
+          <baseValue baseType="identifier">incorr_email</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+    </responseCondition>
+    <setOutcomeValue identifier="R2Q2_IS_RESPONSE_CORRECT">
+      <and>
+        <isNull>
+          <variable identifier="f_incorr_email"/>
+        </isNull>
+      </and>
+    </setOutcomeValue>
+  </responseProcessing>
+</assessmentItem>

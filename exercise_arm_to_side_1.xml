@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="exercise_arm_to_side_1"
+  title="Arm to the side"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo_mustard.css" type="text/css"/>
+  <stylesheet href="exercise_arm_to_side_1-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body">
+      <div>
+        <img id="image-9_lifecit_logo_mustard" src="background4.png" alt="change me"/>
+      </div>
+      <div>
+        <img id="image-8_lifecit_logo_mustard" src="lifecit_text_transparent.png" alt="change me"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_mustard" src="mitt.png" alt="change me"/>
+      </div>
+      <div>
+        <img id="image-10_lifecit_logo_mustard" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-11_lifecit_logo_mustard" src="mustard_rectangle.jpg" alt="Orange rectangle"/>
+      </div>
+      <div>
+        <img id="image-13_lifecit_logo_mustard" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_mustard" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_mustard">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      <div id="button-5" class="submit-jumpto-button" label="exercise_table_pushup_1">
+        Next
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          Arm to the side
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-6" class="includeBorderAndPadding">
+        <ul>
+          <li>
+            Sit in a chair with your arms by your side with your palm facing forward and your thumb pointing to the ceiling
+            <br/>
+          </li>
+        </ul>
+         
+        <ul>
+          <li>
+            Raise your arm to the side up to shoulder level (or as high as you can) and hold for a count of 3
+          </li>
+        </ul>
+         
+        <ul>
+          <li>
+            Return to the starting position
+          </li>
+        </ul>
+         
+        <ul>
+          <li>
+            Repeat 5 times
+          </li>
+        </ul>
+      </div>
+      <div>
+        <img id="image-1" src="arm_to_side_1ab.gif" alt="Arm to the side"/>
+      </div>
+      <div>
+        <img id="image-2" src="arm_to_side_1c.jpg" alt="Arm to the side"/>
+      </div>
+      <div id="textbox-7" class="includeBorderAndPadding">
+        If your shoulder moves up when you raise your arm, place your other hand on it to hold it in place
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

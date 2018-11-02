@@ -1,0 +1,32 @@
+.textbox-5-style1 { font-size: 24pt; }
+#textbox-5 { z-index: 0; position: absolute; width: 209px; height: 50px; top: 60px; left: 15px; }
+.textbox-10-style5 { font-size: 12pt; }
+.textbox-10-style4 { text-align: center; }
+.textbox-10-style3 { color: rgb(255, 255, 255); }
+#choiceInteraction-for_fun_intermediate_3 { border: 0px solid rgb(255, 127, 0); padding: 10px; position: absolute; width: 319px; height: 280px; top: 160px; left: 632px; z-index: 0; font-size: 12pt; font-family: Verdana,Geneva,sans-serif; }
+#choiceInteraction-for_fun_intermediate_2 { border: 0px solid rgb(255, 127, 0); padding: 10px; position: absolute; width: 317px; height: 377px; top: 145px; left: 297px; z-index: 0; font-size: 12pt; font-family: Verdana,Geneva,sans-serif; }
+#choiceInteraction-for_fun_intermediate_1 { border: 0px solid rgb(255, 127, 0); padding: 10px; position: absolute; width: 256px; height: 264px; top: 150px; left: 15px; z-index: 0; font-size: 12pt; font-family: Verdana,Geneva,sans-serif; text-align: left; }
+#button-2 { margin: 0px; position: absolute; height: 50px; width: 100px; top: 479px; left: 18px; z-index: 0; color: rgb(0, 0, 0); text-align: center; }
+#textbox-16 { border: 2px solid rgb(182, 181, 179); z-index: 0; position: absolute; width: 325px; height: 312px; top: 151px; left: 627px; -moz-border-radius-topleft: 15px; -webkit-border-radius-topleft: 15px; border-radius-topleft: 15px; -moz-border-radius-topright: 15px; -webkit-border-radius-topright: 15px; border-radius-topright: 15px; -moz-border-radius-bottomright: 15px; -webkit-border-radius-bottomright: 15px; border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; -webkit-border-radius-bottomleft: 15px; border-radius-bottomleft: 15px; behavior: url(/PIE.htc); }
+#textbox-15 { border: 2px solid rgb(182, 181, 179); z-index: 0; position: absolute; width: 323px; height: 369px; top: 148px; left: 289px; -moz-border-radius-topleft: 15px; -webkit-border-radius-topleft: 15px; border-radius-topleft: 15px; -moz-border-radius-topright: 15px; -webkit-border-radius-topright: 15px; border-radius-topright: 15px; -moz-border-radius-bottomright: 15px; -webkit-border-radius-bottomright: 15px; border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; -webkit-border-radius-bottomleft: 15px; border-radius-bottomleft: 15px; behavior: url(/PIE.htc); }
+#textbox-14 { border: 2px solid rgb(182, 181, 179); z-index: 0; position: absolute; width: 263px; height: 314px; top: 147px; left: 12px; -moz-border-radius-topleft: 15px; -webkit-border-radius-topleft: 15px; border-radius-topleft: 15px; -moz-border-radius-topright: 15px; -webkit-border-radius-topright: 15px; border-radius-topright: 15px; -moz-border-radius-bottomright: 15px; -webkit-border-radius-bottomright: 15px; border-radius-bottomright: 15px; -moz-border-radius-bottomleft: 15px; -webkit-border-radius-bottomleft: 15px; border-radius-bottomleft: 15px; behavior: url(/PIE.htc); }
+.textbox-10-style2 { font-size: 12pt; }
+.textbox-13-style2 { font-weight: bold; }
+.textbox-13-style1 { text-align: center; }
+#textbox-13 { position: absolute; width: 290px; height: 27px; top: 120px; left: 646px; z-index: 0; }
+.textbox-12-style2 { font-size: 16pt; }
+.textbox-12-style1 { text-align: center; font-weight: bold; }
+#textbox-12 { position: absolute; width: 290px; height: 27px; top: 117px; left: 302px; z-index: 0; }
+.textbox-11-style2 { font-size: 16pt; }
+.textbox-11-style1 { text-align: center; font-weight: bold; }
+#textbox-11 { position: absolute; width: 290px; height: 39px; top: 112px; left: 11px; z-index: 0; }
+.textbox-9-style1 { font-size: 12pt; }
+.textbox-10-style1 { text-align: center; }
+#button-4 { margin: 0px; position: absolute; height: 50px; width: 100px; top: 479px; left: 848px; z-index: 0; color: rgb(0, 0, 0); text-align: center; }
+.textbox-8-style2 { font-size: 12pt; }
+.textbox-8-style1 { text-align: center; }
+.textbox-1-style2 { color: rgb(255, 255, 255); }
+.textbox-1-style1 { text-align: center; }
+#body-container { width: 970px; color: rgb(34, 61, 124); font-family: Verdana,Geneva,sans-serif; font-size: 16pt; margin-left: auto; margin-right: auto; }
+a:visited { color: rgb(128, 0, 128); }
+body {  }

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="exercise_cane_extension"
+  title="exercise_cane_extension"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo_salmon.css" type="text/css"/>
+  <stylesheet href="exercise_cane_extension-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_salmon" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-2_lifecit_logo_salmon" src="salmon_rectangle.jpg" alt="Red rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_salmon" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_salmon" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_salmon">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="button-1" class="submit-button">
+        NEXT
+      </div>
+      <div>
+        <img id="image-1" src="exercise_cane_extension_ab.gif" alt="change me"/>
+      </div>
+      <div id="textbox-1" class="includeBorderAndPadding">
+        <span class="textbox-1-style1">
+          Cane Extensions
+        </span>
+      </div>
+      <div id="textbox-2" class="includeBorderAndPadding">
+        Hold the cane with two hands, palms facing down
+      </div>
+      <div id="textbox-3" class="includeBorderAndPadding">
+        Reach forward with both hands as far as you can, trying to keep the cane level
+      </div>
+      <div id="textbox-4" class="includeBorderAndPadding">
+        Repeat 5 times
+      </div>
+      <div id="button-2" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

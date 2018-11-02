@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="for_the_home_high"
+  title="For the home"
+  adaptive="false"
+  timeDependent="false">
+  <responseDeclaration identifier="r_for_the_home_high_3" cardinality="multiple" baseType="identifier"/>
+  <responseDeclaration identifier="r_for_the_home_high_2" cardinality="multiple" baseType="identifier"/>
+  <outcomeDeclaration identifier="for_the_home_high_3" cardinality="multiple" baseType="string"/>
+  <outcomeDeclaration identifier="for_the_home_high_2" cardinality="multiple" baseType="string"/>
+  <stylesheet href="lifecit_logo_green.css" type="text/css"/>
+  <stylesheet href="for_the_home_high-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body">
+      <div>
+        <img id="image-6_lifecit_logo_green" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-7_lifecit_logo_green" src="green_rectangle.jpg" alt="Green rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_green" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_green" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_green">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-16" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-15" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="button-2" class="back">
+        Back
+      </div>
+      <div id="button-4" class="submit-jumpto-button" label="for_fun_high">
+        Next
+      </div>
+      <div id="textbox-12" class="includeBorderAndPadding">
+        <div class="textbox-12-style1">
+          <span class="textbox-12-style2">
+            Level 3
+            <br/>
+          </span>
+        </div>
+      </div>
+      <div id="textbox-13" class="includeBorderAndPadding">
+        <div class="textbox-13-style1">
+          <span class="textbox-13-style2">
+            Level 4
+            <br/>
+          </span>
+        </div>
+      </div>
+      <choiceInteraction class="choiceleft" responseIdentifier="r_for_the_home_high_3" shuffle="false" maxChoices="20">
+        <prompt/>
+        <simpleChoice identifier="for_the_home_3_pick_coins">
+          Pick up coins on table or out of change purse with weaker hand
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_3_pull_credit">
+          Pull credit card out of wallet with weaker hand
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_3_flip_card">
+          Flip card or page of book with fingers of weaker hand
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_3_finger_lightswitch">
+          Turn on lightswitch using fingers of weaker hand
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_3_pull_tape">
+          Pull tape from dispenser using weaker hand
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_3_use_remote">
+          Use TV remote with weaker hand
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_3_open_can">
+          Open pop-top can with weaker hand
+        </simpleChoice>
+      </choiceInteraction>
+      <choiceInteraction class="choiceleft" responseIdentifier="r_for_the_home_high_2" shuffle="false" maxChoices="20">
+        <prompt/>
+        <simpleChoice identifier="for_the_home_2_hold_jar">
+          Hold jar or bottle with stronger hand and open wiht weaker
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_2_hold_tupperware">
+          Hold tupperware with stronger hand and pull lid off with weaker
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_2_reach_object">
+          Reach for object (cup, plate, clothing) with weaker hand
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_2_push_vacuum">
+          Vacuum pushing with weaker hand (sitting or standing)
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_2_use_mouse">
+          Use computer mouse with weaker hand
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_2_clean_bathroom">
+          Clean bathroom using weaker hand to spray clearner
+        </simpleChoice>
+      </choiceInteraction>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          For the home
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-17" class="includeBorderAndPadding">
+        You may want to try to use the mitt on your stronger hand to encourage use of your weaker hand for these activities
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing>
+    <setOutcomeValue identifier="for_the_home_high_3">
+      <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.ConvertToString">
+        <variable identifier="r_for_the_home_high_3"/>
+      </customOperator>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="for_the_home_high_2">
+      <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.ConvertToString">
+        <variable identifier="r_for_the_home_high_2"/>
+      </customOperator>
+    </setOutcomeValue>
+  </responseProcessing>
+</assessmentItem>

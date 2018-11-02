@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="games_intro"
+  title="Games"
+  adaptive="false"
+  timeDependent="false">
+  <templateDeclaration identifier="games_time" cardinality="single" baseType="string"/>
+  <stylesheet href="lifecit_logo_purple.css" type="text/css"/>
+  <stylesheet href="games_intro-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_purple" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-2_lifecit_logo_purple" src="purple_rectangle.jpg" alt="Purple rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_purple" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_purple" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_purple">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-29" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-27" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-2" class="includeBorderAndPadding">
+        <div class="textbox-2-style1">
+          <span class="textbox-2-style2">
+            <span class="textbox-2-style3">
+              Games
+            </span>
+            <br/>
+          </span>
+        </div>
+      </div>
+      <div id="textbox-21" class="includeBorderAndPadding">
+        <div class="textbox-21-style1">
+          <span class="textbox-21-style2">
+            Your goal this week is to play games for 
+            <printedVariable identifier="games_time"/>
+             minutes, twice a day.
+            <br/>
+            <br/>
+          </span>
+        </div>
+      </div>
+      <div id="button-8" class="submit-button">
+        Next
+      </div>
+      <div id="textbox-23" class="includeBorderAndPadding">
+        <span class="textbox-23-style1">
+          <span class="textbox-23-style2">
+            _
+          </span>
+          3- you have enough space on your table or desk to
+          <br/>
+          <span class="textbox-23-style3">
+            __
+          </span>
+          <span class="textbox-23-style4">
+            rest your arm
+          </span>
+           and make 
+          <span class="textbox-23-style5">
+            large arm movements
+          </span>
+        </span>
+      </div>
+      <div id="textbox-24" class="includeBorderAndPadding">
+        Before you start playing games, make sure that:
+      </div>
+      <div id="textbox-25" class="includeBorderAndPadding">
+        <span class="textbox-25-style1">
+           
+          <span class="textbox-25-style2">
+            _
+          </span>
+          2- your computer mouse is set to a 
+          <span class="textbox-25-style3">
+            slow speed
+          </span>
+           so that
+          <br/>
+           
+          <span class="textbox-25-style4">
+            __
+          </span>
+          you need to make large arm movements
+        </span>
+      </div>
+      <div id="textbox-26" class="includeBorderAndPadding">
+        <span class="textbox-26-style1">
+           
+          <span class="textbox-26-style2">
+            _
+          </span>
+          1- you play with your 
+          <span class="textbox-26-style3">
+            weaker hand
+          </span>
+        </span>
+      </div>
+      <div id="textbox-28" class="includeBorderAndPadding">
+        <span class="textbox-28-style1">
+          (please call the STRONG team at 410-706-6779 if you require assistance to set the mouse speed)
+        </span>
+      </div>
+      <div>
+        <img id="image-1" src="mouse_on_table.jpg" alt="Games"/>
+      </div>
+      <div id="button-9" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

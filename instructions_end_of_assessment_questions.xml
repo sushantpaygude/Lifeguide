@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="instructions_end_of_assessment_questions"
+  title="End of questions"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo_duckegg.css" type="text/css"/>
+  <stylesheet href="instructions_end_of_assessment_questions-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_duckegg" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-2_lifecit_logo_duckegg" src="duck_egg_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_duckegg" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_duckegg" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_duckegg">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="button-5" class="submit-button">
+        Next
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          End of questions
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-1" class="includeBorderAndPadding">
+        <div class="textbox-1-style1">
+          Thank you for your answers
+          <br/>
+          <br/>
+          Your 
+          <span class="textbox-1-style2">
+            score&#160; 
+          </span>
+          and 
+          <span class="textbox-1-style3">
+            level&#160; 
+          </span>
+          will be displayed
+          <br/>
+          on the next page
+          <br/>
+          <br/>
+          Hint: look for the flashing hand!
+          <br/>
+        </div>
+      </div>
+      <div id="textbox-8" class="includeBorderAndPadding">
+        <div class="textbox-8-style1">
+          <span class="textbox-8-style2">
+            Click here to continue:
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div>
+        <img id="image-1" src="animated_mitt_going_left.gif" alt="Mitt"/>
+      </div>
+      <div id="button-6" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

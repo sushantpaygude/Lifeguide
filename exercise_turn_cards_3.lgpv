@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="exercise_turn_cards_3" title="Turn over playing cards" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo.css"/><stylesheet href="exercise_turn_cards_3.css" type="text/css"/>
+  <itemBody><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo.lgtp" parse="xml"/>
+    <div id="container-body">&#160;<div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">Turn over playing cards</span><br/></div><div id="textbox-6" class="includeBorderAndPadding"><ul> <li>Place a pack of cards in your strong hand </li></ul> <ul> <li>Turn over each card with your weaker hand and make a new pile</li></ul> <ul> <li>Repeat for the whole pack of cards</li></ul></div><div id="button-5" class="submit-jumpto-button" label="exercise_pegs_on_cup_3">Next</div><div><img id="image-1" alt="change me" src="exercise_turn_over_cards_ab.gif"/></div><div id="button-6" class="submit-button">Back</div></div>
+  </itemBody>
+</assessmentItem>

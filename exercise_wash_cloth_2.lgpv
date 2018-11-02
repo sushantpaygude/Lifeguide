@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="exercise_wash_cloth_2" title="Wash cloth" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_mustard.css"/><stylesheet href="exercise_wash_cloth_2.css" type="text/css"/>
+  <itemBody><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_mustard.lgtp" parse="xml"/>
+    <div id="container-body"><div id="button-5" class="submit-jumpto-button" label="exercise_fold_towel_2">Next</div><div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">Wash cloth</span><br/></div><div><img id="image-1" alt="Wash cloth" src="exercise_washcloth_twist_ab.gif"/></div><div id="textbox-6" class="includeBorderAndPadding"><ul> <li> Roll  a towel or wash cloth  lengthwise</li></ul> <ul> <li>Place one hand at each end of the towel or wash cloth</li></ul> <ul> <li>Twist it back and forth as if wringing out a wet wash cloth</li></ul> <ul> <li>Repeat 5 times</li></ul></div><div id="button-6" class="submit-button">Back</div></div>
+  </itemBody>
+</assessmentItem>

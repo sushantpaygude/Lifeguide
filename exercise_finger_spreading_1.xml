@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="exercise_finger_spreading_1"
+  title="Finger spreading"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo_mustard.css" type="text/css"/>
+  <stylesheet href="exercise_finger_spreading_1-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-9_lifecit_logo_mustard" src="background4.png" alt="change me"/>
+      </div>
+      <div>
+        <img id="image-8_lifecit_logo_mustard" src="lifecit_text_transparent.png" alt="change me"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_mustard" src="mitt.png" alt="change me"/>
+      </div>
+      <div>
+        <img id="image-10_lifecit_logo_mustard" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-11_lifecit_logo_mustard" src="mustard_rectangle.jpg" alt="Orange rectangle"/>
+      </div>
+      <div>
+        <img id="image-13_lifecit_logo_mustard" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_mustard" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_mustard">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      <div id="button-5" class="submit-jumpto-button" label="exercise_finger_thumb_tapping_1">
+        Next
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          Finger spreading
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-6" class="includeBorderAndPadding">
+        <ul>
+          <li>
+            Place your forearm and hand flat on a table palm facing down
+          </li>
+        </ul>
+         
+        <ul>
+          <li>
+            Spread your fingers apart as wide as you can
+          </li>
+        </ul>
+         
+        <ul>
+          <li>
+            Bring fingers back together
+          </li>
+        </ul>
+         
+        <ul>
+          <li>
+            Repeat 5 times
+          </li>
+        </ul>
+      </div>
+      <div>
+        <img id="image-1" src="exercise_finger_spreading_ab.gif" alt="Finger spreading"/>
+      </div>
+      <div id="button-6" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="goal_setting_text_list"
+  title="Text goals"
+  adaptive="false"
+  timeDependent="false">
+  <responseDeclaration identifier="r_goal_setting_enter_mobile_number" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="goal_setting_enter_mobile_number" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="f_incorr_mobile_number" cardinality="single" baseType="identifier"/>
+  <outcomeDeclaration identifier="R2Q2_IS_RESPONSE_CORRECT" cardinality="single" baseType="boolean">
+    <defaultValue>
+      <value>false</value>
+    </defaultValue>
+  </outcomeDeclaration>
+  <stylesheet href="lifecit_logo_light_green.css" type="text/css"/>
+  <stylesheet href="goal_setting_text_list-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_light_green" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-2_lifecit_logo_light_green" src="light_green_rectangle.jpg" alt="Green rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_light_green" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_light_green" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_light_green">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-11" class="includeBorderAndPadding">
+        <span class="textbox-11-style1">
+          Text your list of goals
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          Type your mobile phone number here:
+        </span>
+        <br/>
+      </div>
+      <div>
+        <textEntryInteraction responseIdentifier="r_goal_setting_enter_mobile_number"/>
+      </div>
+      <div id="textbox-9" class="includeBorderAndPadding">
+        <span class="textbox-9-style1">
+          Then click this button:
+        </span>
+        <br/>
+      </div>
+      <div id="button-1" class="submit-button">
+        Send text
+      </div>
+      <feedbackBlock
+        showHide="show"
+        outcomeIdentifier="f_incorr_mobile_number"
+        identifier="incorr_mobile_number"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-7" class="includeBorderAndPadding">
+          <span class="textbox-7-style1">
+            ***Please enter a valid mobile phone number*** 
+          </span>
+        </div>
+      </feedbackBlock>
+      <div id="button-2" class="back">
+        Back
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing>
+    <setOutcomeValue identifier="goal_setting_enter_mobile_number">
+      <variable identifier="r_goal_setting_enter_mobile_number"/>
+    </setOutcomeValue>
+    <responseCondition>
+      <responseIf>
+        <not>
+          <patternMatch pattern="[0][7][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
+            <variable identifier="goal_setting_enter_mobile_number"/>
+          </patternMatch>
+        </not>
+        <setOutcomeValue identifier="f_incorr_mobile_number">
+          <baseValue baseType="identifier">incorr_mobile_number</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+    </responseCondition>
+    <setOutcomeValue identifier="R2Q2_IS_RESPONSE_CORRECT">
+      <and>
+        <isNull>
+          <variable identifier="f_incorr_mobile_number"/>
+        </isNull>
+      </and>
+    </setOutcomeValue>
+  </responseProcessing>
+</assessmentItem>

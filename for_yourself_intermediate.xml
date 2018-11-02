@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="for_yourself_intermediate"
+  title="For yourself"
+  adaptive="false"
+  timeDependent="false">
+  <responseDeclaration identifier="r_for_yourself_intermediate_1" cardinality="multiple" baseType="identifier"/>
+  <responseDeclaration identifier="r_for_yourself_intermediate_3" cardinality="multiple" baseType="identifier"/>
+  <responseDeclaration identifier="r_for_yourself_intermediate_2" cardinality="multiple" baseType="identifier"/>
+  <outcomeDeclaration identifier="for_yourself_intermediate_1" cardinality="multiple" baseType="string"/>
+  <outcomeDeclaration identifier="for_yourself_intermediate_3" cardinality="multiple" baseType="string"/>
+  <outcomeDeclaration identifier="for_yourself_intermediate_2" cardinality="multiple" baseType="string"/>
+  <stylesheet href="lifecit_logo.css" type="text/css"/>
+  <stylesheet href="for_yourself_intermediate-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      &#160;
+      <div>
+        <img id="image-6_lifecit_logo" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-1_lifecit_logo" src="blue_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-16" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-15" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-14" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="button-4" class="submit-jumpto-button" label="for_the_home_intermediate">
+        Next
+      </div>
+      <choiceInteraction class="choiceleft" responseIdentifier="r_for_yourself_intermediate_1" shuffle="false" maxChoices="20">
+        <prompt/>
+        <simpleChoice identifier="for_yourself_1_rest_arm">
+          Rest arm on table while eating
+        </simpleChoice>
+        <simpleChoice identifier="for_yourself_1_push_sitstand">
+          Use both arms to push up from sit to stand
+        </simpleChoice>
+        <simpleChoice identifier="for_yourself_1_push_bedmobility">
+          Use both arms to push up for bed mobility
+        </simpleChoice>
+        <simpleChoice identifier="for_yourself_1_wash_weakhand">
+          Wash your body using weaker hand
+        </simpleChoice>
+      </choiceInteraction>
+      <choiceInteraction class="choiceleft" responseIdentifier="r_for_yourself_intermediate_3" shuffle="false" maxChoices="20">
+        <prompt/>
+        <simpleChoice identifier="for_yourself_3_hold_toothbrush">
+          Hold toothbrush in stronger hand and squeeze toothpaste on with weaker
+        </simpleChoice>
+        <simpleChoice identifier="for_yourself_3_hold_zipper">
+          Hold zipper in stronger hand and zip with weaker
+        </simpleChoice>
+        <simpleChoice identifier="for_yourself_3_brush_hair">
+          Brush hair using weaker hand
+        </simpleChoice>
+        <simpleChoice identifier="for_yourself_3_hold_medicine">
+          Hold medicine bottle in stronger hand and open with weaker
+        </simpleChoice>
+        <simpleChoice identifier="for_yourself_3_put_clothes">
+          Put clothes on using two hands
+        </simpleChoice>
+      </choiceInteraction>
+      <choiceInteraction class="choiceleft" responseIdentifier="r_for_yourself_intermediate_2" shuffle="false" maxChoices="20">
+        <prompt/>
+        <simpleChoice identifier="for_yourself_2_hold_toothbrush">
+          Hold toothbrush in weaker hand to squeeze on toothpaste with stronger 
+        </simpleChoice>
+        <simpleChoice identifier="for_yourself_2_hold_zipper">
+          Hold zipper with weaker hand and zip with stronger
+        </simpleChoice>
+        <simpleChoice identifier="for_yourself_2_hold_washcloth">
+          Hold washcloth in weaker hand and soap with stronger
+        </simpleChoice>
+        <simpleChoice identifier="for_yourself_2_hold_shampoo">
+          Hold shampoo or soap bottle in weaker hand and open with stronger
+        </simpleChoice>
+      </choiceInteraction>
+      <div id="textbox-11" class="includeBorderAndPadding">
+        <div class="textbox-11-style1">
+          <span class="textbox-11-style2">
+            Level 1
+            <br/>
+          </span>
+        </div>
+      </div>
+      <div id="textbox-12" class="includeBorderAndPadding">
+        <div class="textbox-12-style1">
+          <span class="textbox-12-style2">
+            Level 2
+            <br/>
+          </span>
+        </div>
+      </div>
+      <div id="textbox-13" class="includeBorderAndPadding">
+        <div class="textbox-13-style1">
+          <span class="textbox-13-style2">
+            Level 3
+            <br/>
+          </span>
+        </div>
+      </div>
+      <div>
+        <img id="image-1" src="tick_symbol.jpg" alt="Tick"/>
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          For yourself
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-10" class="includeBorderAndPadding">
+        <div class="textbox-10-style1">
+          <span class="textbox-10-style2">
+            Select 
+            <span class="textbox-10-style3">
+              as many 
+            </span>
+            activities as you like, from 
+            <span class="textbox-10-style4">
+              any level
+            </span>
+            , by clicking on the small grey square.
+          </span>
+          <br/>
+          <span class="textbox-10-style5">
+            You can de-select an activity by clicking on the grey square again.
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="button-5" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing>
+    <setOutcomeValue identifier="for_yourself_intermediate_1">
+      <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.ConvertToString">
+        <variable identifier="r_for_yourself_intermediate_1"/>
+      </customOperator>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="for_yourself_intermediate_3">
+      <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.ConvertToString">
+        <variable identifier="r_for_yourself_intermediate_3"/>
+      </customOperator>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="for_yourself_intermediate_2">
+      <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.ConvertToString">
+        <variable identifier="r_for_yourself_intermediate_2"/>
+      </customOperator>
+    </setOutcomeValue>
+  </responseProcessing>
+</assessmentItem>

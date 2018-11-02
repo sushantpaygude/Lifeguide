@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="goal_setting_each_week"
+  title="Goals"
+  adaptive="false"
+  timeDependent="false">
+  <responseDeclaration identifier="r_mitt_wear_goal" cardinality="single" baseType="float"/>
+  <responseDeclaration identifier="r_activities_goal" cardinality="single" baseType="float"/>
+  <responseDeclaration identifier="r_games_goal" cardinality="single" baseType="float"/>
+  <outcomeDeclaration identifier="mitt_wear_goal" cardinality="single" baseType="float"/>
+  <outcomeDeclaration identifier="activities_goal" cardinality="single" baseType="float"/>
+  <outcomeDeclaration identifier="games_goal" cardinality="single" baseType="float"/>
+  <outcomeDeclaration identifier="f_empty_goals" cardinality="single" baseType="identifier"/>
+  <outcomeDeclaration identifier="R2Q2_IS_RESPONSE_CORRECT" cardinality="single" baseType="boolean">
+    <defaultValue>
+      <value>false</value>
+    </defaultValue>
+  </outcomeDeclaration>
+  <stylesheet href="lifecit_logo_light_green.css" type="text/css"/>
+  <stylesheet href="goal_setting_each_week-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_light_green" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-2_lifecit_logo_light_green" src="light_green_rectangle.jpg" alt="Green rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_light_green" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_light_green" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_light_green">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-1" class="includeBorderAndPadding">
+        <span class="textbox-1-style1">
+          Set your goals for this week
+          <br/>
+        </span>
+      </div>
+      <div id="textbox-3" class="includeBorderAndPadding">
+        <span class="textbox-3-style1">
+          <br/>
+        </span>
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          I will do one arm activities for:
+        </span>
+      </div>
+      <div id="textbox-6" class="includeBorderAndPadding">
+        <span class="textbox-6-style1">
+          I will do two arm activities for:
+        </span>
+      </div>
+      <div id="textbox-7" class="includeBorderAndPadding">
+        minutes a day
+      </div>
+      <sliderInteraction
+        class="radio tabular"
+        responseIdentifier="r_mitt_wear_goal"
+        lowerBound="30.0"
+        upperBound="120.0"
+        step="30"
+        stepLabel="true">
+        <prompt/>
+      </sliderInteraction>
+      <sliderInteraction
+        class="radio tabular"
+        responseIdentifier="r_activities_goal"
+        lowerBound="30.0"
+        upperBound="120.0"
+        step="30"
+        stepLabel="true">
+        <prompt/>
+      </sliderInteraction>
+      <div id="textbox-9" class="includeBorderAndPadding">
+        minutes a day
+      </div>
+      <div id="button-5" class="submit-button">
+        Next
+      </div>
+      <feedbackBlock
+        showHide="show"
+        outcomeIdentifier="f_empty_goals"
+        identifier="empty_goals"
+        xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+        <div id="textbox-14" class="includeBorderAndPadding">
+          <div class="textbox-14-style1">
+            <span class="textbox-14-style2">
+              <span class="textbox-14-style3">
+                *** Please enter goals for one arm and two arm activities AND games***
+              </span>
+            </span>
+            <br/>
+          </div>
+        </div>
+      </feedbackBlock>
+      <div id="textbox-15" class="includeBorderAndPadding">
+        <span class="textbox-15-style1">
+          I will play STRONG computer games for:
+        </span>
+      </div>
+      <sliderInteraction
+        class="radio tabular"
+        responseIdentifier="r_games_goal"
+        lowerBound="0.0"
+        upperBound="60.0"
+        step="15"
+        stepLabel="true">
+        <prompt/>
+      </sliderInteraction>
+      <div id="textbox-16" class="includeBorderAndPadding">
+        minutes, twice a day
+      </div>
+      <div id="textbox-18" class="includeBorderAndPadding">
+        <span class="textbox-18-style1">
+          Select goals by clicking on the small grey circles:
+        </span>
+      </div>
+      <div id="button-6" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing>
+    <setOutcomeValue identifier="mitt_wear_goal">
+      <variable identifier="r_mitt_wear_goal"/>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="activities_goal">
+      <variable identifier="r_activities_goal"/>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="games_goal">
+      <variable identifier="r_games_goal"/>
+    </setOutcomeValue>
+    <responseCondition>
+      <responseIf>
+        <or>
+          <isNull>
+            <variable identifier="mitt_wear_goal"/>
+          </isNull>
+          <isNull>
+            <variable identifier="activities_goal"/>
+          </isNull>
+          <isNull>
+            <variable identifier="games_goal"/>
+          </isNull>
+        </or>
+        <setOutcomeValue identifier="f_empty_goals">
+          <baseValue baseType="identifier">empty_goals</baseValue>
+        </setOutcomeValue>
+      </responseIf>
+    </responseCondition>
+    <setOutcomeValue identifier="R2Q2_IS_RESPONSE_CORRECT">
+      <and>
+        <isNull>
+          <variable identifier="f_empty_goals"/>
+        </isNull>
+      </and>
+    </setOutcomeValue>
+  </responseProcessing>
+</assessmentItem>

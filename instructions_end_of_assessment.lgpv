@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="instructions_end_of_assessment" title="End of assessment" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_mustard.css"/><stylesheet href="instructions_end_of_assessment.css" type="text/css"/>
+  <itemBody><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_mustard.lgtp" parse="xml"/>
+    <div id="container-body">&#160;<div id="textbox-2" class="includeBorderAndPadding">&#160;</div><div id="textbox-3" class="includeBorderAndPadding"><span class="textbox-3-style1">You have completed the STRONG assessment</span></div><div id="textbox-4" class="includeBorderAndPadding">&#160;</div><div id="textbox-5" class="includeBorderAndPadding"><div class="textbox-5-style1">Now that STRONG knows what level your stroke arm is at,<br/><br/>you are now ready to set some targets for this week. </div></div><div id="button-5" class="submit-jumpto-button" label="goal_setting_introduction_1">Next</div><div id="button-6" class="submit-button">Back</div></div>
+  </itemBody>
+</assessmentItem>

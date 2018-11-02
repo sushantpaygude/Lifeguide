@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="games"
+  title="Games"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo_purple.css" type="text/css"/>
+  <stylesheet href="games-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_purple" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-2_lifecit_logo_purple" src="purple_rectangle.jpg" alt="Purple rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_purple" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_purple" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_purple">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-22" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-25" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-26" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-27" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-29" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-2" class="includeBorderAndPadding">
+        <div class="textbox-2-style1">
+          <span class="textbox-2-style2">
+            <span class="textbox-2-style3">
+              Games - click on any game title to play
+            </span>
+            <br/>
+          </span>
+        </div>
+      </div>
+      <div id="button-8" class="submit-button">
+        Next
+      </div>
+      <div id="textbox-3" class="includeBorderAndPadding">
+        <a class="popup" href="http://env.ecs.soton.ac.uk/LifeCIT/paddle-power/app.html"/>
+        <img src="pong_logo.jpg" alt="Pong"/>
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <a class="popup" href="http://env.ecs.soton.ac.uk/LifeCIT/buzzer/src/app.htm"/>
+        <img src="buzzer_maze_logo.jpg" alt="BuzzerMaze"/>
+      </div>
+      <div id="textbox-19" class="includeBorderAndPadding">
+        <span class="textbox-19-style1">
+          Games will open a new window. Close the window when you are done playing and return to this page.
+        </span>
+      </div>
+      <div id="textbox-20" class="includeBorderAndPadding">
+        <a class="popup" href="http://env.ecs.soton.ac.uk/LifeCIT/deal-or-not-20/index.html"/>
+        <img src="deal_or_not.jpg" alt="DealOrNot"/>
+      </div>
+      <div>
+        <img id="image-1" src="arrow_easy_difficult.jpg" alt="Easier to more difficult"/>
+      </div>
+      <div id="textbox-18" class="includeBorderAndPadding">
+        <a class="popup" href="http://env.ecs.soton.ac.uk/LifeCIT/bees/game.htm"/>
+        <img src="flies_bees_logo.jpg" alt="FliesNotBees"/>
+      </div>
+      <div id="textbox-36" class="includeBorderAndPadding">
+        <span class="textbox-36-style1">
+          Level:
+        </span>
+      </div>
+      <div id="textbox-37" class="includeBorderAndPadding">
+        <a class="popup" href="http://env.ecs.soton.ac.uk/LifeCIT/breakout-slow/src/app.htm"/>
+        <img src="level1.jpg" alt="Breakout"/>
+      </div>
+      <div id="textbox-38" class="includeBorderAndPadding">
+        <a class="popup" href="http://env.ecs.soton.ac.uk/LifeCIT/breakout-med/src/app.htm"/>
+        <img src="level2.jpg" alt="Breakout"/>
+      </div>
+      <div id="textbox-39" class="includeBorderAndPadding">
+        <a class="popup" href="http://env.ecs.soton.ac.uk/LifeCIT/breakout-fast/src/app.htm"/>
+        <img src="level3.jpg" alt="Breakout"/>
+      </div>
+      <div>
+        <img id="image-2" src="breakout_logo.jpg" alt="change me"/>
+      </div>
+      <div id="button-9" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

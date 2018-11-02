@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="exercise_arm_to_side_1" title="Arm to the side" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_mustard.css"/><stylesheet href="exercise_arm_to_side_1.css" type="text/css"/>
+  <itemBody class="nobuttons"><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_mustard.lgtp" parse="xml"/>
+    <div id="container-body"><div id="button-5" class="submit-jumpto-button" label="exercise_table_pushup_1">Next</div><div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">Arm to the side</span><br/></div><div id="textbox-6" class="includeBorderAndPadding"><ul> <li>Sit in a chair with your arms by your side with your palm facing forward and your thumb pointing to the ceiling<br/></li></ul> <ul> <li>Raise your arm to the side up to shoulder level (or as high as you can) and hold for a count of 3</li></ul> <ul> <li>Return to the starting position</li></ul> <ul> <li>Repeat 5 times</li></ul></div><div><img id="image-1" alt="Arm to the side" src="arm_to_side_1ab.gif"/></div><div><img id="image-2" alt="Arm to the side" src="arm_to_side_1c.jpg"/></div><div id="textbox-7" class="includeBorderAndPadding">If your shoulder moves up when you raise your arm, place your other hand on it to hold it in place</div></div>
+  </itemBody>
+</assessmentItem>

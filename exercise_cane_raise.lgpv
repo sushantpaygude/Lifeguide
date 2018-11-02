@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="exercise_cane_raise" title="exercise_cane_raise" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_purple.css"/><stylesheet href="exercise_cane_raise.css" type="text/css"/>
+  <itemBody><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_purple.lgtp" parse="xml"/>
+    <div id="container-body">&#160;<div><img id="image-1" alt="change me" src="exercise_cane_raise_ab.gif"/></div><div id="button-1" class="submit-jumpto-button" label="exercise_cane_extension">NEXT</div><div id="textbox-1" class="includeBorderAndPadding"><span class="textbox-1-style1">Cane Raise Over Head</span></div><div id="textbox-2" class="includeBorderAndPadding">Hold the cane with two hands, palms facing down</div><div id="textbox-3" class="includeBorderAndPadding">Slowly raise the cane out in front of you as far as you can go</div><div id="textbox-5" class="includeBorderAndPadding">Repeat 5 times</div><div id="button-2" class="submit-button">Back</div></div>
+  </itemBody>
+</assessmentItem>

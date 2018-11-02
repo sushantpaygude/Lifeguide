@@ -1,0 +1,27 @@
+#button-6 { border: 0px none ; margin: 0px; padding: 0px; position: absolute; height: 40px; width: 130px; background-color: rgb(238, 238, 238); top: 480px; left: 50px; z-index: 0; }
+.textbox-12-style1 { font-size: 12pt; }
+#image-1 { z-index: 0; position: absolute; width: 27px; height: 28px; top: 129px; left: 197px; }
+.textbox-4-style2 { text-decoration: underline; font-weight: bold; }
+#button-5 { margin: 0px; position: absolute; height: 50px; width: 100px; top: 479px; left: 848px; z-index: 1; color: rgb(0, 0, 0); text-align: center; }
+#choiceInteraction-r_select_plan_for_goal_setting { position: absolute; width: 770px; height: 156px; top: 223px; left: 111px; z-index: 0; font-size: 12pt; }
+#textEntryInteraction-r_own_plan_for_goal_setting_plan { position: absolute; width: 546px; top: 396px; left: 294px; z-index: 0; height: 31px; }
+#textbox-7 { z-index: 0; position: absolute; width: 177px; height: 34px; top: 400px; left: 110px; }
+.textbox-7-style1 { font-size: 12pt; }
+.textbox-5-style1 { color: rgb(0, 0, 128); }
+#textbox-5 { position: absolute; width: 940px; height: 274px; top: 175px; left: 17px; -moz-border-radius-topleft: 21px; -webkit-border-radius-topleft: 21px; border-radius-topleft: 21px; -moz-border-radius-topright: 21px; -webkit-border-radius-topright: 21px; border-radius-topright: 21px; -moz-border-radius-bottomright: 21px; -webkit-border-radius-bottomright: 21px; border-radius-bottomright: 21px; -moz-border-radius-bottomleft: 21px; -webkit-border-radius-bottomleft: 21px; border-radius-bottomleft: 21px; background-color: rgb(234, 241, 222); z-index: 0; color: rgb(119, 147, 60); behavior: url(/PIE.htc); }
+.textbox-4-style1 { text-align: left; }
+#textbox-4 { position: absolute; width: 905px; height: 26px; top: 192px; left: 57px; z-index: 0; font-size: 12pt; }
+.textbox-3-style1 { color: rgb(0, 0, 128); }
+.textbox-1-style1 { font-size: 24pt; }
+#textbox-1 { z-index: 0; position: absolute; width: 925px; height: 46px; top: 60px; left: 19px; color: rgb(34, 61, 124); }
+#body-container { width: 970px; color: rgb(34, 61, 124); font-family: Verdana,Geneva,sans-serif; font-size: 16pt; margin-left: auto; margin-right: auto; }
+a:visited { color: rgb(128, 0, 128); }
+body {  }
+#textbox-8 { position: absolute; width: 940px; height: 32px; top: 126px; left: 18px; -moz-border-radius-topleft: 21px; -webkit-border-radius-topleft: 21px; border-radius-topleft: 21px; -moz-border-radius-topright: 21px; -webkit-border-radius-topright: 21px; border-radius-topright: 21px; -moz-border-radius-bottomright: 21px; -webkit-border-radius-bottomright: 21px; border-radius-bottomright: 21px; -moz-border-radius-bottomleft: 21px; -webkit-border-radius-bottomleft: 21px; border-radius-bottomleft: 21px; background-color: rgb(234, 241, 222); z-index: 0; color: rgb(119, 147, 60); behavior: url(/PIE.htc); }
+.textbox-8-style1 { color: rgb(0, 0, 128); }
+.textbox-9-style1 { text-align: center; }
+#textbox-10 { position: absolute; width: 904px; height: 26px; top: 132px; left: 35px; z-index: 0; font-size: 12pt; }
+.textbox-10-style1 { text-align: center; }
+.textbox-10-style2 { color: rgb(204, 255, 204); }
+.textbox-11-style1 { text-align: left; }
+.textbox-11-style2 { text-decoration: underline; }

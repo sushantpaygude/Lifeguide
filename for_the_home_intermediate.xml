@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="for_the_home_intermediate"
+  title="For the home"
+  adaptive="false"
+  timeDependent="false">
+  <responseDeclaration identifier="r_for_the_home_intermediate_1" cardinality="multiple" baseType="identifier"/>
+  <responseDeclaration identifier="r_for_the_home_intermediate_2" cardinality="multiple" baseType="identifier"/>
+  <responseDeclaration identifier="r_for_the_home_intermediate_3" cardinality="multiple" baseType="identifier"/>
+  <outcomeDeclaration identifier="for_the_home_intermediate_1" cardinality="multiple" baseType="string"/>
+  <outcomeDeclaration identifier="for_the_home_intermediate_2" cardinality="multiple" baseType="string"/>
+  <outcomeDeclaration identifier="for_the_home_intermediate_3" cardinality="multiple" baseType="string"/>
+  <stylesheet href="lifecit_logo_green.css" type="text/css"/>
+  <stylesheet href="for_the_home_intermediate-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body">
+      <div>
+        <img id="image-6_lifecit_logo_green" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-7_lifecit_logo_green" src="green_rectangle.jpg" alt="Green rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_green" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_green" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_green">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-16" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-14" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="textbox-15" class="includeBorderAndPadding">
+        &#160;
+      </div>
+      <div id="button-4" class="submit-jumpto-button" label="for_fun_intermediate">
+        Next
+      </div>
+      <choiceInteraction class="choiceleft" responseIdentifier="r_for_the_home_intermediate_1" shuffle="false" maxChoices="20">
+        <prompt/>
+        <simpleChoice identifier="for_the_home_1_carry_bag">
+          Carry bag over weaker arm
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_1_turnon_lightswitch">
+          Turn on light switch with fisted hand
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_1_lift_box">
+          Lift box with fisted weaker and open stronger hand
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_1_stabilze_paper">
+          Stabilize paper with weaker hand while using stronger hand to write
+        </simpleChoice>
+      </choiceInteraction>
+      <choiceInteraction class="choiceleft" responseIdentifier="r_for_the_home_intermediate_2" shuffle="false" maxChoices="20">
+        <prompt/>
+        <simpleChoice identifier="for_the_home_2_hold_jar">
+          Hold jar or bottle with weaker hand and open with stronger
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_2_hold_tupperware">
+          Hold tupperware with weaker hand and pull lid off with stronger
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_2_hold_cellphone">
+          Hold cellphone with weaker hand and tap numbers or text with stronger
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_2_wash_dishes">
+          Wash and dry dishes with both hands
+        </simpleChoice>
+      </choiceInteraction>
+      <choiceInteraction class="choiceleft" responseIdentifier="r_for_the_home_intermediate_3" shuffle="false" maxChoices="20">
+        <prompt/>
+        <simpleChoice identifier="for_the_home_3_hold_jar">
+          Hold jar or bottle with stronger hand and open with weaker
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_3_hold_tupperware">
+          Hold tupperware with stronger hand and pull lid off with weaker
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_3_reach_object">
+          Reach for object (cup, plate, clothing) with weaker hand
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_3_push_vaccuum">
+          Vacuum pushing with weaker hand (sitting or standing)
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_3_use_mouse">
+          Use computer mouse with weaker hand
+        </simpleChoice>
+        <simpleChoice identifier="for_the_home_3_clean_bathroom">
+          Clean bathroom using weaker hand to spay cleaner
+        </simpleChoice>
+      </choiceInteraction>
+      <div id="textbox-11" class="includeBorderAndPadding">
+        <div class="textbox-11-style1">
+          <span class="textbox-11-style2">
+            Level 1
+            <br/>
+          </span>
+        </div>
+      </div>
+      <div id="textbox-12" class="includeBorderAndPadding">
+        <div class="textbox-12-style1">
+          <span class="textbox-12-style2">
+            Level 2
+            <br/>
+          </span>
+        </div>
+      </div>
+      <div id="textbox-13" class="includeBorderAndPadding">
+        <div class="textbox-13-style1">
+          <span class="textbox-13-style2">
+            Level 3
+            <br/>
+          </span>
+        </div>
+      </div>
+      <div id="button-2" class="back">
+        Back
+      </div>
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          For the home
+        </span>
+        <br/>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing>
+    <setOutcomeValue identifier="for_the_home_intermediate_1">
+      <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.ConvertToString">
+        <variable identifier="r_for_the_home_intermediate_1"/>
+      </customOperator>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="for_the_home_intermediate_2">
+      <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.ConvertToString">
+        <variable identifier="r_for_the_home_intermediate_2"/>
+      </customOperator>
+    </setOutcomeValue>
+    <setOutcomeValue identifier="for_the_home_intermediate_3">
+      <customOperator class="uk.ac.soton.ecs.lifeguide.customexpressions.ConvertToString">
+        <variable identifier="r_for_the_home_intermediate_3"/>
+      </customOperator>
+    </setOutcomeValue>
+  </responseProcessing>
+</assessmentItem>

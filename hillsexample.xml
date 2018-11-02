@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="hillsexample"
+  title="hillsexample"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="hillsexample-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body"/>
+  </itemBody>
+</assessmentItem>

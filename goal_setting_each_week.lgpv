@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="goal_setting_each_week" title="Goals" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_light_green.css"/><stylesheet href="goal_setting_each_week.css" type="text/css"/>
+  <itemBody><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_light_green.lgtp" parse="xml"/>
+    <div id="container-body">&#160;<div id="textbox-1" class="includeBorderAndPadding"><span class="textbox-1-style1">Set your goals for this week<br/></span></div><div id="textbox-3" class="includeBorderAndPadding"><span class="textbox-3-style1"><br/></span></div><div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">I will do one arm activities for:</span></div><div id="textbox-6" class="includeBorderAndPadding"><span class="textbox-6-style1">I will do two arm activities for:</span></div><div id="textbox-7" class="includeBorderAndPadding">minutes a day</div><sliderInteraction responseIdentifier="mitt_wear_goal" lowerBound="30" upperBound="120" class="   radio tabular" stepLabel="true" step="30">
+  <prompt/>
+</sliderInteraction><sliderInteraction responseIdentifier="activities_goal" lowerBound="30" upperBound="120" class=" radio tabular" stepLabel="true" step="30">
+  <prompt/>
+</sliderInteraction><div id="textbox-9" class="includeBorderAndPadding">minutes a day</div><div id="button-5" class="submit-button">Next</div><feedbackBlock xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" outcomeIdentifier="f_empty_goals" showHide="show" identifier="empty_goals"><div id="textbox-14" class="includeBorderAndPadding"><div class="textbox-14-style1"><span class="textbox-14-style2"><span class="textbox-14-style3">*** Please enter goals for one arm and two arm activities AND games***</span></span><br/></div></div></feedbackBlock><div id="textbox-15" class="includeBorderAndPadding"><span class="textbox-15-style1">I will play STRONG computer games for:</span></div><sliderInteraction responseIdentifier="games_goal" lowerBound="0" upperBound="60" class=" radio tabular" stepLabel="true" step="15">
+  <prompt/>
+</sliderInteraction><div id="textbox-16" class="includeBorderAndPadding">minutes, twice a day</div><div id="textbox-18" class="includeBorderAndPadding"><span class="textbox-18-style1">Select goals by clicking on the small grey circles:</span></div><div id="button-6" class="submit-button">Back</div></div>
+  </itemBody>
+</assessmentItem>

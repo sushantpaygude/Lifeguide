@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="exercise_cane_extension" title="exercise_cane_extension" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_salmon.css"/><stylesheet href="exercise_cane_extension.css" type="text/css"/>
+  <itemBody><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_salmon.lgtp" parse="xml"/>
+    <div id="container-body">&#160;<div id="button-1" class="submit-button">NEXT</div><div><img id="image-1" alt="change me" src="exercise_cane_extension_ab.gif"/></div><div id="textbox-1" class="includeBorderAndPadding"><span class="textbox-1-style1">Cane Extensions</span></div><div id="textbox-2" class="includeBorderAndPadding">Hold the cane with two hands, palms facing down</div><div id="textbox-3" class="includeBorderAndPadding">Reach forward with both hands as far as you can, trying to keep the cane level</div><div id="textbox-4" class="includeBorderAndPadding">Repeat 5 times</div><div id="button-2" class="submit-button">Back</div></div>
+  </itemBody>
+</assessmentItem>

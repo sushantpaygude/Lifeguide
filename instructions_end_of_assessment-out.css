@@ -1,0 +1,11 @@
+#button-6 { border: 0px none ; margin: 0px; padding: 0px; position: absolute; height: 40px; width: 130px; background-color: rgb(238, 238, 238); top: 461px; left: 89px; z-index: 0; }
+#button-5 { margin: 0px; position: absolute; height: 59px; width: 130px; top: 459px; left: 422px; z-index: 1; color: rgb(0, 0, 0); text-align: center; }
+.textbox-5-style1 { text-align: center; }
+#textbox-5 { position: absolute; width: 689px; height: 131px; top: 224px; left: 138px; z-index: 0; }
+#textbox-4 { position: absolute; width: 735px; height: 183px; top: 178px; left: 117px; z-index: 0; background-color: rgb(249, 241, 218); -moz-border-radius-topleft: 21px; -webkit-border-radius-topleft: 21px; border-radius-topleft: 21px; -moz-border-radius-topright: 21px; -webkit-border-radius-topright: 21px; border-radius-topright: 21px; -moz-border-radius-bottomright: 21px; -webkit-border-radius-bottomright: 21px; border-radius-bottomright: 21px; -moz-border-radius-bottomleft: 21px; -webkit-border-radius-bottomleft: 21px; border-radius-bottomleft: 21px; behavior: url(/PIE.htc); }
+.textbox-3-style1 { font-size: 24pt; }
+#textbox-3 { position: absolute; width: 914px; height: 35px; top: 60px; left: 15px; z-index: 0; }
+#textbox-2 { position: absolute; width: 821px; height: 264px; top: 135px; left: 73px; z-index: 0; background-color: rgb(255, 226, 155); -moz-border-radius-topleft: 21px; -webkit-border-radius-topleft: 21px; border-radius-topleft: 21px; -moz-border-radius-topright: 21px; -webkit-border-radius-topright: 21px; border-radius-topright: 21px; -moz-border-radius-bottomright: 21px; -webkit-border-radius-bottomright: 21px; border-radius-bottomright: 21px; -moz-border-radius-bottomleft: 21px; -webkit-border-radius-bottomleft: 21px; border-radius-bottomleft: 21px; behavior: url(/PIE.htc); }
+#body-container { width: 970px; color: rgb(34, 61, 124); font-family: Verdana,Geneva,sans-serif; font-size: 16pt; margin-left: auto; margin-right: auto; }
+a:visited { color: rgb(128, 0, 128); }
+body {  }

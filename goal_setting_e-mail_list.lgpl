@@ -1,0 +1,1 @@
+show incorr_email if (not (checkemailvalidity (goal_setting_enter_email_address)))

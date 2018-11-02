@@ -1,0 +1,1 @@
+show empty_goals if(or(isempty (mitt_wear_goal), isempty (activities_goal), isempty(games_goal) ))

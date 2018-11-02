@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="exercise_crossed_arms" title="exercise_crossed_arms" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_aqua.css"/><stylesheet href="exercise_crossed_arms.css" type="text/css"/>
+  <itemBody><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_aqua.lgtp" parse="xml"/>
+    <div id="container-body">&#160;<div><img id="image-1" alt="change me" src="exercise_crossed_arms_ab.gif"/></div><div id="button-1" class="submit-jumpto-button" label="exercise_cane_raise">NEXT</div><div id="textbox-1" class="includeBorderAndPadding"><span class="textbox-1-style1">Arm Opening</span></div><div id="textbox-2" class="includeBorderAndPadding">Start with your arms crossed on your body, with your hands at the level of your shoulders</div><div id="textbox-3" class="includeBorderAndPadding">Open both your arms, moving at the same time, like a bird opening their wings</div><div id="textbox-4" class="includeBorderAndPadding">Hold for 5 seconds </div><div id="textbox-5" class="includeBorderAndPadding">Repeat 5 times</div><div id="button-2" class="submit-button">Back</div></div>
+  </itemBody>
+</assessmentItem>

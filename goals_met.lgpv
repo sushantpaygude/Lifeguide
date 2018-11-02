@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="goals_met" title="Congratulations!" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo.css"/><stylesheet href="goals_met.css" type="text/css"/>
+  <itemBody><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo.lgtp" parse="xml"/>
+    <div id="container-body"><div id="textbox-19" class="includeBorderAndPadding">Congratulations - you've met your goals today!</div><div id="button-1" class="submit-button">Next</div><div><img id="image-1" alt="change me" src="14564254-the-winner.jpg"/></div><div id="button-2" class="submit-button">Back</div></div>
+  </itemBody>
+</assessmentItem>

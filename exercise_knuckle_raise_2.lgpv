@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="exercise_knuckle_raise_2" title="Knuckle raise" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_mustard.css"/><stylesheet href="exercise_knuckle_raise_2.css" type="text/css"/>
+  <itemBody class="nobuttons"><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_mustard.lgtp" parse="xml"/>
+    <div id="container-body"><div id="button-5" class="submit-jumpto-button" label="exercise_fold_towel_2">Next</div><div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">Knuckle raise</span><br/></div><div><img id="image-1" alt="Knuckle raise" src="knuckle_raise_ab.gif"/></div><div id="textbox-6" class="includeBorderAndPadding"><ul> <li>Place your forearm and hand flat on a table with the palm of the hand facing down, and with your fingers together</li></ul> <ul> <li>Keep your fingers straight with finger tips in contact with the table throughout the exercise</li></ul> <ul> <li>Lift your knuckles off the table as high as you can and then return to the starting position</li></ul> <ul> <li>Repeat 5 times</li></ul></div></div>
+  </itemBody>
+</assessmentItem>

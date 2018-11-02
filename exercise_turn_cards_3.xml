@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="exercise_turn_cards_3"
+  title="Turn over playing cards"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo.css" type="text/css"/>
+  <stylesheet href="exercise_turn_cards_3-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      &#160;
+      <div>
+        <img id="image-6_lifecit_logo" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-1_lifecit_logo" src="blue_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div id="textbox-5" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          Turn over playing cards
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-6" class="includeBorderAndPadding">
+        <ul>
+          <li>
+            Place a pack of cards in your strong hand 
+          </li>
+        </ul>
+         
+        <ul>
+          <li>
+            Turn over each card with your weaker hand and make a new pile
+          </li>
+        </ul>
+         
+        <ul>
+          <li>
+            Repeat for the whole pack of cards
+          </li>
+        </ul>
+      </div>
+      <div id="button-5" class="submit-jumpto-button" label="exercise_pegs_on_cup_3">
+        Next
+      </div>
+      <div>
+        <img id="image-1" src="exercise_turn_over_cards_ab.gif" alt="change me"/>
+      </div>
+      <div id="button-6" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

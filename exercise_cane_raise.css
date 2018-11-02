@@ -1,0 +1,11 @@
+#button-2 { border: 0px none ; margin: 0px; padding: 0px; position: absolute; height: 40px; width: 130px; background-color: rgb(238, 238, 238); top: 440px; left: 81px; }
+#textbox-5 { position: absolute; width: 235px; height: 100px; top: 360px; left: 60px; z-index: 0; }
+#textbox-3 { position: absolute; width: 362px; height: 100px; top: 251px; left: 40px; z-index: 0; }
+#textbox-2 { position: absolute; width: 351px; height: 100px; top: 164px; left: 36px; z-index: 0; }
+.textbox-1-style1 { font-size: 24pt; }
+#textbox-1 { position: absolute; width: 372px; height: 100px; top: 70px; left: 44px; z-index: 0; }
+#button-1 { border: 0px none ; margin: 0px; padding: 0px; position: absolute; height: 40px; width: 130px; background-color: rgb(238, 238, 238); top: 457px; left: 761px; z-index: 0; }
+#image-1 { position: absolute; width: 362px; height: 327px; top: 84px; left: 546px; z-index: 0; }
+#body-container { width: 970px; color: rgb(34, 61, 124); font-family: Verdana,Geneva,sans-serif; font-size: 16pt; margin-left: auto; margin-right: auto; }
+a:visited { color: rgb(128, 0, 128); }
+body {  }

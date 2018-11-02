@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="exercise_elbow_flexion_2" title="Elbow exercise" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_mustard.css"/><stylesheet href="exercise_elbow_flexion_2.css" type="text/css"/>
+  <itemBody class="nobuttons"><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_mustard.lgtp" parse="xml"/>
+    <div id="container-body"><div id="button-5" class="submit-jumpto-button" label="exercise_wrist_bend_straight_2">Next</div><div><img id="image-1" alt="Elbow exercise" src="elbow_exercise_2ac.gif"/></div><div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">Elbow exercise</span><br/></div><div id="textbox-6" class="includeBorderAndPadding"><ul> <li>Place your forearm on a table with the palm of your had facing up, holding a light/medium weight (such as a bottle of shampoo)</li></ul> <ul> <li>Move your hand towards your shoulder for a count of 3</li></ul> <ul> <li>Lower your hand for a count of 3</li></ul> <ul> <li>Repeat 5 times</li></ul></div></div>
+  </itemBody>
+</assessmentItem>

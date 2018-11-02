@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="exercise_shoulder_setting_2" title="Shoulder blade setting" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_mustard.css"/><stylesheet href="exercise_shoulder_setting_2.css" type="text/css"/>
+  <itemBody class="nobuttons"><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_mustard.lgtp" parse="xml"/>
+    <div id="container-body"><div id="button-5" class="submit-jumpto-button" label="exercise_arm_to_front_2">Next</div><div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">Shoulder blade setting</span><br/></div><div id="textbox-6" class="includeBorderAndPadding"><ul> <li>Sit in a chair with your body away from the backrest</li></ul> <ul> <li>Squeeze both shoulder blades back and down equally and hold for a count of 3</li></ul> <ul> <li>Relax</li></ul> <ul> <li>Repeat 5 times</li></ul></div><div><img id="image-1" alt="Shoulder blade setting" src="shoulder_blade_setting_ab.gif"/></div></div>
+  </itemBody>
+</assessmentItem>

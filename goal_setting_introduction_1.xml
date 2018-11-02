@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="goal_setting_introduction_1"
+  title="Goal setting"
+  adaptive="false"
+  timeDependent="false">
+  <stylesheet href="lifecit_logo_light_green.css" type="text/css"/>
+  <stylesheet href="goal_setting_introduction_1-out.css" type="text/css"/>
+  <itemBody>
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_light_green" src="background4.png" alt="White background"/>
+      </div>
+      <div>
+        <img id="image-2_lifecit_logo_light_green" src="light_green_rectangle.jpg" alt="Green rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_light_green" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_light_green" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_light_green">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-1" class="includeBorderAndPadding">
+        <span class="textbox-1-style1">
+          Goal Setting
+          <br/>
+        </span>
+      </div>
+      <div id="textbox-3" class="includeBorderAndPadding">
+        <div class="textbox-3-style1">
+          <br/>
+        </div>
+      </div>
+      <div id="button-5" class="submit-button">
+        Next
+      </div>
+      <div id="textbox-4" class="includeBorderAndPadding">
+        <div class="textbox-4-style1">
+           
+          <div class="textbox-4-style2">
+             
+            <div class="textbox-4-style3">
+               
+              <div class="textbox-4-style4">
+                Next you can set goals that you would like to achieve: 
+                <br/>
+                <br/>
+                 
+                <ul class="textbox-4-style5">
+                  <li>
+                    By selecting goals to achieve each week you will have a target to aim for, which you feel you can achieve. 
+                  </li>
+                </ul>
+                 
+                <ul class="textbox-4-style6">
+                  <li>
+                    You can choose new goals and a new plan each week
+                  </li>
+                </ul>
+                 
+                <ul class="textbox-4-style7">
+                  <li>
+                    This will help make sure you are building up how much you can do each week. 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="button-6" class="submit-button">
+        Back
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>

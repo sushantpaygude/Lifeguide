@@ -1,0 +1,9 @@
+#button-6 { border: 0px none ; margin: 0px; padding: 0px; position: absolute; height: 40px; width: 130px; background-color: rgb(238, 238, 238); top: 453px; left: 79px; z-index: 0; }
+#image-1 { z-index: 0; position: absolute; width: 339px; height: 322px; top: 98px; left: 572px; }
+#button-5 { margin: 0px; position: absolute; height: 50px; width: 100px; top: 460px; left: 839px; z-index: 0; color: rgb(0, 0, 0); text-align: center; }
+#textbox-6 { position: absolute; width: 543px; height: 254px; top: 206px; left: 14px; z-index: 0; font-size: 15pt; }
+.textbox-5-style1 { font-size: 24pt; }
+#textbox-5 { z-index: 0; position: absolute; width: 549px; height: 50px; top: 60px; left: 15px; }
+#body-container { width: 970px; color: rgb(34, 61, 124); font-family: Verdana,Geneva,sans-serif; font-size: 16pt; margin-left: auto; margin-right: auto; }
+a:visited { color: rgb(128, 0, 128); }
+body {  }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd" identifier="exercise_wrist_bend_straight_2" title="Wrist bending and straightening" adaptive="false" timeDependent="false">
+  <stylesheet type="text/css" href="lifecit_logo_mustard.css"/><stylesheet href="exercise_wrist_bend_straight_2.css" type="text/css"/>
+  <itemBody><include xmlns="http://www.w3.org/2001/XInclude" href="lifecit_logo_mustard.lgtp" parse="xml"/>
+    <div id="container-body"><div id="button-5" class="submit-button">Next</div><div><img id="image-1" alt="Wrist bending and straightening" src="exercise_wrist_bending_straightening_ab.gif"/></div><div id="textbox-6" class="includeBorderAndPadding"><ul> <li>Place your forearm over the edge of a chair arm or table with the palm of your hand facing down</li></ul> <ul> <li>Hold your arm with your other hand to keep it in place</li></ul> <ul> <li>Lift your wrist as high as you can for a count of 3</li></ul> <ul> <li>Lower your wrist down for a count of 3</li></ul> <ul> <li>Repeat 5 times</li></ul></div><div id="textbox-5" class="includeBorderAndPadding"><span class="textbox-5-style1">Wrist bending and straightening</span><br/></div></div>
+  </itemBody>
+</assessmentItem>

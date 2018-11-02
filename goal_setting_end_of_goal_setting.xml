@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem
+  xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 imsqti_v2p1.xsd"
+  identifier="goal_setting_end_of_goal_setting"
+  title="Goals"
+  adaptive="false"
+  timeDependent="false">
+  <templateDeclaration identifier="own_plan" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="own_plan_2" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="hours_activities" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="hours_mitt" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="minutes_games" cardinality="single" baseType="string"/>
+  <templateDeclaration identifier="date" cardinality="single" baseType="string"/>
+  <stylesheet href="lifecit_logo_without_rectangle.css" type="text/css"/>
+  <stylesheet href="goal_setting_end_of_goal_setting-out.css" type="text/css"/>
+  <itemBody class="nobuttons">
+    <div id="container-body">
+      <div>
+        <img id="image-1_lifecit_logo_without_rectangle" src="blue_rectangle.jpg" alt="Blue rectangle"/>
+      </div>
+      <div>
+        <img id="image-5_lifecit_logo_without_rectangle" src="mitt_small.png" alt="Mitt"/>
+      </div>
+      <div id="textbox-1_lifecit_logo_without_rectangle" class="includeBorderAndPadding">
+        <span class="textbox-1-style1_lifecit_logo_without_rectangle">
+          STRONG
+        </span>
+        <br/>
+      </div>
+      &#160;
+      <div>
+        <img id="image-3" src="grey_box.jpg" alt="change me"/>
+      </div>
+      <div>
+        <img id="image-2" src="grey_box.jpg" alt="change me"/>
+      </div>
+      <div id="textbox-1" class="includeBorderAndPadding">
+        <span class="textbox-1-style1">
+          <span class="textbox-1-style2">
+            Congratulations! You have finished setting your goals
+          </span>
+          <br/>
+        </span>
+      </div>
+      <div id="textbox-4" class="includeBorderAndPadding">
+        <div class="textbox-4-style1">
+           
+          <div class="textbox-4-style2">
+            You can either:
+            <br/>
+             
+          </div>
+        </div>
+      </div>
+      <div id="button-6" class="print">
+        Print goals
+      </div>
+      <div id="button-8" class="submit-jumpto-button" label="goal_setting_text_list">
+        Text goals
+      </div>
+      <div id="button-9" class="submit-jumpto-button" label="goal_setting_e-mail_list">
+        Email goals
+      </div>
+      <div id="button-1" class="submit-jumpto-button" label="goal_setting_start_now_or_later">
+        Next
+      </div>
+      <div id="textbox-91" class="includeBorderAndPadding">
+        <span class="textbox-91-style1">
+          (if you have an email address)
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-92" class="includeBorderAndPadding">
+        <span class="textbox-5-style1">
+          (if you have a mobile phone)
+        </span>
+        <br/>
+      </div>
+      <div id="textbox-93" class="includeBorderAndPadding">
+        <span class="textbox-93-style1">
+          <span class="textbox-93-style2">
+            (if you have a printer)
+          </span>
+        </span>
+        <br/>
+      </div>
+      <div id="container-1" class="container-vertical">
+        <templateBlock showHide="show" templateIdentifier="plan_write_fb" identifier="plan_write_fb">
+          <div id="textbox-98" class="includeBorderAndPadding">
+            <span class="textbox-98-style1">
+              - I will write down what time I plan to do my one and two arm activities each day
+            </span>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="plan_tell_someone_fb"
+          identifier="plan_tell_someone_fb"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-99" class="includeBorderAndPadding">
+            <span class="textbox-99-style1">
+              - I will tell someone in my family when I am doing my one and two arm activities
+              <br/>
+            </span>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="plan_morning_afternoon_fb"
+          identifier="plan_morning_afternoon_fb"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-101" class="includeBorderAndPadding">
+            <span class="textbox-101-style1">
+              - I will make a plan of which activities I will do in the morning and the afternoon
+            </span>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="plan_ask_someone_fb"
+          identifier="plan_ask_someone_fb"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-102" class="includeBorderAndPadding">
+            <span class="textbox-102-style1">
+              - I will ask someone to do some of the activities with me
+            </span>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="plan_own_plan_fb"
+          identifier="plan_own_plan_fb"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-103" class="null includeBorderAndPadding">
+            <span class="textbox-103-style1">
+              -
+              <printedVariable identifier="own_plan"/>
+            </span>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="plan_time_games_fb"
+          identifier="plan_time_games_fb"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-106" class="includeBorderAndPadding">
+            <span class="textbox-106-style1">
+              - I will time how long I have played games for
+            </span>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="plan_beat_top_score_fb"
+          identifier="plan_beat_top_score_fb"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-107" class="includeBorderAndPadding">
+            <span class="textbox-106-style1">
+              - I will try to beat my top score each day
+            </span>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="plan_beat_friend_score_fb"
+          identifier="plan_beat_friend_score_fb"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-108" class="includeBorderAndPadding">
+            <span class="textbox-106-style1">
+              - I will try to beat a friend/family member's score
+            </span>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="plan_own_plan_2_fb"
+          identifier="plan_own_plan_2_fb"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-109" class="null includeBorderAndPadding">
+            <span class="textbox-109-style1">
+              -
+              <printedVariable identifier="own_plan_2"/>
+            </span>
+          </div>
+        </templateBlock>
+        <templateBlock
+          showHide="show"
+          templateIdentifier="plan_reward_fb"
+          identifier="plan_reward_fb"
+          xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+          <div id="textbox-100" class="includeBorderAndPadding">
+            <span class="textbox-100-style1">
+              - I will give myself a reward when I have met my goals
+            </span>
+          </div>
+        </templateBlock>
+      </div>
+      <div id="textbox-96" class="includeBorderAndPadding">
+        <span class="textbox-96-style1">
+          I will do two arm activities for 
+          <printedVariable identifier="hours_activities"/>
+          minutes every day.
+        </span>
+      </div>
+      <div id="textbox-95" class="includeBorderAndPadding">
+        <span class="textbox-95-style1">
+          I will do one arm activities for 
+          <printedVariable identifier="hours_mitt"/>
+          minutes every day.
+        </span>
+      </div>
+      <div id="textbox-8" class="includeBorderAndPadding">
+        <div class="textbox-8-style1">
+          <span class="textbox-8-style2">
+            Click here to continue:
+          </span>
+          <br/>
+        </div>
+      </div>
+      <div id="textbox-104" class="includeBorderAndPadding">
+        <span class="textbox-104-style1">
+          Your goals for this week:
+        </span>
+      </div>
+      <div id="textbox-105" class="includeBorderAndPadding">
+        <span class="textbox-105-style1">
+          I will play STRONG games for 
+          <printedVariable identifier="minutes_games"/>
+           minutes twice a day.
+        </span>
+      </div>
+      <div id="textbox-110" class="null includeBorderAndPadding">
+        Today's date: 
+        <printedVariable identifier="date"/>
+      </div>
+      <div id="textbox-111" class="includeBorderAndPadding">
+        <div class="textbox-111-style1">
+          <span class="textbox-111-style2">
+            (You can also write them down)
+          </span>
+        </div>
+      </div>
+      <templateBlock showHide="show" templateIdentifier="plan_fb" identifier="plan_fb">
+        <div id="textbox-97" class="includeBorderAndPadding">
+          <span class="textbox-97-style1">
+            Your plan to achieve your goals:
+          </span>
+        </div>
+      </templateBlock>
+      <div id="button-10" class="submit-jumpto-button" label="goal_setting_plans_2">
+        Back
+      </div>
+    </div>
+  </itemBody>
+</assessmentItem>
